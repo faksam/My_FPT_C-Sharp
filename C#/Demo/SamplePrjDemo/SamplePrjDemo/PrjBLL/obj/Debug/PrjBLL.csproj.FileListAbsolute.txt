@@ -1,0 +1,9 @@
+C:\Users\DuyDT\Desktop\C#\SamplePrjDemo\PrjBLL\bin\Debug\PrjBLL.dll
+C:\Users\DuyDT\Desktop\C#\SamplePrjDemo\PrjBLL\bin\Debug\PrjBLL.pdb
+C:\Users\DuyDT\Desktop\C#\SamplePrjDemo\PrjBLL\bin\Debug\PrjDAL.dll
+C:\Users\DuyDT\Desktop\C#\SamplePrjDemo\PrjBLL\bin\Debug\PrjEntities.dll
+C:\Users\DuyDT\Desktop\C#\SamplePrjDemo\PrjBLL\bin\Debug\PrjDAL.pdb
+C:\Users\DuyDT\Desktop\C#\SamplePrjDemo\PrjBLL\bin\Debug\PrjEntities.pdb
+C:\Users\DuyDT\Desktop\C#\SamplePrjDemo\PrjBLL\obj\Debug\PrjBLL.csprojResolveAssemblyReference.cache
+C:\Users\DuyDT\Desktop\C#\SamplePrjDemo\PrjBLL\obj\Debug\PrjBLL.dll
+C:\Users\DuyDT\Desktop\C#\SamplePrjDemo\PrjBLL\obj\Debug\PrjBLL.pdb

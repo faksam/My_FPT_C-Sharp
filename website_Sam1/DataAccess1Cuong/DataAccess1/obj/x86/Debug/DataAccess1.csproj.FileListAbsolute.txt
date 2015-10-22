@@ -1,0 +1,30 @@
+c:\users\samuel columbus\documents\visual studio 2010\Projects\DataAccess1\DataAccess1\bin\Debug\DataAccess1.exe
+c:\users\samuel columbus\documents\visual studio 2010\Projects\DataAccess1\DataAccess1\bin\Debug\DataAccess1.pdb
+c:\users\samuel columbus\documents\visual studio 2010\Projects\DataAccess1\DataAccess1\obj\x86\Debug\DataAccess1.Form1.resources
+c:\users\samuel columbus\documents\visual studio 2010\Projects\DataAccess1\DataAccess1\obj\x86\Debug\DataAccess1.Properties.Resources.resources
+c:\users\samuel columbus\documents\visual studio 2010\Projects\DataAccess1\DataAccess1\obj\x86\Debug\DataAccess1.csproj.GenerateResource.Cache
+c:\users\samuel columbus\documents\visual studio 2010\Projects\DataAccess1\DataAccess1\obj\x86\Debug\DataAccess1.exe
+c:\users\samuel columbus\documents\visual studio 2010\Projects\DataAccess1\DataAccess1\obj\x86\Debug\DataAccess1.pdb
+c:\Users\Samuel columbus\Documents\Visual Studio 2010\Projects\DataAccess1\DataAccess1\obj\x86\Debug\DataAccess1.Addclass.resources
+E:\Cuong\Cnet\example\DataAccess1\DataAccess1\obj\x86\Debug\DataAccess1.UpdateStudent.resources
+E:\Cuong\Cnet\example\DataAccess1\DataAccess1\obj\x86\Debug\DataAccess1.AddStudentClass.resources
+E:\Cuong\Cnet\example\DataAccess1\DataAccess1\obj\x86\Debug\DataAccess1.FilterStudent.resources
+E:\Cuong\Cnet\example\DataAccess1\DataAccess1\obj\x86\Debug\DataAccess1.Form1.resources
+E:\Cuong\Cnet\example\DataAccess1\DataAccess1\obj\x86\Debug\DataAccess1.Form2.resources
+E:\Cuong\Cnet\example\DataAccess1\DataAccess1\obj\x86\Debug\DataAccess1.csproj.GenerateResource.Cache
+E:\Cuong\Cnet\example\DataAccess1\DataAccess1\bin\Debug\DataAccess1.exe
+E:\Cuong\Cnet\example\DataAccess1\DataAccess1\bin\Debug\DataAccess1.pdb
+E:\Cuong\Cnet\example\DataAccess1\DataAccess1\obj\x86\Debug\DataAccess1.exe
+E:\Cuong\Cnet\example\DataAccess1\DataAccess1\obj\x86\Debug\DataAccess1.pdb
+E:\Cuong\Cnet\example\DataAccess1\DataAccess1\obj\x86\Debug\DataAccess1.csprojResolveAssemblyReference.cache
+C:\Users\Samuel columbus\Documents\Visual Studio 2010\Projects\DataAccess1Cuong\DataAccess1\obj\x86\Debug\DataAccess1.exe
+C:\Users\Samuel columbus\Documents\Visual Studio 2010\Projects\DataAccess1Cuong\DataAccess1\obj\x86\Debug\DataAccess1.pdb
+C:\Users\Samuel columbus\Documents\Visual Studio 2010\Projects\DataAccess1Cuong\DataAccess1\bin\Debug\DataAccess1.exe
+C:\Users\Samuel columbus\Documents\Visual Studio 2010\Projects\DataAccess1Cuong\DataAccess1\bin\Debug\DataAccess1.pdb
+C:\Users\Samuel columbus\Documents\Visual Studio 2010\Projects\DataAccess1Cuong\DataAccess1\obj\x86\Debug\DataAccess1.csprojResolveAssemblyReference.cache
+C:\Users\Samuel columbus\Documents\Visual Studio 2010\Projects\DataAccess1Cuong\DataAccess1\obj\x86\Debug\DataAccess1.UpdateStudent.resources
+C:\Users\Samuel columbus\Documents\Visual Studio 2010\Projects\DataAccess1Cuong\DataAccess1\obj\x86\Debug\DataAccess1.AddStudentClass.resources
+C:\Users\Samuel columbus\Documents\Visual Studio 2010\Projects\DataAccess1Cuong\DataAccess1\obj\x86\Debug\DataAccess1.FilterStudent.resources
+C:\Users\Samuel columbus\Documents\Visual Studio 2010\Projects\DataAccess1Cuong\DataAccess1\obj\x86\Debug\DataAccess1.Form1.resources
+C:\Users\Samuel columbus\Documents\Visual Studio 2010\Projects\DataAccess1Cuong\DataAccess1\obj\x86\Debug\DataAccess1.Form2.resources
+C:\Users\Samuel columbus\Documents\Visual Studio 2010\Projects\DataAccess1Cuong\DataAccess1\obj\x86\Debug\DataAccess1.csproj.GenerateResource.Cache

@@ -1,0 +1,4 @@
+F:\Hoc tap\Ki4\C#.Net\PE\Question2\Question2\bin\Question2.dll
+F:\Hoc tap\Ki4\C#.Net\PE\Question2\Question2\bin\Question2.pdb
+F:\Hoc tap\Ki4\C#.Net\PE\Question2\Question2\obj\Debug\Question2.dll
+F:\Hoc tap\Ki4\C#.Net\PE\Question2\Question2\obj\Debug\Question2.pdb

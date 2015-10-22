@@ -1,0 +1,5 @@
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\ISE0901_dom_1.consoleApp\ISE0901_dom_1.consoleApp\bin\Debug\ISE0901_dom_1.consoleApp.exe
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\ISE0901_dom_1.consoleApp\ISE0901_dom_1.consoleApp\bin\Debug\ISE0901_dom_1.consoleApp.pdb
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\ISE0901_dom_1.consoleApp\ISE0901_dom_1.consoleApp\obj\Debug\ISE0901_dom_1.consoleApp.csprojResolveAssemblyReference.cache
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\ISE0901_dom_1.consoleApp\ISE0901_dom_1.consoleApp\obj\Debug\ISE0901_dom_1.consoleApp.exe
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\ISE0901_dom_1.consoleApp\ISE0901_dom_1.consoleApp\obj\Debug\ISE0901_dom_1.consoleApp.pdb

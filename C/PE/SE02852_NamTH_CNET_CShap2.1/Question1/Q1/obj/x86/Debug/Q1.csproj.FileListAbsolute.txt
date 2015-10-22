@@ -1,0 +1,31 @@
+c:\users\mons\documents\visual studio 2010\Projects\Q1\Q1\bin\Debug\Q1.exe
+c:\users\mons\documents\visual studio 2010\Projects\Q1\Q1\bin\Debug\Q1.pdb
+c:\users\mons\documents\visual studio 2010\Projects\Q1\Q1\obj\x86\Debug\Q1.Properties.Resources.resources
+c:\users\mons\documents\visual studio 2010\Projects\Q1\Q1\obj\x86\Debug\Q1.csproj.GenerateResource.Cache
+c:\users\mons\documents\visual studio 2010\Projects\Q1\Q1\obj\x86\Debug\Q1.exe
+c:\users\mons\documents\visual studio 2010\Projects\Q1\Q1\obj\x86\Debug\Q1.pdb
+c:\users\mons\documents\visual studio 2010\Projects\Q1\Q1\obj\x86\Debug\Q1.Form1.resources
+C:\Users\NamPro\Desktop\SE02852_NamTH_CNET_C#2.1\Question1\Q1\obj\x86\Debug\Q1.exe
+C:\Users\NamPro\Desktop\SE02852_NamTH_CNET_C#2.1\Question1\Q1\obj\x86\Debug\Q1.pdb
+C:\Users\NamPro\Desktop\SE02852_NamTH_CNET_C#2.1\Question1\Q1\bin\Debug\Q1.exe
+C:\Users\NamPro\Desktop\SE02852_NamTH_CNET_C#2.1\Question1\Q1\bin\Debug\Q1.pdb
+C:\Users\NamPro\Desktop\SE02852_NamTH_CNET_C#2.1\Question1\Q1\obj\x86\Debug\Q1.csprojResolveAssemblyReference.cache
+C:\Users\NamPro\Desktop\SE02852_NamTH_CNET_C#2.1\Question1\Q1\obj\x86\Debug\Q1.Form1.resources
+C:\Users\NamPro\Desktop\SE02852_NamTH_CNET_C#2.1\Question1\Q1\obj\x86\Debug\Q1.Properties.Resources.resources
+C:\Users\NamPro\Desktop\SE02852_NamTH_CNET_C#2.1\Question1\Q1\obj\x86\Debug\Q1.csproj.GenerateResource.Cache
+C:\Users\Khuc\Desktop\PE C#\PE\PE\SE02852_NamTH_CNET_CShap2.1\Question1\Q1\obj\x86\Debug\Q1.exe
+C:\Users\Khuc\Desktop\PE C#\PE\PE\SE02852_NamTH_CNET_CShap2.1\Question1\Q1\obj\x86\Debug\Q1.pdb
+C:\Users\Khuc\Desktop\PE C#\PE\PE\SE02852_NamTH_CNET_CShap2.1\Question1\Q1\bin\Debug\Q1.exe
+C:\Users\Khuc\Desktop\PE C#\PE\PE\SE02852_NamTH_CNET_CShap2.1\Question1\Q1\bin\Debug\Q1.pdb
+C:\Users\Khuc\Desktop\PE C#\PE\PE\SE02852_NamTH_CNET_CShap2.1\Question1\Q1\obj\x86\Debug\Q1.csprojResolveAssemblyReference.cache
+C:\Users\Khuc\Desktop\PE C#\PE\PE\SE02852_NamTH_CNET_CShap2.1\Question1\Q1\obj\x86\Debug\Q1.Form1.resources
+C:\Users\Khuc\Desktop\PE C#\PE\PE\SE02852_NamTH_CNET_CShap2.1\Question1\Q1\obj\x86\Debug\Q1.Properties.Resources.resources
+C:\Users\Khuc\Desktop\PE C#\PE\PE\SE02852_NamTH_CNET_CShap2.1\Question1\Q1\obj\x86\Debug\Q1.csproj.GenerateResource.Cache
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\C\PE\SE02852_NamTH_CNET_CShap2.1\Question1\Q1\obj\x86\Debug\Q1.exe
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\C\PE\SE02852_NamTH_CNET_CShap2.1\Question1\Q1\obj\x86\Debug\Q1.pdb
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\C\PE\SE02852_NamTH_CNET_CShap2.1\Question1\Q1\bin\Debug\Q1.exe
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\C\PE\SE02852_NamTH_CNET_CShap2.1\Question1\Q1\bin\Debug\Q1.pdb
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\C\PE\SE02852_NamTH_CNET_CShap2.1\Question1\Q1\obj\x86\Debug\Q1.csprojResolveAssemblyReference.cache
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\C\PE\SE02852_NamTH_CNET_CShap2.1\Question1\Q1\obj\x86\Debug\Q1.Form1.resources
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\C\PE\SE02852_NamTH_CNET_CShap2.1\Question1\Q1\obj\x86\Debug\Q1.Properties.Resources.resources
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\C\PE\SE02852_NamTH_CNET_CShap2.1\Question1\Q1\obj\x86\Debug\Q1.csproj.GenerateResource.Cache

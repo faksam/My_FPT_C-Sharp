@@ -1,0 +1,14 @@
+c:\users\faksam-pc\documents\visual studio 2013\Projects\ProjectSample\ProjectSample\bin\Debug\ProjectSample.exe
+c:\users\faksam-pc\documents\visual studio 2013\Projects\ProjectSample\ProjectSample\bin\Debug\ProjectSample.pdb
+c:\users\faksam-pc\documents\visual studio 2013\Projects\ProjectSample\ProjectSample\obj\Debug\ProjectSample.csprojResolveAssemblyReference.cache
+c:\users\faksam-pc\documents\visual studio 2013\Projects\ProjectSample\ProjectSample\obj\Debug\ProjectSample.AddClass.resources
+c:\users\faksam-pc\documents\visual studio 2013\Projects\ProjectSample\ProjectSample\obj\Debug\ProjectSample.AddSemester.resources
+c:\users\faksam-pc\documents\visual studio 2013\Projects\ProjectSample\ProjectSample\obj\Debug\ProjectSample.AddStudent.resources
+c:\users\faksam-pc\documents\visual studio 2013\Projects\ProjectSample\ProjectSample\obj\Debug\ProjectSample.AddStudentClass.resources
+c:\users\faksam-pc\documents\visual studio 2013\Projects\ProjectSample\ProjectSample\obj\Debug\ProjectSample.FilterStudent.resources
+c:\users\faksam-pc\documents\visual studio 2013\Projects\ProjectSample\ProjectSample\obj\Debug\ProjectSample.ParentView.resources
+c:\users\faksam-pc\documents\visual studio 2013\Projects\ProjectSample\ProjectSample\obj\Debug\ProjectSample.Properties.Resources.resources
+c:\users\faksam-pc\documents\visual studio 2013\Projects\ProjectSample\ProjectSample\obj\Debug\ProjectSample.UpdateStudentStatus.resources
+c:\users\faksam-pc\documents\visual studio 2013\Projects\ProjectSample\ProjectSample\obj\Debug\ProjectSample.csproj.GenerateResource.Cache
+c:\users\faksam-pc\documents\visual studio 2013\Projects\ProjectSample\ProjectSample\obj\Debug\ProjectSample.exe
+c:\users\faksam-pc\documents\visual studio 2013\Projects\ProjectSample\ProjectSample\obj\Debug\ProjectSample.pdb

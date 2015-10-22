@@ -1,0 +1,8 @@
+C:\Users\DuyDT\Desktop\C#\Session8\Session8\bin\Debug\Session8.exe
+C:\Users\DuyDT\Desktop\C#\Session8\Session8\bin\Debug\Session8.pdb
+C:\Users\DuyDT\Desktop\C#\Session8\Session8\obj\x86\Debug\Session8.exe
+C:\Users\DuyDT\Desktop\C#\Session8\Session8\obj\x86\Debug\Session8.pdb
+F:\AAA\Summer 2014\C#\DuyDT\Session8\Session8\obj\x86\Debug\Session8.exe
+F:\AAA\Summer 2014\C#\DuyDT\Session8\Session8\obj\x86\Debug\Session8.pdb
+F:\AAA\Summer 2014\C#\DuyDT\Session8\Session8\bin\Debug\Session8.exe
+F:\AAA\Summer 2014\C#\DuyDT\Session8\Session8\bin\Debug\Session8.pdb

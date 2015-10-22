@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Workship4", "http://localhost:60591", "{C5E3E2E0-9B33-45DB-B947-3C62B3EEC709}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_60591"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\..\Desktop\Workship4\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_60591\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_60591"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\..\Desktop\Workship4\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_60591\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\..\..\..\Desktop\Workship4\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5E3E2E0-9B33-45DB-B947-3C62B3EEC709}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5E3E2E0-9B33-45DB-B947-3C62B3EEC709}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

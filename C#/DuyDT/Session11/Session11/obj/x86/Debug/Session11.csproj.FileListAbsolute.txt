@@ -1,0 +1,8 @@
+F:\AAA\Summer 2014\C#\DuyDT\Session11\Session11\bin\Debug\Session11.exe
+F:\AAA\Summer 2014\C#\DuyDT\Session11\Session11\bin\Debug\Session11.pdb
+F:\AAA\Summer 2014\C#\DuyDT\Session11\Session11\obj\x86\Debug\Session11.csprojResolveAssemblyReference.cache
+F:\AAA\Summer 2014\C#\DuyDT\Session11\Session11\obj\x86\Debug\Session11.Form1.resources
+F:\AAA\Summer 2014\C#\DuyDT\Session11\Session11\obj\x86\Debug\Session11.Properties.Resources.resources
+F:\AAA\Summer 2014\C#\DuyDT\Session11\Session11\obj\x86\Debug\Session11.csproj.GenerateResource.Cache
+F:\AAA\Summer 2014\C#\DuyDT\Session11\Session11\obj\x86\Debug\Session11.exe
+F:\AAA\Summer 2014\C#\DuyDT\Session11\Session11\obj\x86\Debug\Session11.pdb

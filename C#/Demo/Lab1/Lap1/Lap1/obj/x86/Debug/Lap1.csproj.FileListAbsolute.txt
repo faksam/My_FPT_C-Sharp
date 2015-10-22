@@ -1,0 +1,9 @@
+C:\Users\Tuan\Documents\Visual Studio 2010\Projects\Lap1\Lap1\bin\Debug\Lap1.exe
+C:\Users\Tuan\Documents\Visual Studio 2010\Projects\Lap1\Lap1\bin\Debug\Lap1.pdb
+C:\Users\Tuan\Documents\Visual Studio 2010\Projects\Lap1\Lap1\obj\x86\Debug\Lap1.exe
+C:\Users\Tuan\Documents\Visual Studio 2010\Projects\Lap1\Lap1\obj\x86\Debug\Lap1.pdb
+C:\Users\Tuan\Documents\Visual Studio 2010\Projects\Lap1\Lap1\obj\x86\Debug\Lap1.csprojResolveAssemblyReference.cache
+C:\Users\HUYEN\Desktop\Lap1\Lap1\obj\x86\Debug\Lap1.exe
+C:\Users\HUYEN\Desktop\Lap1\Lap1\obj\x86\Debug\Lap1.pdb
+F:\AAA\Summer 2014\C#\Lab1\Lap1\Lap1\obj\x86\Debug\Lap1.exe
+F:\AAA\Summer 2014\C#\Lab1\Lap1\Lap1\obj\x86\Debug\Lap1.pdb

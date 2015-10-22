@@ -1,0 +1,10 @@
+D:\Dropbox\Data\C# .NET\Project\Lab4_Group1\Lab4_Group1\bin\Lab4_Group1.dll
+D:\Dropbox\Data\C# .NET\Project\Lab4_Group1\Lab4_Group1\bin\Lab4_Group1.pdb
+D:\Dropbox\Data\C# .NET\Project\Lab4_Group1\Lab4_Group1\obj\Debug\ResolveAssemblyReference.cache
+D:\Dropbox\Data\C# .NET\Project\Lab4_Group1\Lab4_Group1\obj\Debug\Lab4_Group1.dll
+D:\Dropbox\Data\C# .NET\Project\Lab4_Group1\Lab4_Group1\obj\Debug\Lab4_Group1.pdb
+F:\AAA\Summer 2014\C#\C#_TaiLM\Lab4_Group1\Lab4_Group1\Lab4_Group1\bin\Lab4_Group1.dll
+F:\AAA\Summer 2014\C#\C#_TaiLM\Lab4_Group1\Lab4_Group1\Lab4_Group1\bin\Lab4_Group1.pdb
+F:\AAA\Summer 2014\C#\C#_TaiLM\Lab4_Group1\Lab4_Group1\Lab4_Group1\obj\Debug\Lab4_Group1.csprojResolveAssemblyReference.cache
+F:\AAA\Summer 2014\C#\C#_TaiLM\Lab4_Group1\Lab4_Group1\Lab4_Group1\obj\Debug\Lab4_Group1.dll
+F:\AAA\Summer 2014\C#\C#_TaiLM\Lab4_Group1\Lab4_Group1\Lab4_Group1\obj\Debug\Lab4_Group1.pdb

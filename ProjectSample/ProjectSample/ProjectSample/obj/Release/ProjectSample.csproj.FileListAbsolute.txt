@@ -1,0 +1,42 @@
+C:\Users\faksam-pc\documents\visual studio 2013\Projects\ProjectSample\ProjectSample\bin\Release\ProjectSample.exe
+C:\Users\faksam-pc\documents\visual studio 2013\Projects\ProjectSample\ProjectSample\bin\Release\ProjectSample.pdb
+C:\Users\faksam-pc\documents\visual studio 2013\Projects\ProjectSample\ProjectSample\obj\Release\ProjectSample.csprojResolveAssemblyReference.cache
+C:\Users\faksam-pc\documents\visual studio 2013\Projects\ProjectSample\ProjectSample\obj\Release\ProjectSample.AddClass.resources
+C:\Users\faksam-pc\documents\visual studio 2013\Projects\ProjectSample\ProjectSample\obj\Release\ProjectSample.AddSemester.resources
+C:\Users\faksam-pc\documents\visual studio 2013\Projects\ProjectSample\ProjectSample\obj\Release\ProjectSample.AddStudent.resources
+C:\Users\faksam-pc\documents\visual studio 2013\Projects\ProjectSample\ProjectSample\obj\Release\ProjectSample.AddStudentClass.resources
+C:\Users\faksam-pc\documents\visual studio 2013\Projects\ProjectSample\ProjectSample\obj\Release\ProjectSample.FilterStudent.resources
+C:\Users\faksam-pc\documents\visual studio 2013\Projects\ProjectSample\ProjectSample\obj\Release\ProjectSample.ParentView.resources
+C:\Users\faksam-pc\documents\visual studio 2013\Projects\ProjectSample\ProjectSample\obj\Release\ProjectSample.Properties.Resources.resources
+C:\Users\faksam-pc\documents\visual studio 2013\Projects\ProjectSample\ProjectSample\obj\Release\ProjectSample.UpdateStudentStatus.resources
+C:\Users\faksam-pc\documents\visual studio 2013\Projects\ProjectSample\ProjectSample\obj\Release\ProjectSample.csproj.GenerateResource.Cache
+C:\Users\faksam-pc\documents\visual studio 2013\Projects\ProjectSample\ProjectSample\obj\Release\ProjectSample.exe
+C:\Users\faksam-pc\documents\visual studio 2013\Projects\ProjectSample\ProjectSample\obj\Release\ProjectSample.pdb
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\ProjectSample\ProjectSample\ProjectSample\obj\Release\ProjectSample.exe
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\ProjectSample\ProjectSample\ProjectSample\obj\Release\ProjectSample.pdb
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\ProjectSample\ProjectSample\ProjectSample\obj\Release\ProjectSample.csprojResolveAssemblyReference.cache
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\ProjectSample\ProjectSample\ProjectSample\obj\Release\ProjectSample.AddClass.resources
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\ProjectSample\ProjectSample\ProjectSample\obj\Release\ProjectSample.AddSemester.resources
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\ProjectSample\ProjectSample\ProjectSample\obj\Release\ProjectSample.AddStudent.resources
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\ProjectSample\ProjectSample\ProjectSample\obj\Release\ProjectSample.AddStudentClass.resources
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\ProjectSample\ProjectSample\ProjectSample\obj\Release\ProjectSample.FilterStudent.resources
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\ProjectSample\ProjectSample\ProjectSample\obj\Release\ProjectSample.ParentView.resources
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\ProjectSample\ProjectSample\ProjectSample\obj\Release\ProjectSample.Properties.Resources.resources
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\ProjectSample\ProjectSample\ProjectSample\obj\Release\ProjectSample.UpdateStudentStatus.resources
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\ProjectSample\ProjectSample\ProjectSample\obj\Release\ProjectSample.csproj.GenerateResource.Cache
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\ProjectSample\ProjectSample\ProjectSample\bin\Release\ProjectSample.exe
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\ProjectSample\ProjectSample\ProjectSample\bin\Release\ProjectSample.pdb
+E:\C.NET\ProjectSample\ProjectSample\ProjectSample\obj\Release\ProjectSample.exe
+E:\C.NET\ProjectSample\ProjectSample\ProjectSample\obj\Release\ProjectSample.pdb
+E:\C.NET\ProjectSample\ProjectSample\ProjectSample\bin\Release\ProjectSample.exe
+E:\C.NET\ProjectSample\ProjectSample\ProjectSample\bin\Release\ProjectSample.pdb
+E:\C.NET\ProjectSample\ProjectSample\ProjectSample\obj\Release\ProjectSample.csprojResolveAssemblyReference.cache
+E:\C.NET\ProjectSample\ProjectSample\ProjectSample\obj\Release\ProjectSample.AddClass.resources
+E:\C.NET\ProjectSample\ProjectSample\ProjectSample\obj\Release\ProjectSample.AddSemester.resources
+E:\C.NET\ProjectSample\ProjectSample\ProjectSample\obj\Release\ProjectSample.AddStudent.resources
+E:\C.NET\ProjectSample\ProjectSample\ProjectSample\obj\Release\ProjectSample.AddStudentClass.resources
+E:\C.NET\ProjectSample\ProjectSample\ProjectSample\obj\Release\ProjectSample.FilterStudent.resources
+E:\C.NET\ProjectSample\ProjectSample\ProjectSample\obj\Release\ProjectSample.ParentView.resources
+E:\C.NET\ProjectSample\ProjectSample\ProjectSample\obj\Release\ProjectSample.Properties.Resources.resources
+E:\C.NET\ProjectSample\ProjectSample\ProjectSample\obj\Release\ProjectSample.UpdateStudentStatus.resources
+E:\C.NET\ProjectSample\ProjectSample\ProjectSample\obj\Release\ProjectSample.csproj.GenerateResource.Cache

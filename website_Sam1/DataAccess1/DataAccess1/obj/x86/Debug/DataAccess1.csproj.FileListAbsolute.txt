@@ -1,0 +1,17 @@
+c:\users\samuel columbus\documents\visual studio 2010\Projects\DataAccess1\DataAccess1\bin\Debug\DataAccess1.exe
+c:\users\samuel columbus\documents\visual studio 2010\Projects\DataAccess1\DataAccess1\bin\Debug\DataAccess1.pdb
+c:\users\samuel columbus\documents\visual studio 2010\Projects\DataAccess1\DataAccess1\obj\x86\Debug\DataAccess1.Form1.resources
+c:\users\samuel columbus\documents\visual studio 2010\Projects\DataAccess1\DataAccess1\obj\x86\Debug\DataAccess1.Properties.Resources.resources
+c:\users\samuel columbus\documents\visual studio 2010\Projects\DataAccess1\DataAccess1\obj\x86\Debug\DataAccess1.csproj.GenerateResource.Cache
+c:\users\samuel columbus\documents\visual studio 2010\Projects\DataAccess1\DataAccess1\obj\x86\Debug\DataAccess1.exe
+c:\users\samuel columbus\documents\visual studio 2010\Projects\DataAccess1\DataAccess1\obj\x86\Debug\DataAccess1.pdb
+c:\Users\Samuel columbus\Documents\Visual Studio 2010\Projects\DataAccess1\DataAccess1\obj\x86\Debug\DataAccess1.Addclass.resources
+C:\Users\Samuel columbus\documents\visual studio 2010\Projects\DataAccess1\DataAccess1\obj\x86\Debug\DataAccess1.csprojResolveAssemblyReference.cache
+C:\Users\Samuel columbus\documents\visual studio 2010\Projects\DataAccess1\DataAccess1\obj\x86\Debug\DataAccess1.AddStudentClass.resources
+C:\Users\Samuel columbus\documents\visual studio 2010\Projects\DataAccess1\DataAccess1\obj\x86\Debug\DataAccess1.AddStudent.resources
+C:\Users\Samuel columbus\documents\visual studio 2010\Projects\DataAccess1\DataAccess1\obj\x86\Debug\DataAccess1.SemesterDisplay.resources
+C:\Users\Samuel columbus\documents\visual studio 2010\Projects\DataAccess1\DataAccess1\obj\x86\Debug\DataAccess1.UpdateStudent.resources
+C:\Users\Samuel columbus\documents\visual studio 2010\Projects\DataAccess1\DataAccess1\obj\x86\Debug\DataAccess1.ACADEMY.resources
+C:\Users\Samuel columbus\documents\visual studio 2010\Projects\DataAccess1\DataAccess1\obj\x86\Debug\DataAccess1.DataFilter.resources
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\website_Sam1\DataAccess1\DataAccess1\obj\x86\Debug\DataAccess1.exe
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\website_Sam1\DataAccess1\DataAccess1\obj\x86\Debug\DataAccess1.pdb

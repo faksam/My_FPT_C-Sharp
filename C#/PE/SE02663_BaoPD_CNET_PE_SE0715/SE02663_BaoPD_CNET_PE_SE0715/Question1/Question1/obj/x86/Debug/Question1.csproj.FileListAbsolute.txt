@@ -1,0 +1,22 @@
+c:\users\baopham\documents\visual studio 2010\Projects\Question1\Question1\bin\Debug\Question1.exe
+c:\users\baopham\documents\visual studio 2010\Projects\Question1\Question1\bin\Debug\Question1.pdb
+c:\users\baopham\documents\visual studio 2010\Projects\Question1\Question1\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\baopham\documents\visual studio 2010\Projects\Question1\Question1\obj\x86\Debug\Question1.Form1.resources
+c:\users\baopham\documents\visual studio 2010\Projects\Question1\Question1\obj\x86\Debug\Question1.Properties.Resources.resources
+c:\users\baopham\documents\visual studio 2010\Projects\Question1\Question1\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\baopham\documents\visual studio 2010\Projects\Question1\Question1\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\baopham\documents\visual studio 2010\Projects\Question1\Question1\obj\x86\Debug\Question1.exe
+c:\users\baopham\documents\visual studio 2010\Projects\Question1\Question1\obj\x86\Debug\Question1.pdb
+C:\Users\BaoPham\Desktop\SE02663_BaoPD_CNET_SE0715\Question1\Question1\obj\x86\Debug\Question1.exe
+C:\Users\BaoPham\Desktop\SE02663_BaoPD_CNET_SE0715\Question1\Question1\obj\x86\Debug\Question1.pdb
+C:\Users\BaoPham\Desktop\SE02663_BaoPD_CNET_SE0715\Question1\Question1\bin\Debug\Question1.exe
+C:\Users\BaoPham\Desktop\SE02663_BaoPD_CNET_SE0715\Question1\Question1\bin\Debug\Question1.pdb
+C:\Users\BaoPham\Desktop\SE02663_BaoPD_CNET_SE0715\Question1\Question1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\BaoPham\Desktop\SE02663_BaoPD_CNET_SE0715\Question1\Question1\obj\x86\Debug\Question1.Form1.resources
+C:\Users\BaoPham\Desktop\SE02663_BaoPD_CNET_SE0715\Question1\Question1\obj\x86\Debug\Question1.Properties.Resources.resources
+C:\Users\BaoPham\Desktop\SE02663_BaoPD_CNET_SE0715\Question1\Question1\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\BaoPham\Desktop\SE02663_BaoPD_CNET_SE0715\Question1\Question1\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Learning\Study\C#\SE02663_BaoPD_CNET_PE_SE0715\SE02663_BaoPD_CNET_PE_SE0715\Question1\Question1\obj\x86\Debug\Question1.exe
+E:\Learning\Study\C#\SE02663_BaoPD_CNET_PE_SE0715\SE02663_BaoPD_CNET_PE_SE0715\Question1\Question1\obj\x86\Debug\Question1.pdb
+F:\AAA\Summer 2014\C#\PE\SE02663_BaoPD_CNET_PE_SE0715\SE02663_BaoPD_CNET_PE_SE0715\SE02663_BaoPD_CNET_PE_SE0715\Question1\Question1\obj\x86\Debug\Question1.exe
+F:\AAA\Summer 2014\C#\PE\SE02663_BaoPD_CNET_PE_SE0715\SE02663_BaoPD_CNET_PE_SE0715\SE02663_BaoPD_CNET_PE_SE0715\Question1\Question1\obj\x86\Debug\Question1.pdb

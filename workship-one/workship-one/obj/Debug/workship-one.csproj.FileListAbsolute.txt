@@ -1,0 +1,8 @@
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\workship-one\workship-one\bin\Debug\workship-one.exe
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\workship-one\workship-one\bin\Debug\workship-one.pdb
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\workship-one\workship-one\obj\Debug\workship-one.csprojResolveAssemblyReference.cache
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\workship-one\workship-one\obj\Debug\workship_one.Form1.resources
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\workship-one\workship-one\obj\Debug\workship_one.Properties.Resources.resources
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\workship-one\workship-one\obj\Debug\workship-one.csproj.GenerateResource.Cache
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\workship-one\workship-one\obj\Debug\workship-one.exe
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\workship-one\workship-one\obj\Debug\workship-one.pdb

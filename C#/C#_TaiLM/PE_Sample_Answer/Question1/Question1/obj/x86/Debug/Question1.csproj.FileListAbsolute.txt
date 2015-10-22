@@ -1,0 +1,11 @@
+D:\TEST\CSharp\Question1\Question1\bin\Debug\Question1.exe
+D:\TEST\CSharp\Question1\Question1\bin\Debug\Question1.pdb
+D:\TEST\CSharp\Question1\Question1\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\TEST\CSharp\Question1\Question1\obj\x86\Debug\Question1.Form1.resources
+D:\TEST\CSharp\Question1\Question1\obj\x86\Debug\Question1.Properties.Resources.resources
+D:\TEST\CSharp\Question1\Question1\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\TEST\CSharp\Question1\Question1\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\TEST\CSharp\Question1\Question1\obj\x86\Debug\Question1.exe
+D:\TEST\CSharp\Question1\Question1\obj\x86\Debug\Question1.pdb
+D:\C#.Net\PE_Sample_Answer\Question1\Question1\obj\x86\Debug\Question1.exe
+D:\C#.Net\PE_Sample_Answer\Question1\Question1\obj\x86\Debug\Question1.pdb

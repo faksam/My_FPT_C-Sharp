@@ -1,0 +1,9 @@
+C:\Users\MinhTaiLe\Desktop\SE02457_Tailm_CNET_SE0713\Question2\Question2\bin\Question2.dll
+C:\Users\MinhTaiLe\Desktop\SE02457_Tailm_CNET_SE0713\Question2\Question2\bin\Question2.pdb
+C:\Users\MinhTaiLe\Desktop\SE02457_Tailm_CNET_SE0713\Question2\Question2\obj\Debug\Question2.dll
+C:\Users\MinhTaiLe\Desktop\SE02457_Tailm_CNET_SE0713\Question2\Question2\obj\Debug\Question2.pdb
+F:\AAA\Summer 2014\C#\C#_TaiLM\SE02457_Tailm_CNET_SE0713\SE02457_Tailm_CNET_SE0713\Question2\Question2\bin\Question2.dll
+F:\AAA\Summer 2014\C#\C#_TaiLM\SE02457_Tailm_CNET_SE0713\SE02457_Tailm_CNET_SE0713\Question2\Question2\bin\Question2.pdb
+F:\AAA\Summer 2014\C#\C#_TaiLM\SE02457_Tailm_CNET_SE0713\SE02457_Tailm_CNET_SE0713\Question2\Question2\obj\Debug\Question2.csprojResolveAssemblyReference.cache
+F:\AAA\Summer 2014\C#\C#_TaiLM\SE02457_Tailm_CNET_SE0713\SE02457_Tailm_CNET_SE0713\Question2\Question2\obj\Debug\Question2.dll
+F:\AAA\Summer 2014\C#\C#_TaiLM\SE02457_Tailm_CNET_SE0713\SE02457_Tailm_CNET_SE0713\Question2\Question2\obj\Debug\Question2.pdb

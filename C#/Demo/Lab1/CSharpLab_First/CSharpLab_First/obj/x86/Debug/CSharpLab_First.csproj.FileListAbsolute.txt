@@ -1,0 +1,13 @@
+c:\users\duylinh\documents\visual studio 2010\Projects\CSharpLab_First\CSharpLab_First\bin\Debug\CSharpLab_First.exe
+c:\users\duylinh\documents\visual studio 2010\Projects\CSharpLab_First\CSharpLab_First\bin\Debug\CSharpLab_First.pdb
+c:\users\duylinh\documents\visual studio 2010\Projects\CSharpLab_First\CSharpLab_First\obj\x86\Debug\CSharpLab_First.Form_CustomerInformation.resources
+c:\users\duylinh\documents\visual studio 2010\Projects\CSharpLab_First\CSharpLab_First\obj\x86\Debug\CSharpLab_First.Properties.Resources.resources
+c:\users\duylinh\documents\visual studio 2010\Projects\CSharpLab_First\CSharpLab_First\obj\x86\Debug\CSharpLab_First.csproj.GenerateResource.Cache
+c:\users\duylinh\documents\visual studio 2010\Projects\CSharpLab_First\CSharpLab_First\obj\x86\Debug\CSharpLab_First.exe
+c:\users\duylinh\documents\visual studio 2010\Projects\CSharpLab_First\CSharpLab_First\obj\x86\Debug\CSharpLab_First.pdb
+C:\Users\HUYEN\Desktop\CSharpLab_First\CSharpLab_First\obj\x86\Debug\CSharpLab_First.exe
+C:\Users\HUYEN\Desktop\CSharpLab_First\CSharpLab_First\obj\x86\Debug\CSharpLab_First.pdb
+C:\Users\HUYEN\Desktop\CSharpLab_First\CSharpLab_First\obj\x86\Debug\CSharpLab_First.csprojResolveAssemblyReference.cache
+C:\Users\HUYEN\Desktop\CSharpLab_First\CSharpLab_First\obj\x86\Debug\CSharpLab_First.Form_CustomerInformation.resources
+C:\Users\HUYEN\Desktop\CSharpLab_First\CSharpLab_First\obj\x86\Debug\CSharpLab_First.Properties.Resources.resources
+C:\Users\HUYEN\Desktop\CSharpLab_First\CSharpLab_First\obj\x86\Debug\CSharpLab_First.csproj.GenerateResource.Cache

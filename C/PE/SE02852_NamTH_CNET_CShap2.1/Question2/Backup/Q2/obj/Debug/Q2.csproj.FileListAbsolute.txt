@@ -1,0 +1,6 @@
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\C\PE\SE02852_NamTH_CNET_CShap2.1\Question2\Backup\Q2\bin\Q2.dll.config
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\C\PE\SE02852_NamTH_CNET_CShap2.1\Question2\Backup\Q2\bin\Q2.dll
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\C\PE\SE02852_NamTH_CNET_CShap2.1\Question2\Backup\Q2\bin\Q2.pdb
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\C\PE\SE02852_NamTH_CNET_CShap2.1\Question2\Backup\Q2\obj\Debug\Q2.csprojResolveAssemblyReference.cache
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\C\PE\SE02852_NamTH_CNET_CShap2.1\Question2\Backup\Q2\obj\Debug\Q2.dll
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\C\PE\SE02852_NamTH_CNET_CShap2.1\Question2\Backup\Q2\obj\Debug\Q2.pdb

@@ -1,0 +1,16 @@
+C:\Users\Tuan\Desktop\CN4\C Sharp\Lap\Lap_03\Lap_03\bin\Debug\Lap_03.exe
+C:\Users\Tuan\Desktop\CN4\C Sharp\Lap\Lap_03\Lap_03\bin\Debug\Lap_03.pdb
+C:\Users\Tuan\Desktop\CN4\C Sharp\Lap\Lap_03\Lap_03\obj\x86\Debug\Lap_03.Form1.resources
+C:\Users\Tuan\Desktop\CN4\C Sharp\Lap\Lap_03\Lap_03\obj\x86\Debug\Lap_03.Properties.Resources.resources
+C:\Users\Tuan\Desktop\CN4\C Sharp\Lap\Lap_03\Lap_03\obj\x86\Debug\Lap_03.csproj.GenerateResource.Cache
+C:\Users\Tuan\Desktop\CN4\C Sharp\Lap\Lap_03\Lap_03\obj\x86\Debug\Lap_03.exe
+C:\Users\Tuan\Desktop\CN4\C Sharp\Lap\Lap_03\Lap_03\obj\x86\Debug\Lap_03.pdb
+E:\Lap_03\Lap_03\obj\x86\Debug\Lap_03.exe
+E:\Lap_03\Lap_03\obj\x86\Debug\Lap_03.pdb
+E:\Lap_03\Lap_03\bin\Debug\Lap_03.exe
+E:\Lap_03\Lap_03\bin\Debug\Lap_03.pdb
+E:\Lap_03\Lap_03\obj\x86\Debug\Lap_03.Form1.resources
+E:\Lap_03\Lap_03\obj\x86\Debug\Lap_03.Properties.Resources.resources
+E:\Lap_03\Lap_03\obj\x86\Debug\Lap_03.csproj.GenerateResource.Cache
+F:\AAA\Summer 2014\C#\Demo\Lab3\Lap_03\Lap_03\obj\x86\Debug\Lap_03.exe
+F:\AAA\Summer 2014\C#\Demo\Lab3\Lap_03\Lap_03\obj\x86\Debug\Lap_03.pdb

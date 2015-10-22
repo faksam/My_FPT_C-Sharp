@@ -1,0 +1,9 @@
+F:\AAA\Summer 2014\C#\DemoLab2\DemoLab2\bin\Debug\DemoLab2.exe
+F:\AAA\Summer 2014\C#\DemoLab2\DemoLab2\bin\Debug\DemoLab2.pdb
+F:\AAA\Summer 2014\C#\DemoLab2\DemoLab2\obj\Debug\DemoLab2.csprojResolveAssemblyReference.cache
+F:\AAA\Summer 2014\C#\DemoLab2\DemoLab2\obj\Debug\DemoLab2.Form1.resources
+F:\AAA\Summer 2014\C#\DemoLab2\DemoLab2\obj\Debug\DemoLab2.Properties.Resources.resources
+F:\AAA\Summer 2014\C#\DemoLab2\DemoLab2\obj\Debug\DemoLab2.csproj.GenerateResource.Cache
+F:\AAA\Summer 2014\C#\DemoLab2\DemoLab2\obj\Debug\DemoLab2.exe
+F:\AAA\Summer 2014\C#\DemoLab2\DemoLab2\obj\Debug\DemoLab2.pdb
+F:\AAA\Summer 2014\C#\DemoLab2\DemoLab2\obj\Debug\DemoLab2.ProjectDetails.resources

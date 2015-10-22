@@ -1,0 +1,5 @@
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\TreadSample\TreadSample\bin\Debug\TreadSample.exe
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\TreadSample\TreadSample\bin\Debug\TreadSample.pdb
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\TreadSample\TreadSample\obj\Debug\TreadSample.csprojResolveAssemblyReference.cache
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\TreadSample\TreadSample\obj\Debug\TreadSample.exe
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\TreadSample\TreadSample\obj\Debug\TreadSample.pdb

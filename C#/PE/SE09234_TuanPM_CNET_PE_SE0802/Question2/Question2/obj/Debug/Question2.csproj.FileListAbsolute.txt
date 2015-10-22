@@ -1,0 +1,4 @@
+C:\Users\Chinh\Desktop\SE02585_ChinhVC_CNET_SE0712\Question2\Question2\bin\Question2.dll
+C:\Users\Chinh\Desktop\SE02585_ChinhVC_CNET_SE0712\Question2\Question2\bin\Question2.pdb
+C:\Users\Chinh\Desktop\SE02585_ChinhVC_CNET_SE0712\Question2\Question2\obj\Debug\Question2.dll
+C:\Users\Chinh\Desktop\SE02585_ChinhVC_CNET_SE0712\Question2\Question2\obj\Debug\Question2.pdb

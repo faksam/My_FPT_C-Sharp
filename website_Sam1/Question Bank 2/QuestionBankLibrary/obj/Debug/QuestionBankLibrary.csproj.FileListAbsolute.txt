@@ -1,0 +1,20 @@
+E:\FPT University\Programing-C#\Exercise\Question Bank 2\QuestionBankLibrary\bin\Debug\QuestionBankLibrary.dll
+E:\FPT University\Programing-C#\Exercise\Question Bank 2\QuestionBankLibrary\bin\Debug\QuestionBankLibrary.pdb
+E:\FPT University\Programing-C#\Exercise\Question Bank 2\QuestionBankLibrary\obj\Debug\QuestionBankLibrary.dll
+E:\FPT University\Programing-C#\Exercise\Question Bank 2\QuestionBankLibrary\obj\Debug\QuestionBankLibrary.pdb
+E:\FPT University\Programing-C#\Exercise\Question Bank 2\QuestionBankLibrary\obj\Debug\QuestionBankLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Public\Documents\Question Bank 2\QuestionBankLibrary\bin\Debug\QuestionBankLibrary.dll
+C:\Users\Public\Documents\Question Bank 2\QuestionBankLibrary\bin\Debug\QuestionBankLibrary.pdb
+C:\Users\Public\Documents\Question Bank 2\QuestionBankLibrary\obj\Debug\QuestionBankLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Public\Documents\Question Bank 2\QuestionBankLibrary\obj\Debug\QuestionBankLibrary.dll
+C:\Users\Public\Documents\Question Bank 2\QuestionBankLibrary\obj\Debug\QuestionBankLibrary.pdb
+C:\Users\LK\Documents\Visual Studio 2013\Projects\Question Bank 2\QuestionBankLibrary\bin\Debug\QuestionBankLibrary.dll
+C:\Users\LK\Documents\Visual Studio 2013\Projects\Question Bank 2\QuestionBankLibrary\bin\Debug\QuestionBankLibrary.pdb
+C:\Users\LK\Documents\Visual Studio 2013\Projects\Question Bank 2\QuestionBankLibrary\obj\Debug\QuestionBankLibrary.csprojResolveAssemblyReference.cache
+C:\Users\LK\Documents\Visual Studio 2013\Projects\Question Bank 2\QuestionBankLibrary\obj\Debug\QuestionBankLibrary.dll
+C:\Users\LK\Documents\Visual Studio 2013\Projects\Question Bank 2\QuestionBankLibrary\obj\Debug\QuestionBankLibrary.pdb
+C:\Users\Samuel columbus\Documents\Visual Studio 2010\Projects\Question Bank 2\QuestionBankLibrary\bin\Debug\QuestionBankLibrary.dll
+C:\Users\Samuel columbus\Documents\Visual Studio 2010\Projects\Question Bank 2\QuestionBankLibrary\bin\Debug\QuestionBankLibrary.pdb
+C:\Users\Samuel columbus\Documents\Visual Studio 2010\Projects\Question Bank 2\QuestionBankLibrary\obj\Debug\QuestionBankLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Samuel columbus\Documents\Visual Studio 2010\Projects\Question Bank 2\QuestionBankLibrary\obj\Debug\QuestionBankLibrary.dll
+C:\Users\Samuel columbus\Documents\Visual Studio 2010\Projects\Question Bank 2\QuestionBankLibrary\obj\Debug\QuestionBankLibrary.pdb

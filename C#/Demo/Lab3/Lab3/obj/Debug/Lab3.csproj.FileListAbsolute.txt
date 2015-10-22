@@ -1,0 +1,8 @@
+F:\AAA\Summer 2014\C#\Demo\Lab3\Lab3\bin\Debug\Lab3.exe
+F:\AAA\Summer 2014\C#\Demo\Lab3\Lab3\bin\Debug\Lab3.pdb
+F:\AAA\Summer 2014\C#\Demo\Lab3\Lab3\obj\Debug\Lab3.csprojResolveAssemblyReference.cache
+F:\AAA\Summer 2014\C#\Demo\Lab3\Lab3\obj\Debug\Lab3.Form1.resources
+F:\AAA\Summer 2014\C#\Demo\Lab3\Lab3\obj\Debug\Lab3.Properties.Resources.resources
+F:\AAA\Summer 2014\C#\Demo\Lab3\Lab3\obj\Debug\Lab3.csproj.GenerateResource.Cache
+F:\AAA\Summer 2014\C#\Demo\Lab3\Lab3\obj\Debug\Lab3.exe
+F:\AAA\Summer 2014\C#\Demo\Lab3\Lab3\obj\Debug\Lab3.pdb

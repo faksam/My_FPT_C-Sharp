@@ -1,0 +1,5 @@
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\DelegateSample\DelegateSample\bin\Debug\DelegateSample.exe
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\DelegateSample\DelegateSample\bin\Debug\DelegateSample.pdb
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\DelegateSample\DelegateSample\obj\Debug\DelegateSample.csprojResolveAssemblyReference.cache
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\DelegateSample\DelegateSample\obj\Debug\DelegateSample.exe
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\DelegateSample\DelegateSample\obj\Debug\DelegateSample.pdb

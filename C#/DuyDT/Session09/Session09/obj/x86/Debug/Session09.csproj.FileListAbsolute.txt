@@ -1,0 +1,9 @@
+C:\Users\DuyDT\Desktop\C#\Session09\Session09\bin\Debug\Session09.exe
+C:\Users\DuyDT\Desktop\C#\Session09\Session09\bin\Debug\Session09.pdb
+C:\Users\DuyDT\Desktop\C#\Session09\Session09\obj\x86\Debug\Session09.Form1.resources
+C:\Users\DuyDT\Desktop\C#\Session09\Session09\obj\x86\Debug\Session09.Properties.Resources.resources
+C:\Users\DuyDT\Desktop\C#\Session09\Session09\obj\x86\Debug\Session09.csproj.GenerateResource.Cache
+C:\Users\DuyDT\Desktop\C#\Session09\Session09\obj\x86\Debug\Session09.exe
+C:\Users\DuyDT\Desktop\C#\Session09\Session09\obj\x86\Debug\Session09.pdb
+F:\AAA\Summer 2014\C#\DuyDT\Session09\Session09\obj\x86\Debug\Session09.exe
+F:\AAA\Summer 2014\C#\DuyDT\Session09\Session09\obj\x86\Debug\Session09.pdb

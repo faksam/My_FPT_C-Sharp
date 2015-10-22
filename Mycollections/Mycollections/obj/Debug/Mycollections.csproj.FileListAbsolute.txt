@@ -1,0 +1,5 @@
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\Mycollections\Mycollections\obj\Debug\Mycollections.csprojResolveAssemblyReference.cache
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\Mycollections\Mycollections\bin\Debug\Mycollections.exe
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\Mycollections\Mycollections\bin\Debug\Mycollections.pdb
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\Mycollections\Mycollections\obj\Debug\Mycollections.exe
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\Mycollections\Mycollections\obj\Debug\Mycollections.pdb

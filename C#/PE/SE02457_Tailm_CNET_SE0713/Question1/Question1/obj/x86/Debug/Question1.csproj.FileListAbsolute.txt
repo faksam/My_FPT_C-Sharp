@@ -1,0 +1,20 @@
+C:\Users\MinhTaiLe\Desktop\SE02457_Tailm_CNET_SE0713\Question1\Question1\bin\Debug\Question1.exe
+C:\Users\MinhTaiLe\Desktop\SE02457_Tailm_CNET_SE0713\Question1\Question1\bin\Debug\Question1.pdb
+C:\Users\MinhTaiLe\Desktop\SE02457_Tailm_CNET_SE0713\Question1\Question1\obj\x86\Debug\Question1.Form1.resources
+C:\Users\MinhTaiLe\Desktop\SE02457_Tailm_CNET_SE0713\Question1\Question1\obj\x86\Debug\Question1.Properties.Resources.resources
+C:\Users\MinhTaiLe\Desktop\SE02457_Tailm_CNET_SE0713\Question1\Question1\obj\x86\Debug\Question1.csproj.GenerateResource.Cache
+C:\Users\MinhTaiLe\Desktop\SE02457_Tailm_CNET_SE0713\Question1\Question1\obj\x86\Debug\Question1.exe
+C:\Users\MinhTaiLe\Desktop\SE02457_Tailm_CNET_SE0713\Question1\Question1\obj\x86\Debug\Question1.pdb
+C:\Users\MinhTaiLe\Desktop\SE02457_Tailm_CNET_SE0713\Question1\Question1\obj\x86\Debug\Question1.csprojResolveAssemblyReference.cache
+F:\AAA\Summer 2014\C#\C#_TaiLM\SE02457_Tailm_CNET_SE0713\SE02457_Tailm_CNET_SE0713\Question1\Question1\obj\x86\Debug\Question1.exe
+F:\AAA\Summer 2014\C#\C#_TaiLM\SE02457_Tailm_CNET_SE0713\SE02457_Tailm_CNET_SE0713\Question1\Question1\obj\x86\Debug\Question1.pdb
+F:\AAA\Summer 2014\C#\C#_TaiLM\SE02457_Tailm_CNET_SE0713\SE02457_Tailm_CNET_SE0713\Question1\Question1\bin\Debug\Question1.exe
+F:\AAA\Summer 2014\C#\C#_TaiLM\SE02457_Tailm_CNET_SE0713\SE02457_Tailm_CNET_SE0713\Question1\Question1\bin\Debug\Question1.pdb
+F:\AAA\Summer 2014\C#\C#_TaiLM\SE02457_Tailm_CNET_SE0713\SE02457_Tailm_CNET_SE0713\Question1\Question1\obj\x86\Debug\Question1.csprojResolveAssemblyReference.cache
+F:\AAA\Summer 2014\C#\C#_TaiLM\SE02457_Tailm_CNET_SE0713\SE02457_Tailm_CNET_SE0713\Question1\Question1\obj\x86\Debug\Question1.Form1.resources
+F:\AAA\Summer 2014\C#\C#_TaiLM\SE02457_Tailm_CNET_SE0713\SE02457_Tailm_CNET_SE0713\Question1\Question1\obj\x86\Debug\Question1.Properties.Resources.resources
+F:\AAA\Summer 2014\C#\C#_TaiLM\SE02457_Tailm_CNET_SE0713\SE02457_Tailm_CNET_SE0713\Question1\Question1\obj\x86\Debug\Question1.csproj.GenerateResource.Cache
+F:\AAA\Summer 2014\C#\PE\SE02457_Tailm_CNET_SE0713\SE02457_Tailm_CNET_SE0713\Question1\Question1\obj\x86\Debug\Question1.exe
+F:\AAA\Summer 2014\C#\PE\SE02457_Tailm_CNET_SE0713\SE02457_Tailm_CNET_SE0713\Question1\Question1\obj\x86\Debug\Question1.pdb
+F:\AAA\Summer 2014\C#\PE\SE02457_Tailm_CNET_SE0713\Question1\Question1\obj\x86\Debug\Question1.exe
+F:\AAA\Summer 2014\C#\PE\SE02457_Tailm_CNET_SE0713\Question1\Question1\obj\x86\Debug\Question1.pdb

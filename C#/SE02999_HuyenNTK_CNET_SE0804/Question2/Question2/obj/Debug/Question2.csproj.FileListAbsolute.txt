@@ -1,0 +1,7 @@
+C:\Users\HUYEN\Desktop\SE02999_HuyenNTK_CNET_SE0804\Question2\Question2\bin\Debug\Question2.exe
+C:\Users\HUYEN\Desktop\SE02999_HuyenNTK_CNET_SE0804\Question2\Question2\bin\Debug\Question2.pdb
+C:\Users\HUYEN\Desktop\SE02999_HuyenNTK_CNET_SE0804\Question2\Question2\obj\Debug\Question2.Form1.resources
+C:\Users\HUYEN\Desktop\SE02999_HuyenNTK_CNET_SE0804\Question2\Question2\obj\Debug\Question2.Properties.Resources.resources
+C:\Users\HUYEN\Desktop\SE02999_HuyenNTK_CNET_SE0804\Question2\Question2\obj\Debug\Question2.csproj.GenerateResource.Cache
+C:\Users\HUYEN\Desktop\SE02999_HuyenNTK_CNET_SE0804\Question2\Question2\obj\Debug\Question2.exe
+C:\Users\HUYEN\Desktop\SE02999_HuyenNTK_CNET_SE0804\Question2\Question2\obj\Debug\Question2.pdb

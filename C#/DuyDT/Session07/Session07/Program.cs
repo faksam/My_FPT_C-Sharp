@@ -1,0 +1,80 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading;
+
+namespace Session07
+{
+    class Program
+    {
+        static void PrintTime()
+        {
+            while (true)
+            {
+                Console.Write("\r{0}",DateTime.Now.ToLongTimeString());
+                //pause current thread in 1000 miliseconds = 1 second
+                Thread.Sleep(1000);
+            }
+        }
+        static void DisplayMath(object o)
+        {
+            //if o is an instance of Math then call run method
+            if (o is Math)
+            {
+                Math m = (Math)o;
+                m.Run();
+            }
+        }
+
+        //concurrency demo
+        static void Concurrency()
+        {
+            Math m = new Math();
+            for (int i = 1; i <= 3; i++)
+            {
+                ThreadStart ts = new ThreadStart(m.Run);
+                Thread t = new Thread(ts);
+                t.Start();
+            }
+        }
+        static void DisplayTime(object o)
+        {
+            Console.WriteLine("Display time");
+            Console.WriteLine("{0}, parameters {1}", 
+                DateTime.Now.ToLongTimeString(),
+                o.ToString());
+        }
+        static void Main(string[] args)
+        {
+            //Concurrency();
+            Console.WriteLine("Main starts and so something");
+            TimerCallback callback = new TimerCallback(DisplayTime);
+            Timer t = new Timer(callback, "Param.value", 0, 1000);
+            Thread.Sleep(1000);
+            Console.WriteLine("Main exist");
+
+            /*
+            Console.WriteLine("Main starts do something...");
+            //PrintTime();
+            ThreadStart ts = new ThreadStart(PrintTime);
+            //create a new thread reference by t
+            Thread t = new Thread(ts);
+            t.Priority = ThreadPriority.BelowNormal;
+            t.Name = "Thread 1";
+            //started
+            t.Start();
+            //create an another thread
+            Math m = new Math();
+            ParameterizedThreadStart pts = 
+                new ParameterizedThreadStart(DisplayMath);
+            Thread t2 = new Thread(pts);
+            t2.Priority = ThreadPriority.Highest;
+            t2.Name = "Thread 2";
+            t2.Start(m);
+
+            Console.WriteLine("Main exist");
+             * */
+        }
+    }
+}

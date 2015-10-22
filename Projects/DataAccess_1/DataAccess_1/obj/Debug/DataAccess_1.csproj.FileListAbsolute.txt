@@ -1,0 +1,11 @@
+c:\users\mr ibrahim akoji\documents\visual studio 2013\Projects\DataAccess_1\DataAccess_1\bin\Debug\DataAccess_1.exe
+c:\users\mr ibrahim akoji\documents\visual studio 2013\Projects\DataAccess_1\DataAccess_1\bin\Debug\DataAccess_1.pdb
+c:\users\mr ibrahim akoji\documents\visual studio 2013\Projects\DataAccess_1\DataAccess_1\obj\Debug\DataAccess_1.csprojResolveAssemblyReference.cache
+c:\users\mr ibrahim akoji\documents\visual studio 2013\Projects\DataAccess_1\DataAccess_1\obj\Debug\DataAccess_1.Form1.resources
+c:\users\mr ibrahim akoji\documents\visual studio 2013\Projects\DataAccess_1\DataAccess_1\obj\Debug\DataAccess_1.Properties.Resources.resources
+c:\users\mr ibrahim akoji\documents\visual studio 2013\Projects\DataAccess_1\DataAccess_1\obj\Debug\DataAccess_1.csproj.GenerateResource.Cache
+c:\users\mr ibrahim akoji\documents\visual studio 2013\Projects\DataAccess_1\DataAccess_1\obj\Debug\DataAccess_1.exe
+c:\users\mr ibrahim akoji\documents\visual studio 2013\Projects\DataAccess_1\DataAccess_1\obj\Debug\DataAccess_1.pdb
+c:\users\mr ibrahim akoji\documents\visual studio 2013\Projects\DataAccess_1\DataAccess_1\obj\Debug\DataAccess_1.AddClass.resources
+C:\Users\Mr Ibrahim akoji\Documents\Visual Studio 2013\Projects\DataAccess_1\DataAccess_1\obj\Debug\DataAccess_1.AddStudentClass.resources
+C:\Users\Mr Ibrahim akoji\Documents\Visual Studio 2013\Projects\DataAccess_1\DataAccess_1\obj\Debug\DataAccess_1.DataFilter.resources

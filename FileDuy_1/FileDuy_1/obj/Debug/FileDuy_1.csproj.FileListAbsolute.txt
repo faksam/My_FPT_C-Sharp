@@ -1,0 +1,11 @@
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\FileDuy_1\FileDuy_1\bin\Debug\FileDuy_1.exe
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\FileDuy_1\FileDuy_1\bin\Debug\FileDuy_1.pdb
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\FileDuy_1\FileDuy_1\obj\Debug\FileDuy_1.csprojResolveAssemblyReference.cache
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\FileDuy_1\FileDuy_1\obj\Debug\FileDuy_1.Form1.resources
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\FileDuy_1\FileDuy_1\obj\Debug\FileDuy_1.Properties.Resources.resources
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\FileDuy_1\FileDuy_1\obj\Debug\FileDuy_1.csproj.GenerateResource.Cache
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\FileDuy_1\FileDuy_1\obj\Debug\FileDuy_1.exe
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\FileDuy_1\FileDuy_1\obj\Debug\FileDuy_1.pdb
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\FileDuy_1\FileDuy_1\obj\Debug\FileDuy_1.Form2.resources
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\FileDuy_1\FileDuy_1\obj\Debug\FileDuy_1.Form3.resources
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\FileDuy_1\FileDuy_1\obj\Debug\FileDuy_1.EmployeeDetails.resources

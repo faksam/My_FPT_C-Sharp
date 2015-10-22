@@ -1,0 +1,8 @@
+c:\users\mr ibrahim akoji\documents\visual studio 2013\Projects\WorkShop2\WorkShop2\obj\Debug\WorkShop2.csprojResolveAssemblyReference.cache
+c:\users\mr ibrahim akoji\documents\visual studio 2013\Projects\WorkShop2\WorkShop2\obj\Debug\WorkShop2.Form1.resources
+c:\users\mr ibrahim akoji\documents\visual studio 2013\Projects\WorkShop2\WorkShop2\obj\Debug\WorkShop2.Properties.Resources.resources
+c:\users\mr ibrahim akoji\documents\visual studio 2013\Projects\WorkShop2\WorkShop2\obj\Debug\WorkShop2.csproj.GenerateResource.Cache
+c:\users\mr ibrahim akoji\documents\visual studio 2013\Projects\WorkShop2\WorkShop2\bin\Debug\WorkShop2.exe
+c:\users\mr ibrahim akoji\documents\visual studio 2013\Projects\WorkShop2\WorkShop2\bin\Debug\WorkShop2.pdb
+c:\users\mr ibrahim akoji\documents\visual studio 2013\Projects\WorkShop2\WorkShop2\obj\Debug\WorkShop2.exe
+c:\users\mr ibrahim akoji\documents\visual studio 2013\Projects\WorkShop2\WorkShop2\obj\Debug\WorkShop2.pdb

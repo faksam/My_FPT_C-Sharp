@@ -1,0 +1,123 @@
+c:\users\baopham\documents\visual studio 2010\Projects\SM_project\SM_project\bin\Debug\SM_project.exe
+c:\users\baopham\documents\visual studio 2010\Projects\SM_project\SM_project\bin\Debug\SM_project.pdb
+c:\users\baopham\documents\visual studio 2010\Projects\SM_project\SM_project\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\baopham\documents\visual studio 2010\Projects\SM_project\SM_project\obj\x86\Debug\SM_project.Properties.Resources.resources
+c:\users\baopham\documents\visual studio 2010\Projects\SM_project\SM_project\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\baopham\documents\visual studio 2010\Projects\SM_project\SM_project\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\baopham\documents\visual studio 2010\Projects\SM_project\SM_project\obj\x86\Debug\SM_project.exe
+c:\users\baopham\documents\visual studio 2010\Projects\SM_project\SM_project\obj\x86\Debug\SM_project.pdb
+C:\Users\BaoPham\Documents\Visual Studio 2010\Projects\SM_project\SM_project\obj\x86\Debug\SM_project.GUI.SellGUI.resources
+C:\Users\BaoPham\Documents\Visual Studio 2010\Projects\SM_project\SM_project\obj\x86\Debug\SM_project.GUI.WarehouseGUI.resources
+C:\Users\BaoPham\documents\visual studio 2010\Projects\SM_project\SM_project\obj\x86\Debug\SM_project.GUI.CustomerGUI.resources
+C:\Users\BaoPham\Documents\Visual Studio 2010\Projects\SM_project\SM_project\obj\x86\Debug\SM_project.GUI.StatisticGUI.resources
+C:\Users\BaoPham\Documents\Visual Studio 2010\Projects\SM_project\SM_project\obj\x86\Debug\SM_project.GUI.AdminGUI.resources
+C:\Users\BaoPham\Documents\Visual Studio 2010\Projects\SM_project\SM_project\obj\x86\Debug\SM_project.LoginGUI.resources
+C:\Users\BaoPham\Documents\Visual Studio 2010\Projects\SM_project\SM_project\obj\x86\Debug\SM_project.GUI.HomeGUI.resources
+C:\Users\BaoPham\Documents\Visual Studio 2010\Projects\SM_project\SM_project\obj\x86\Debug\SM_project.GUI.PasswordGUI.resources
+C:\Users\BaoPham\Desktop\SM_project\SM_project\SM_project\obj\x86\Debug\SM_project.exe
+C:\Users\BaoPham\Desktop\SM_project\SM_project\SM_project\obj\x86\Debug\SM_project.pdb
+C:\Users\BaoPham\Desktop\SM_project\SM_project\SM_project\bin\Debug\SM_project.exe
+C:\Users\BaoPham\Desktop\SM_project\SM_project\SM_project\bin\Debug\SM_project.pdb
+C:\Users\BaoPham\Desktop\SM_project\SM_project\SM_project\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\BaoPham\Desktop\SM_project\SM_project\SM_project\obj\x86\Debug\SM_project.GUI.PasswordGUI.resources
+C:\Users\BaoPham\Desktop\SM_project\SM_project\SM_project\obj\x86\Debug\SM_project.LoginGUI.resources
+C:\Users\BaoPham\Desktop\SM_project\SM_project\SM_project\obj\x86\Debug\SM_project.GUI.AdminGUI.resources
+C:\Users\BaoPham\Desktop\SM_project\SM_project\SM_project\obj\x86\Debug\SM_project.GUI.CustomerGUI.resources
+C:\Users\BaoPham\Desktop\SM_project\SM_project\SM_project\obj\x86\Debug\SM_project.GUI.HomeGUI.resources
+C:\Users\BaoPham\Desktop\SM_project\SM_project\SM_project\obj\x86\Debug\SM_project.GUI.SellGUI.resources
+C:\Users\BaoPham\Desktop\SM_project\SM_project\SM_project\obj\x86\Debug\SM_project.GUI.StatisticGUI.resources
+C:\Users\BaoPham\Desktop\SM_project\SM_project\SM_project\obj\x86\Debug\SM_project.GUI.WarehouseGUI.resources
+C:\Users\BaoPham\Desktop\SM_project\SM_project\SM_project\obj\x86\Debug\SM_project.Properties.Resources.resources
+C:\Users\BaoPham\Desktop\SM_project\SM_project\SM_project\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\BaoPham\Desktop\SM_project\SM_project\SM_project\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\DOWNLOAD\SM_project\SM_project\SM_project\obj\x86\Debug\SM_project.exe
+E:\DOWNLOAD\SM_project\SM_project\SM_project\obj\x86\Debug\SM_project.pdb
+E:\DOWNLOAD\SM_project\SM_project\SM_project\bin\Debug\SM_project.exe
+E:\DOWNLOAD\SM_project\SM_project\SM_project\bin\Debug\SM_project.pdb
+E:\DOWNLOAD\SM_project\SM_project\SM_project\obj\x86\Debug\SM_project.GUI.PasswordGUI.resources
+E:\DOWNLOAD\SM_project\SM_project\SM_project\obj\x86\Debug\SM_project.LoginGUI.resources
+E:\DOWNLOAD\SM_project\SM_project\SM_project\obj\x86\Debug\SM_project.GUI.AdminGUI.resources
+E:\DOWNLOAD\SM_project\SM_project\SM_project\obj\x86\Debug\SM_project.GUI.CustomerGUI.resources
+E:\DOWNLOAD\SM_project\SM_project\SM_project\obj\x86\Debug\SM_project.GUI.HomeGUI.resources
+E:\DOWNLOAD\SM_project\SM_project\SM_project\obj\x86\Debug\SM_project.GUI.SellGUI.resources
+E:\DOWNLOAD\SM_project\SM_project\SM_project\obj\x86\Debug\SM_project.GUI.StatisticGUI.resources
+E:\DOWNLOAD\SM_project\SM_project\SM_project\obj\x86\Debug\SM_project.GUI.WarehouseGUI.resources
+E:\DOWNLOAD\SM_project\SM_project\SM_project\obj\x86\Debug\SM_project.Properties.Resources.resources
+E:\DOWNLOAD\SM_project\SM_project\SM_project\obj\x86\Debug\SM_project.csproj.GenerateResource.Cache
+C:\Users\SDK\Desktop\SM_project dmt\SM_project\obj\x86\Debug\SM_project.exe
+C:\Users\SDK\Desktop\SM_project dmt\SM_project\obj\x86\Debug\SM_project.pdb
+C:\Users\SDK\Desktop\SM_project dmt\SM_project\bin\Debug\SM_project.exe
+C:\Users\SDK\Desktop\SM_project dmt\SM_project\bin\Debug\SM_project.pdb
+C:\Users\SDK\Desktop\SM_project dmt\SM_project\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\SDK\Desktop\SM_project dmt\SM_project\obj\x86\Debug\SM_project.GUI.PasswordGUI.resources
+C:\Users\SDK\Desktop\SM_project dmt\SM_project\obj\x86\Debug\SM_project.LoginGUI.resources
+C:\Users\SDK\Desktop\SM_project dmt\SM_project\obj\x86\Debug\SM_project.GUI.AdminGUI.resources
+C:\Users\SDK\Desktop\SM_project dmt\SM_project\obj\x86\Debug\SM_project.GUI.CustomerGUI.resources
+C:\Users\SDK\Desktop\SM_project dmt\SM_project\obj\x86\Debug\SM_project.GUI.HomeGUI.resources
+C:\Users\SDK\Desktop\SM_project dmt\SM_project\obj\x86\Debug\SM_project.GUI.SellGUI.resources
+C:\Users\SDK\Desktop\SM_project dmt\SM_project\obj\x86\Debug\SM_project.GUI.StatisticGUI.resources
+C:\Users\SDK\Desktop\SM_project dmt\SM_project\obj\x86\Debug\SM_project.GUI.WarehouseGUI.resources
+C:\Users\SDK\Desktop\SM_project dmt\SM_project\obj\x86\Debug\SM_project.Properties.Resources.resources
+C:\Users\SDK\Desktop\SM_project dmt\SM_project\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\SDK\Desktop\SM_project dmt\SM_project\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\FPT\Semester 4\SM_project\SM_project\obj\x86\Debug\SM_project.exe
+D:\FPT\Semester 4\SM_project\SM_project\obj\x86\Debug\SM_project.pdb
+D:\FPT\Semester 4\SM_project\SM_project\bin\Debug\SM_project.exe
+D:\FPT\Semester 4\SM_project\SM_project\bin\Debug\SM_project.pdb
+D:\FPT\Semester 4\SM_project\SM_project\obj\x86\Debug\SM_project.GUI.PasswordGUI.resources
+D:\FPT\Semester 4\SM_project\SM_project\obj\x86\Debug\SM_project.LoginGUI.resources
+D:\FPT\Semester 4\SM_project\SM_project\obj\x86\Debug\SM_project.GUI.AdminGUI.resources
+D:\FPT\Semester 4\SM_project\SM_project\obj\x86\Debug\SM_project.GUI.CustomerGUI.resources
+D:\FPT\Semester 4\SM_project\SM_project\obj\x86\Debug\SM_project.GUI.HomeGUI.resources
+D:\FPT\Semester 4\SM_project\SM_project\obj\x86\Debug\SM_project.GUI.SellGUI.resources
+D:\FPT\Semester 4\SM_project\SM_project\obj\x86\Debug\SM_project.GUI.StatisticGUI.resources
+D:\FPT\Semester 4\SM_project\SM_project\obj\x86\Debug\SM_project.GUI.WarehouseGUI.resources
+D:\FPT\Semester 4\SM_project\SM_project\obj\x86\Debug\SM_project.Properties.Resources.resources
+D:\FPT\Semester 4\SM_project\SM_project\obj\x86\Debug\SM_project.csproj.GenerateResource.Cache
+E:\DOWNLOAD\SM_project\SM_project\obj\x86\Debug\SM_project.exe
+E:\DOWNLOAD\SM_project\SM_project\obj\x86\Debug\SM_project.pdb
+E:\DOWNLOAD\SM_project\SM_project\bin\Debug\SM_project.exe
+E:\DOWNLOAD\SM_project\SM_project\bin\Debug\SM_project.pdb
+E:\DOWNLOAD\SM_project\SM_project\obj\x86\Debug\SM_project.GUI.PasswordGUI.resources
+E:\DOWNLOAD\SM_project\SM_project\obj\x86\Debug\SM_project.LoginGUI.resources
+E:\DOWNLOAD\SM_project\SM_project\obj\x86\Debug\SM_project.GUI.AdminGUI.resources
+E:\DOWNLOAD\SM_project\SM_project\obj\x86\Debug\SM_project.GUI.CustomerGUI.resources
+E:\DOWNLOAD\SM_project\SM_project\obj\x86\Debug\SM_project.GUI.HomeGUI.resources
+E:\DOWNLOAD\SM_project\SM_project\obj\x86\Debug\SM_project.GUI.SellGUI.resources
+E:\DOWNLOAD\SM_project\SM_project\obj\x86\Debug\SM_project.GUI.StatisticGUI.resources
+E:\DOWNLOAD\SM_project\SM_project\obj\x86\Debug\SM_project.GUI.WarehouseGUI.resources
+E:\DOWNLOAD\SM_project\SM_project\obj\x86\Debug\SM_project.Properties.Resources.resources
+E:\DOWNLOAD\SM_project\SM_project\obj\x86\Debug\SM_project.csproj.GenerateResource.Cache
+C:\Users\Trung Tru Tri\Desktop\SM_project\SM_project\obj\x86\Debug\SM_project.exe
+C:\Users\Trung Tru Tri\Desktop\SM_project\SM_project\obj\x86\Debug\SM_project.pdb
+C:\Users\Trung Tru Tri\Desktop\SM_project\SM_project\bin\Debug\SM_project.exe
+C:\Users\Trung Tru Tri\Desktop\SM_project\SM_project\bin\Debug\SM_project.pdb
+C:\Users\Trung Tru Tri\Desktop\SM_project\SM_project\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Trung Tru Tri\Desktop\SM_project\SM_project\obj\x86\Debug\SM_project.GUI.PasswordGUI.resources
+C:\Users\Trung Tru Tri\Desktop\SM_project\SM_project\obj\x86\Debug\SM_project.LoginGUI.resources
+C:\Users\Trung Tru Tri\Desktop\SM_project\SM_project\obj\x86\Debug\SM_project.GUI.AdminGUI.resources
+C:\Users\Trung Tru Tri\Desktop\SM_project\SM_project\obj\x86\Debug\SM_project.GUI.CustomerGUI.resources
+C:\Users\Trung Tru Tri\Desktop\SM_project\SM_project\obj\x86\Debug\SM_project.GUI.HomeGUI.resources
+C:\Users\Trung Tru Tri\Desktop\SM_project\SM_project\obj\x86\Debug\SM_project.GUI.SellGUI.resources
+C:\Users\Trung Tru Tri\Desktop\SM_project\SM_project\obj\x86\Debug\SM_project.GUI.StatisticGUI.resources
+C:\Users\Trung Tru Tri\Desktop\SM_project\SM_project\obj\x86\Debug\SM_project.GUI.WarehouseGUI.resources
+C:\Users\Trung Tru Tri\Desktop\SM_project\SM_project\obj\x86\Debug\SM_project.Properties.Resources.resources
+C:\Users\Trung Tru Tri\Desktop\SM_project\SM_project\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Trung Tru Tri\Desktop\SM_project\SM_project\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Learning\C#\SM_project\SM_project\obj\x86\Debug\SM_project.exe
+D:\Learning\C#\SM_project\SM_project\obj\x86\Debug\SM_project.pdb
+F:\AAA\Summer 2014\C#\key C#\C#\SM_project\SM_project\obj\x86\Debug\SM_project.exe
+F:\AAA\Summer 2014\C#\key C#\C#\SM_project\SM_project\obj\x86\Debug\SM_project.pdb
+F:\AAA\Summer 2014\C#\key C#\C#\SM_project\SM_project\bin\Debug\SM_project.exe
+F:\AAA\Summer 2014\C#\key C#\C#\SM_project\SM_project\bin\Debug\SM_project.pdb
+F:\AAA\Summer 2014\C#\key C#\C#\SM_project\SM_project\obj\x86\Debug\SM_project.csprojResolveAssemblyReference.cache
+F:\AAA\Summer 2014\C#\key C#\C#\SM_project\SM_project\obj\x86\Debug\SM_project.GUI.PasswordGUI.resources
+F:\AAA\Summer 2014\C#\key C#\C#\SM_project\SM_project\obj\x86\Debug\SM_project.LoginGUI.resources
+F:\AAA\Summer 2014\C#\key C#\C#\SM_project\SM_project\obj\x86\Debug\SM_project.GUI.AdminGUI.resources
+F:\AAA\Summer 2014\C#\key C#\C#\SM_project\SM_project\obj\x86\Debug\SM_project.GUI.CustomerGUI.resources
+F:\AAA\Summer 2014\C#\key C#\C#\SM_project\SM_project\obj\x86\Debug\SM_project.GUI.HomeGUI.resources
+F:\AAA\Summer 2014\C#\key C#\C#\SM_project\SM_project\obj\x86\Debug\SM_project.GUI.SellGUI.resources
+F:\AAA\Summer 2014\C#\key C#\C#\SM_project\SM_project\obj\x86\Debug\SM_project.GUI.StatisticGUI.resources
+F:\AAA\Summer 2014\C#\key C#\C#\SM_project\SM_project\obj\x86\Debug\SM_project.GUI.WarehouseGUI.resources
+F:\AAA\Summer 2014\C#\key C#\C#\SM_project\SM_project\obj\x86\Debug\SM_project.Properties.Resources.resources
+F:\AAA\Summer 2014\C#\key C#\C#\SM_project\SM_project\obj\x86\Debug\SM_project.csproj.GenerateResource.Cache

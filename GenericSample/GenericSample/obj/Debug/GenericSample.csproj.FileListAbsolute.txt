@@ -1,0 +1,5 @@
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\GenericSample\GenericSample\bin\Debug\GenericSample.exe
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\GenericSample\GenericSample\bin\Debug\GenericSample.pdb
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\GenericSample\GenericSample\obj\Debug\GenericSample.csprojResolveAssemblyReference.cache
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\GenericSample\GenericSample\obj\Debug\GenericSample.exe
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\GenericSample\GenericSample\obj\Debug\GenericSample.pdb

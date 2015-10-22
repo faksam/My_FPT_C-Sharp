@@ -1,0 +1,4 @@
+C:\Users\DuyDT\Desktop\C#\Session06\MyCalculation\bin\Debug\MyCalculation.dll
+C:\Users\DuyDT\Desktop\C#\Session06\MyCalculation\bin\Debug\MyCalculation.pdb
+C:\Users\DuyDT\Desktop\C#\Session06\MyCalculation\obj\Debug\MyCalculation.dll
+C:\Users\DuyDT\Desktop\C#\Session06\MyCalculation\obj\Debug\MyCalculation.pdb

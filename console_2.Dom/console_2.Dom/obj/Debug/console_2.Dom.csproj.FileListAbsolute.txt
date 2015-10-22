@@ -1,0 +1,5 @@
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\console_2.Dom\console_2.Dom\bin\Debug\console_2.Dom.exe
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\console_2.Dom\console_2.Dom\bin\Debug\console_2.Dom.pdb
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\console_2.Dom\console_2.Dom\obj\Debug\console_2.Dom.csprojResolveAssemblyReference.cache
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\console_2.Dom\console_2.Dom\obj\Debug\console_2.Dom.exe
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\console_2.Dom\console_2.Dom\obj\Debug\console_2.Dom.pdb

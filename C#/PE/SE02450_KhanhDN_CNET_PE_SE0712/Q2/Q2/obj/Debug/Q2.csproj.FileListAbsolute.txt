@@ -1,0 +1,5 @@
+F:\CN4\C#&.Net-Co Huong\practise\SE02450_KhanhDN_CNET_PE_SE0712\Q2\Q2\bin\Q2.dll
+F:\CN4\C#&.Net-Co Huong\practise\SE02450_KhanhDN_CNET_PE_SE0712\Q2\Q2\bin\Q2.pdb
+F:\CN4\C#&.Net-Co Huong\practise\SE02450_KhanhDN_CNET_PE_SE0712\Q2\Q2\obj\Debug\Q2.dll
+F:\CN4\C#&.Net-Co Huong\practise\SE02450_KhanhDN_CNET_PE_SE0712\Q2\Q2\obj\Debug\Q2.pdb
+F:\CN4\C#&.Net-Co Huong\practise\SE02450_KhanhDN_CNET_PE_SE0712\Q2\Q2\obj\Debug\Q2.csprojResolveAssemblyReference.cache

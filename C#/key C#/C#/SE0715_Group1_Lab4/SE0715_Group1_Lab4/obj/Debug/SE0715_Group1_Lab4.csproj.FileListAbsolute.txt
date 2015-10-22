@@ -1,0 +1,15 @@
+D:\SE0715_Group1_Lab4\SE0715_Group1_Lab4\bin\SE0715_Group1_Lab4.dll
+D:\SE0715_Group1_Lab4\SE0715_Group1_Lab4\bin\SE0715_Group1_Lab4.pdb
+D:\SE0715_Group1_Lab4\SE0715_Group1_Lab4\obj\Debug\SE0715_Group1_Lab4.dll
+D:\SE0715_Group1_Lab4\SE0715_Group1_Lab4\obj\Debug\SE0715_Group1_Lab4.pdb
+D:\SE0715_Group1_Lab4\SE0715_Group1_Lab4\obj\Debug\SE0715_Group1_Lab4.csprojResolveAssemblyReference.cache
+D:\FPT\Semester 4\C#\Ex\SE0715_Group1_Lab4\SE0715_Group1_Lab4\bin\SE0715_Group1_Lab4.dll
+D:\FPT\Semester 4\C#\Ex\SE0715_Group1_Lab4\SE0715_Group1_Lab4\bin\SE0715_Group1_Lab4.pdb
+D:\FPT\Semester 4\C#\Ex\SE0715_Group1_Lab4\SE0715_Group1_Lab4\obj\Debug\SE0715_Group1_Lab4.csprojResolveAssemblyReference.cache
+D:\FPT\Semester 4\C#\Ex\SE0715_Group1_Lab4\SE0715_Group1_Lab4\obj\Debug\SE0715_Group1_Lab4.dll
+D:\FPT\Semester 4\C#\Ex\SE0715_Group1_Lab4\SE0715_Group1_Lab4\obj\Debug\SE0715_Group1_Lab4.pdb
+C:\Users\Trung Tru Tri\Desktop\SE0715_Group1_Lab4\SE0715_Group1_Lab4\bin\SE0715_Group1_Lab4.dll
+C:\Users\Trung Tru Tri\Desktop\SE0715_Group1_Lab4\SE0715_Group1_Lab4\bin\SE0715_Group1_Lab4.pdb
+C:\Users\Trung Tru Tri\Desktop\SE0715_Group1_Lab4\SE0715_Group1_Lab4\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Trung Tru Tri\Desktop\SE0715_Group1_Lab4\SE0715_Group1_Lab4\obj\Debug\SE0715_Group1_Lab4.dll
+C:\Users\Trung Tru Tri\Desktop\SE0715_Group1_Lab4\SE0715_Group1_Lab4\obj\Debug\SE0715_Group1_Lab4.pdb

@@ -1,0 +1,16 @@
+C:\Users\DuyDT\Desktop\SE0001_PRN292_SE0902\Q1\Q1\Q1\bin\Debug\Q1.exe
+C:\Users\DuyDT\Desktop\SE0001_PRN292_SE0902\Q1\Q1\Q1\bin\Debug\Q1.pdb
+C:\Users\DuyDT\Desktop\SE0001_PRN292_SE0902\Q1\Q1\Q1\obj\x86\Debug\Q1.Form1.resources
+C:\Users\DuyDT\Desktop\SE0001_PRN292_SE0902\Q1\Q1\Q1\obj\x86\Debug\Q1.Properties.Resources.resources
+C:\Users\DuyDT\Desktop\SE0001_PRN292_SE0902\Q1\Q1\Q1\obj\x86\Debug\Q1.csproj.GenerateResource.Cache
+C:\Users\DuyDT\Desktop\SE0001_PRN292_SE0902\Q1\Q1\Q1\obj\x86\Debug\Q1.exe
+C:\Users\DuyDT\Desktop\SE0001_PRN292_SE0902\Q1\Q1\Q1\obj\x86\Debug\Q1.pdb
+C:\Users\DuyDT\Desktop\SE0001_PRN292_SE0902\Q1\Q1\Q1\obj\x86\Debug\Q1.csprojResolveAssemblyReference.cache
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\Winform-PESample02\Winform-PESample02\Q1-Solution\Q1\obj\x86\Debug\Q1.exe
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\Winform-PESample02\Winform-PESample02\Q1-Solution\Q1\obj\x86\Debug\Q1.pdb
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\Winform-PESample02\Winform-PESample02\Q1-Solution\Q1\bin\Debug\Q1.exe
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\Winform-PESample02\Winform-PESample02\Q1-Solution\Q1\bin\Debug\Q1.pdb
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\Winform-PESample02\Winform-PESample02\Q1-Solution\Q1\obj\x86\Debug\Q1.csprojResolveAssemblyReference.cache
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\Winform-PESample02\Winform-PESample02\Q1-Solution\Q1\obj\x86\Debug\Q1.Form1.resources
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\Winform-PESample02\Winform-PESample02\Q1-Solution\Q1\obj\x86\Debug\Q1.Properties.Resources.resources
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\Winform-PESample02\Winform-PESample02\Q1-Solution\Q1\obj\x86\Debug\Q1.csproj.GenerateResource.Cache

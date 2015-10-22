@@ -1,0 +1,8 @@
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\Delegatessample\Delegatessample\bin\Debug\Delegatessample.exe
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\Delegatessample\Delegatessample\bin\Debug\Delegatessample.pdb
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\Delegatessample\Delegatessample\obj\Debug\Delegatessample.csprojResolveAssemblyReference.cache
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\Delegatessample\Delegatessample\obj\Debug\Delegatessample.Form1.resources
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\Delegatessample\Delegatessample\obj\Debug\Delegatessample.Properties.Resources.resources
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\Delegatessample\Delegatessample\obj\Debug\Delegatessample.csproj.GenerateResource.Cache
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\Delegatessample\Delegatessample\obj\Debug\Delegatessample.exe
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\Delegatessample\Delegatessample\obj\Debug\Delegatessample.pdb

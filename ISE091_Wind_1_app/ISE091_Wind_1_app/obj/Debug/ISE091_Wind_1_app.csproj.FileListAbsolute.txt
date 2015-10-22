@@ -1,0 +1,8 @@
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\ISE091_Wind_1_app\ISE091_Wind_1_app\bin\Debug\ISE091_Wind_1_app.exe
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\ISE091_Wind_1_app\ISE091_Wind_1_app\bin\Debug\ISE091_Wind_1_app.pdb
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\ISE091_Wind_1_app\ISE091_Wind_1_app\obj\Debug\ISE091_Wind_1_app.csprojResolveAssemblyReference.cache
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\ISE091_Wind_1_app\ISE091_Wind_1_app\obj\Debug\ISE091_Wind_1_app.Form1.resources
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\ISE091_Wind_1_app\ISE091_Wind_1_app\obj\Debug\ISE091_Wind_1_app.Properties.Resources.resources
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\ISE091_Wind_1_app\ISE091_Wind_1_app\obj\Debug\ISE091_Wind_1_app.csproj.GenerateResource.Cache
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\ISE091_Wind_1_app\ISE091_Wind_1_app\obj\Debug\ISE091_Wind_1_app.exe
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\ISE091_Wind_1_app\ISE091_Wind_1_app\obj\Debug\ISE091_Wind_1_app.pdb

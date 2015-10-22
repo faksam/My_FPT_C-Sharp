@@ -1,0 +1,19 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhoneApp1", "PhoneApp1\PhoneApp1.csproj", "{3ea6cd4a-62bc-4228-9fbb-df14f891a08b}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3EA6CD4A-62BC-4228-9FBB-DF14F891A08B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EA6CD4A-62BC-4228-9FBB-DF14F891A08B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EA6CD4A-62BC-4228-9FBB-DF14F891A08B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{3EA6CD4A-62BC-4228-9FBB-DF14F891A08B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EA6CD4A-62BC-4228-9FBB-DF14F891A08B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EA6CD4A-62BC-4228-9FBB-DF14F891A08B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

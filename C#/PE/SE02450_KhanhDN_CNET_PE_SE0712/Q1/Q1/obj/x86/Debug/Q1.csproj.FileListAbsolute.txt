@@ -1,0 +1,9 @@
+F:\CN4\C#&.Net-Co Huong\practise\SE02450_KhanhDN_CNET_PE_SE0712\Q1\Q1\bin\Debug\Q1.exe
+F:\CN4\C#&.Net-Co Huong\practise\SE02450_KhanhDN_CNET_PE_SE0712\Q1\Q1\bin\Debug\Q1.pdb
+F:\CN4\C#&.Net-Co Huong\practise\SE02450_KhanhDN_CNET_PE_SE0712\Q1\Q1\obj\x86\Debug\Q1.Form1.resources
+F:\CN4\C#&.Net-Co Huong\practise\SE02450_KhanhDN_CNET_PE_SE0712\Q1\Q1\obj\x86\Debug\Q1.Properties.Resources.resources
+F:\CN4\C#&.Net-Co Huong\practise\SE02450_KhanhDN_CNET_PE_SE0712\Q1\Q1\obj\x86\Debug\Q1.csproj.GenerateResource.Cache
+F:\CN4\C#&.Net-Co Huong\practise\SE02450_KhanhDN_CNET_PE_SE0712\Q1\Q1\obj\x86\Debug\Q1.exe
+F:\CN4\C#&.Net-Co Huong\practise\SE02450_KhanhDN_CNET_PE_SE0712\Q1\Q1\obj\x86\Debug\Q1.pdb
+F:\AAA\Summer 2014\C#\PE\SE02450_KhanhDN_CNET_PE_SE0712\Q1\Q1\obj\x86\Debug\Q1.exe
+F:\AAA\Summer 2014\C#\PE\SE02450_KhanhDN_CNET_PE_SE0712\Q1\Q1\obj\x86\Debug\Q1.pdb

@@ -1,0 +1,4 @@
+C:\Users\DuyDT\Desktop\C#\Session4\Session4\bin\Debug\Session4.exe
+C:\Users\DuyDT\Desktop\C#\Session4\Session4\bin\Debug\Session4.pdb
+C:\Users\DuyDT\Desktop\C#\Session4\Session4\obj\x86\Debug\Session4.exe
+C:\Users\DuyDT\Desktop\C#\Session4\Session4\obj\x86\Debug\Session4.pdb

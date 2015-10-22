@@ -1,0 +1,8 @@
+F:\Hoc tap\Ki4\C#.Net\PE\order\order\bin\Debug\order.exe
+F:\Hoc tap\Ki4\C#.Net\PE\order\order\bin\Debug\order.pdb
+F:\Hoc tap\Ki4\C#.Net\PE\order\order\obj\x86\Debug\order.Form1.resources
+F:\Hoc tap\Ki4\C#.Net\PE\order\order\obj\x86\Debug\order.Properties.Resources.resources
+F:\Hoc tap\Ki4\C#.Net\PE\order\order\obj\x86\Debug\order.csproj.GenerateResource.Cache
+F:\Hoc tap\Ki4\C#.Net\PE\order\order\obj\x86\Debug\order.exe
+F:\Hoc tap\Ki4\C#.Net\PE\order\order\obj\x86\Debug\order.pdb
+F:\Hoc tap\Ki4\C#.Net\PE\order\order\obj\x86\Debug\order.csprojResolveAssemblyReference.cache

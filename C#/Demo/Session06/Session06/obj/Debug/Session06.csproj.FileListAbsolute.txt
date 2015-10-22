@@ -1,0 +1,6 @@
+F:\AAA\Summer 2014\C#\Session06\Session06\bin\Debug\Session06.exe.config
+F:\AAA\Summer 2014\C#\Session06\Session06\obj\Debug\Session06.csprojResolveAssemblyReference.cache
+F:\AAA\Summer 2014\C#\Session06\Session06\bin\Debug\Session06.exe
+F:\AAA\Summer 2014\C#\Session06\Session06\bin\Debug\Session06.pdb
+F:\AAA\Summer 2014\C#\Session06\Session06\obj\Debug\Session06.exe
+F:\AAA\Summer 2014\C#\Session06\Session06\obj\Debug\Session06.pdb

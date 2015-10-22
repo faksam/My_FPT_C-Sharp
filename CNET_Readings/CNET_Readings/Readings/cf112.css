@@ -1,0 +1,94 @@
+﻿a.mainmenu
+{
+    color:White;
+    text-decoration:none;
+    font-family:Arial;    
+    font-size:small;
+    font-weight:bold    
+}
+a.mainmenu:hover
+{
+    text-decoration:underline
+}
+a.leftmenu
+{
+    color:#003399;
+    text-decoration:none;
+    font-family:Arial;    
+    font-size:small
+}
+a.leftmenu:hover
+{
+    text-decoration:underline
+}
+.text
+{
+    font-family:Arial;
+    font-size:small
+}
+.normal
+{
+    font-family:Arial;
+    font-size:small;
+    line-height:23px
+}
+.part
+{
+    color:#003399;
+    font-family:Arial;
+    font-size:medium;
+    font-weight:bold
+}
+table
+{
+    border-collapse:collapse;    
+    font-family:Arial;
+    font-size:small;
+    line-height:23px
+}
+.header
+{
+    background-color:#006666;
+    color:White;
+    font-weight:bold
+}
+.style1
+{
+    color:#003399;
+    font-family:Arial;
+    font-size:medium;
+    font-weight:bold
+}
+.style2
+{
+    color:#003399;
+    font-family:Arial;
+    font-size:small;
+    font-weight:bold
+}
+.sample
+{
+    font-family:Courier New;
+    font-size:small;
+    line-height:23px
+}
+.comment
+{
+    color:Green
+}
+.keyword
+{
+    color:Blue
+}
+.test
+{
+    color:Red
+}
+.lecture
+{
+    color:Blue
+}
+.workshop
+{
+    color:Maroon
+}

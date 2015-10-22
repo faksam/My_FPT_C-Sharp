@@ -1,0 +1,10 @@
+c:\users\mons\documents\visual studio 2010\Projects\Q2\Q2\bin\Q2.dll
+c:\users\mons\documents\visual studio 2010\Projects\Q2\Q2\bin\Q2.pdb
+c:\users\mons\documents\visual studio 2010\Projects\Q2\Q2\obj\Debug\Q2.dll
+c:\users\mons\documents\visual studio 2010\Projects\Q2\Q2\obj\Debug\Q2.pdb
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\C\PE\SE02852_NamTH_CNET_CShap2.1\Question2\Q2\bin\Q2.dll.config
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\C\PE\SE02852_NamTH_CNET_CShap2.1\Question2\Q2\bin\Q2.dll
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\C\PE\SE02852_NamTH_CNET_CShap2.1\Question2\Q2\bin\Q2.pdb
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\C\PE\SE02852_NamTH_CNET_CShap2.1\Question2\Q2\obj\Debug\Q2.csprojResolveAssemblyReference.cache
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\C\PE\SE02852_NamTH_CNET_CShap2.1\Question2\Q2\obj\Debug\Q2.dll
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\C\PE\SE02852_NamTH_CNET_CShap2.1\Question2\Q2\obj\Debug\Q2.pdb

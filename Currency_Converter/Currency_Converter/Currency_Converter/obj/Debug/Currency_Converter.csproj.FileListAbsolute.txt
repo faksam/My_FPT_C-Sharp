@@ -1,0 +1,16 @@
+c:\users\john\documents\visual studio 2013\Projects\Currency_Converter\Currency_Converter\bin\Debug\Currency_Converter.exe
+c:\users\john\documents\visual studio 2013\Projects\Currency_Converter\Currency_Converter\bin\Debug\Currency_Converter.pdb
+c:\users\john\documents\visual studio 2013\Projects\Currency_Converter\Currency_Converter\obj\Debug\Currency_Converter.csprojResolveAssemblyReference.cache
+c:\users\john\documents\visual studio 2013\Projects\Currency_Converter\Currency_Converter\obj\Debug\Currency_Converter.Form1.resources
+c:\users\john\documents\visual studio 2013\Projects\Currency_Converter\Currency_Converter\obj\Debug\Currency_Converter.Properties.Resources.resources
+c:\users\john\documents\visual studio 2013\Projects\Currency_Converter\Currency_Converter\obj\Debug\Currency_Converter.csproj.GenerateResource.Cache
+c:\users\john\documents\visual studio 2013\Projects\Currency_Converter\Currency_Converter\obj\Debug\Currency_Converter.exe
+c:\users\john\documents\visual studio 2013\Projects\Currency_Converter\Currency_Converter\obj\Debug\Currency_Converter.pdb
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\Currency_Converter\Currency_Converter\Currency_Converter\obj\Debug\Currency_Converter.exe
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\Currency_Converter\Currency_Converter\Currency_Converter\obj\Debug\Currency_Converter.pdb
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\Currency_Converter\Currency_Converter\Currency_Converter\bin\Debug\Currency_Converter.exe
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\Currency_Converter\Currency_Converter\Currency_Converter\bin\Debug\Currency_Converter.pdb
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\Currency_Converter\Currency_Converter\Currency_Converter\obj\Debug\Currency_Converter.csprojResolveAssemblyReference.cache
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\Currency_Converter\Currency_Converter\Currency_Converter\obj\Debug\Currency_Converter.Form1.resources
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\Currency_Converter\Currency_Converter\Currency_Converter\obj\Debug\Currency_Converter.Properties.Resources.resources
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\Currency_Converter\Currency_Converter\Currency_Converter\obj\Debug\Currency_Converter.csproj.GenerateResource.Cache

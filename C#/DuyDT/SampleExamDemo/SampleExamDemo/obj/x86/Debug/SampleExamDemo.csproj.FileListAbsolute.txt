@@ -1,0 +1,8 @@
+C:\Users\DuyDT\Desktop\C#\SampleExamDemo\SampleExamDemo\bin\Debug\SampleExamDemo.exe
+C:\Users\DuyDT\Desktop\C#\SampleExamDemo\SampleExamDemo\bin\Debug\SampleExamDemo.pdb
+C:\Users\DuyDT\Desktop\C#\SampleExamDemo\SampleExamDemo\obj\x86\Debug\SampleExamDemo.Form1.resources
+C:\Users\DuyDT\Desktop\C#\SampleExamDemo\SampleExamDemo\obj\x86\Debug\SampleExamDemo.Properties.Resources.resources
+C:\Users\DuyDT\Desktop\C#\SampleExamDemo\SampleExamDemo\obj\x86\Debug\SampleExamDemo.csproj.GenerateResource.Cache
+C:\Users\DuyDT\Desktop\C#\SampleExamDemo\SampleExamDemo\obj\x86\Debug\SampleExamDemo.exe
+C:\Users\DuyDT\Desktop\C#\SampleExamDemo\SampleExamDemo\obj\x86\Debug\SampleExamDemo.pdb
+C:\Users\DuyDT\Desktop\C#\SampleExamDemo\SampleExamDemo\obj\x86\Debug\SampleExamDemo.csprojResolveAssemblyReference.cache

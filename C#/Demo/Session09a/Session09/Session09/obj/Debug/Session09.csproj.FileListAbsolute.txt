@@ -1,0 +1,12 @@
+E:\practice\Programing\CLASS\kì 4\C#\Code\Session09\Session09\bin\Debug\Session09.exe
+E:\practice\Programing\CLASS\kì 4\C#\Code\Session09\Session09\bin\Debug\Session09.pdb
+E:\practice\Programing\CLASS\kì 4\C#\Code\Session09\Session09\obj\Debug\Session09.csprojResolveAssemblyReference.cache
+E:\practice\Programing\CLASS\kì 4\C#\Code\Session09\Session09\obj\Debug\Session09.Form1.resources
+E:\practice\Programing\CLASS\kì 4\C#\Code\Session09\Session09\obj\Debug\Session09.Properties.Resources.resources
+E:\practice\Programing\CLASS\kì 4\C#\Code\Session09\Session09\obj\Debug\Session09.csproj.GenerateResource.Cache
+E:\practice\Programing\CLASS\kì 4\C#\Code\Session09\Session09\obj\Debug\Session09.exe
+E:\practice\Programing\CLASS\kì 4\C#\Code\Session09\Session09\obj\Debug\Session09.pdb
+E:\practice\Programing\CLASS\kì 4\C#\Code\Session09\Session09\obj\Debug\Session09.Form2.resources
+E:\practice\Programing\CLASS\kì 4\C#\Code\Session09\Session09\obj\Debug\Session09.Form3.resources
+F:\AAA\Summer 2014\C#\Demo\Session09a\Session09\Session09\obj\Debug\Session09.exe
+F:\AAA\Summer 2014\C#\Demo\Session09a\Session09\Session09\obj\Debug\Session09.pdb

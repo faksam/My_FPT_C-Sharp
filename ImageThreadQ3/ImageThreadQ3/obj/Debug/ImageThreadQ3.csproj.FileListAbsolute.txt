@@ -1,0 +1,10 @@
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\ImageThreadQ3\ImageThreadQ3\bin\Debug\ImageThreadQ3.exe
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\ImageThreadQ3\ImageThreadQ3\bin\Debug\ImageThreadQ3.pdb
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\ImageThreadQ3\ImageThreadQ3\obj\Debug\ImageThreadQ3.csprojResolveAssemblyReference.cache
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\ImageThreadQ3\ImageThreadQ3\obj\Debug\ImageThreadQ3.Form1.resources
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\ImageThreadQ3\ImageThreadQ3\obj\Debug\ImageThreadQ3.Form2.resources
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\ImageThreadQ3\ImageThreadQ3\obj\Debug\ImageThreadQ3.Properties.Resources.resources
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\ImageThreadQ3\ImageThreadQ3\obj\Debug\ImageThreadQ3.csproj.GenerateResource.Cache
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\ImageThreadQ3\ImageThreadQ3\obj\Debug\ImageThreadQ3.exe
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\ImageThreadQ3\ImageThreadQ3\obj\Debug\ImageThreadQ3.pdb
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\ImageThreadQ3\ImageThreadQ3\obj\Debug\ImageThreadQ3.Form3.resources

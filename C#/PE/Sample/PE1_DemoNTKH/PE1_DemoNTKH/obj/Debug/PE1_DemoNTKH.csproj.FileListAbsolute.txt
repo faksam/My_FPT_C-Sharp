@@ -1,0 +1,7 @@
+F:\AAA\Summer 2014\C#\PE\Sample\PE1_DemoNTKH\PE1_DemoNTKH\bin\Debug\PE1_DemoNTKH.exe
+F:\AAA\Summer 2014\C#\PE\Sample\PE1_DemoNTKH\PE1_DemoNTKH\bin\Debug\PE1_DemoNTKH.pdb
+F:\AAA\Summer 2014\C#\PE\Sample\PE1_DemoNTKH\PE1_DemoNTKH\obj\Debug\PE1_DemoNTKH.Form1.resources
+F:\AAA\Summer 2014\C#\PE\Sample\PE1_DemoNTKH\PE1_DemoNTKH\obj\Debug\PE1_DemoNTKH.Properties.Resources.resources
+F:\AAA\Summer 2014\C#\PE\Sample\PE1_DemoNTKH\PE1_DemoNTKH\obj\Debug\PE1_DemoNTKH.csproj.GenerateResource.Cache
+F:\AAA\Summer 2014\C#\PE\Sample\PE1_DemoNTKH\PE1_DemoNTKH\obj\Debug\PE1_DemoNTKH.exe
+F:\AAA\Summer 2014\C#\PE\Sample\PE1_DemoNTKH\PE1_DemoNTKH\obj\Debug\PE1_DemoNTKH.pdb

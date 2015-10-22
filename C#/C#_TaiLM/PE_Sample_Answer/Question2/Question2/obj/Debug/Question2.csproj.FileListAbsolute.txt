@@ -1,0 +1,5 @@
+D:\TEST\CSharp\Question2\Question2\bin\Question2.dll
+D:\TEST\CSharp\Question2\Question2\bin\Question2.pdb
+D:\TEST\CSharp\Question2\Question2\obj\Debug\ResolveAssemblyReference.cache
+D:\TEST\CSharp\Question2\Question2\obj\Debug\Question2.dll
+D:\TEST\CSharp\Question2\Question2\obj\Debug\Question2.pdb

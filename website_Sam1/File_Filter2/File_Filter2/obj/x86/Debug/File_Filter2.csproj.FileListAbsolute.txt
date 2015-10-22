@@ -1,0 +1,7 @@
+c:\users\samuel columbus\documents\visual studio 2010\Projects\File_Filter2\File_Filter2\bin\Debug\File_Filter2.exe
+c:\users\samuel columbus\documents\visual studio 2010\Projects\File_Filter2\File_Filter2\bin\Debug\File_Filter2.pdb
+c:\users\samuel columbus\documents\visual studio 2010\Projects\File_Filter2\File_Filter2\obj\x86\Debug\File_Filter2.Form1.resources
+c:\users\samuel columbus\documents\visual studio 2010\Projects\File_Filter2\File_Filter2\obj\x86\Debug\File_Filter2.Properties.Resources.resources
+c:\users\samuel columbus\documents\visual studio 2010\Projects\File_Filter2\File_Filter2\obj\x86\Debug\File_Filter2.csproj.GenerateResource.Cache
+c:\users\samuel columbus\documents\visual studio 2010\Projects\File_Filter2\File_Filter2\obj\x86\Debug\File_Filter2.exe
+c:\users\samuel columbus\documents\visual studio 2010\Projects\File_Filter2\File_Filter2\obj\x86\Debug\File_Filter2.pdb

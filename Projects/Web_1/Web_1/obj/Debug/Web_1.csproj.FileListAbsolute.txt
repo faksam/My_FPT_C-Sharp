@@ -1,0 +1,9 @@
+c:\users\mr ibrahim akoji\documents\visual studio 2013\Projects\Web_1\Web_1\bin\Debug\Web_1.exe
+c:\users\mr ibrahim akoji\documents\visual studio 2013\Projects\Web_1\Web_1\bin\Debug\Web_1.pdb
+c:\users\mr ibrahim akoji\documents\visual studio 2013\Projects\Web_1\Web_1\obj\Debug\Web_1.csprojResolveAssemblyReference.cache
+c:\users\mr ibrahim akoji\documents\visual studio 2013\Projects\Web_1\Web_1\obj\Debug\Web_1.Form1.resources
+c:\users\mr ibrahim akoji\documents\visual studio 2013\Projects\Web_1\Web_1\obj\Debug\Web_1.Properties.Resources.resources
+c:\users\mr ibrahim akoji\documents\visual studio 2013\Projects\Web_1\Web_1\obj\Debug\Web_1.csproj.GenerateResource.Cache
+c:\users\mr ibrahim akoji\documents\visual studio 2013\Projects\Web_1\Web_1\obj\Debug\Web_1.exe
+c:\users\mr ibrahim akoji\documents\visual studio 2013\Projects\Web_1\Web_1\obj\Debug\Web_1.pdb
+c:\users\mr ibrahim akoji\documents\visual studio 2013\Projects\Web_1\Web_1\bin\Debug\Web_1.exe.config

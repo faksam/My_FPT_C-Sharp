@@ -1,0 +1,8 @@
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\MycollecetionsCaseStudy\MycollecetionsCaseStudy\bin\Debug\MycollecetionsCaseStudy.exe
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\MycollecetionsCaseStudy\MycollecetionsCaseStudy\bin\Debug\MycollecetionsCaseStudy.pdb
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\MycollecetionsCaseStudy\MycollecetionsCaseStudy\obj\Debug\MycollecetionsCaseStudy.csprojResolveAssemblyReference.cache
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\MycollecetionsCaseStudy\MycollecetionsCaseStudy\obj\Debug\MycollecetionsCaseStudy.Form1.resources
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\MycollecetionsCaseStudy\MycollecetionsCaseStudy\obj\Debug\MycollecetionsCaseStudy.Properties.Resources.resources
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\MycollecetionsCaseStudy\MycollecetionsCaseStudy\obj\Debug\MycollecetionsCaseStudy.csproj.GenerateResource.Cache
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\MycollecetionsCaseStudy\MycollecetionsCaseStudy\obj\Debug\MycollecetionsCaseStudy.exe
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\MycollecetionsCaseStudy\MycollecetionsCaseStudy\obj\Debug\MycollecetionsCaseStudy.pdb

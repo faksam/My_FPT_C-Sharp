@@ -1,0 +1,9 @@
+F:\AAA\Summer 2014\C#\Lab1\Lab1\bin\Debug\Lab1.exe.config
+F:\AAA\Summer 2014\C#\Lab1\Lab1\bin\Debug\Lab1.exe
+F:\AAA\Summer 2014\C#\Lab1\Lab1\bin\Debug\Lab1.pdb
+F:\AAA\Summer 2014\C#\Lab1\Lab1\obj\Debug\Lab1.csprojResolveAssemblyReference.cache
+F:\AAA\Summer 2014\C#\Lab1\Lab1\obj\Debug\Lab1.exe
+F:\AAA\Summer 2014\C#\Lab1\Lab1\obj\Debug\Lab1.pdb
+F:\AAA\Summer 2014\C#\Demo\Lab1\Lab1\bin\Debug\Lab1.exe.config
+F:\AAA\Summer 2014\C#\Demo\Lab1\Lab1\obj\Debug\Lab1.exe
+F:\AAA\Summer 2014\C#\Demo\Lab1\Lab1\obj\Debug\Lab1.pdb

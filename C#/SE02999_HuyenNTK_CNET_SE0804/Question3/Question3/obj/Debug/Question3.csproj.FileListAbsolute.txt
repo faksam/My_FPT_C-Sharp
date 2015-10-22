@@ -1,0 +1,5 @@
+C:\Users\HUYEN\Desktop\SE02999_HuyenNTK_CNET_SE0804\Question3\Question3\bin\Question3.dll
+C:\Users\HUYEN\Desktop\SE02999_HuyenNTK_CNET_SE0804\Question3\Question3\bin\Question3.pdb
+C:\Users\HUYEN\Desktop\SE02999_HuyenNTK_CNET_SE0804\Question3\Question3\obj\Debug\Question3.csprojResolveAssemblyReference.cache
+C:\Users\HUYEN\Desktop\SE02999_HuyenNTK_CNET_SE0804\Question3\Question3\obj\Debug\Question3.dll
+C:\Users\HUYEN\Desktop\SE02999_HuyenNTK_CNET_SE0804\Question3\Question3\obj\Debug\Question3.pdb

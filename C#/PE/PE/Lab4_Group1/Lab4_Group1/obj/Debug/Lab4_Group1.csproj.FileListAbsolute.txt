@@ -1,0 +1,9 @@
+C:\Users\Linh Nguyen\Documents\Visual Studio 2010\Projects\Lab4_Group1\Lab4_Group1\bin\Lab4_Group3.dll
+C:\Users\Linh Nguyen\Documents\Visual Studio 2010\Projects\Lab4_Group1\Lab4_Group1\bin\Lab4_Group3.pdb
+C:\Users\Linh Nguyen\Documents\Visual Studio 2010\Projects\Lab4_Group1\Lab4_Group1\obj\Debug\Lab4_Group3.dll
+C:\Users\Linh Nguyen\Documents\Visual Studio 2010\Projects\Lab4_Group1\Lab4_Group1\obj\Debug\Lab4_Group3.pdb
+F:\Hoc tap\Ki4\C#.Net\PE\Lab4_Group1\Lab4_Group1\bin\Lab4_Group3.dll
+F:\Hoc tap\Ki4\C#.Net\PE\Lab4_Group1\Lab4_Group1\bin\Lab4_Group3.pdb
+F:\Hoc tap\Ki4\C#.Net\PE\Lab4_Group1\Lab4_Group1\obj\Debug\Lab4_Group3.dll
+F:\Hoc tap\Ki4\C#.Net\PE\Lab4_Group1\Lab4_Group1\obj\Debug\Lab4_Group3.pdb
+F:\Hoc tap\Ki4\C#.Net\PE\Lab4_Group1\Lab4_Group1\obj\Debug\Lab4_Group1.csprojResolveAssemblyReference.cache

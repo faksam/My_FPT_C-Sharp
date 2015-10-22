@@ -1,0 +1,4 @@
+C:\Users\DuyDT\Desktop\C#\SamplePrjDemo\PrjEntities\bin\Debug\PrjEntities.dll
+C:\Users\DuyDT\Desktop\C#\SamplePrjDemo\PrjEntities\bin\Debug\PrjEntities.pdb
+C:\Users\DuyDT\Desktop\C#\SamplePrjDemo\PrjEntities\obj\Debug\PrjEntities.dll
+C:\Users\DuyDT\Desktop\C#\SamplePrjDemo\PrjEntities\obj\Debug\PrjEntities.pdb

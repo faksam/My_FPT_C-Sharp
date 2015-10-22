@@ -1,0 +1,59 @@
+E:\FPT University\Programing-C#\Exercise\Question Bank 2\GUI\bin\Debug\GUI.exe
+E:\FPT University\Programing-C#\Exercise\Question Bank 2\GUI\bin\Debug\GUI.pdb
+E:\FPT University\Programing-C#\Exercise\Question Bank 2\GUI\bin\Debug\QuestionBankLibrary.dll
+E:\FPT University\Programing-C#\Exercise\Question Bank 2\GUI\bin\Debug\QuestionBankLibrary.pdb
+E:\FPT University\Programing-C#\Exercise\Question Bank 2\GUI\obj\x86\Debug\GUI.csprojResolveAssemblyReference.cache
+E:\FPT University\Programing-C#\Exercise\Question Bank 2\GUI\obj\x86\Debug\GUI.Form_QuestionManagement.resources
+E:\FPT University\Programing-C#\Exercise\Question Bank 2\GUI\obj\x86\Debug\GUI.Form_CreatTest.resources
+E:\FPT University\Programing-C#\Exercise\Question Bank 2\GUI\obj\x86\Debug\GUI.Form_MainMDI.resources
+E:\FPT University\Programing-C#\Exercise\Question Bank 2\GUI\obj\x86\Debug\GUI.Form_TopicManagement.resources
+E:\FPT University\Programing-C#\Exercise\Question Bank 2\GUI\obj\x86\Debug\GUI.Properties.Resources.resources
+E:\FPT University\Programing-C#\Exercise\Question Bank 2\GUI\obj\x86\Debug\GUI.csproj.GenerateResource.Cache
+E:\FPT University\Programing-C#\Exercise\Question Bank 2\GUI\obj\x86\Debug\GUI.exe
+E:\FPT University\Programing-C#\Exercise\Question Bank 2\GUI\obj\x86\Debug\GUI.pdb
+C:\Users\Public\Documents\Question Bank 2\GUI\obj\x86\Debug\GUI.exe
+C:\Users\Public\Documents\Question Bank 2\GUI\obj\x86\Debug\GUI.pdb
+C:\Users\Public\Documents\Question Bank 2\GUI\bin\Debug\GUI.exe
+C:\Users\Public\Documents\Question Bank 2\GUI\bin\Debug\GUI.pdb
+C:\Users\Public\Documents\Question Bank 2\GUI\bin\Debug\QuestionBankLibrary.dll
+C:\Users\Public\Documents\Question Bank 2\GUI\bin\Debug\QuestionBankLibrary.pdb
+C:\Users\Public\Documents\Question Bank 2\GUI\obj\x86\Debug\GUI.csprojResolveAssemblyReference.cache
+C:\Users\Public\Documents\Question Bank 2\GUI\obj\x86\Debug\GUI.Form_QuestionManagement.resources
+C:\Users\Public\Documents\Question Bank 2\GUI\obj\x86\Debug\GUI.Form_CreatTest.resources
+C:\Users\Public\Documents\Question Bank 2\GUI\obj\x86\Debug\GUI.Form_MainMDI.resources
+C:\Users\Public\Documents\Question Bank 2\GUI\obj\x86\Debug\GUI.Form_TopicManagement.resources
+C:\Users\Public\Documents\Question Bank 2\GUI\obj\x86\Debug\GUI.Properties.Resources.resources
+C:\Users\Public\Documents\Question Bank 2\GUI\obj\x86\Debug\GUI.csproj.GenerateResource.Cache
+D:\Users\Public\Documents\Question Bank 2\GUI\obj\x86\Debug\GUI.exe
+D:\Users\Public\Documents\Question Bank 2\GUI\obj\x86\Debug\GUI.pdb
+C:\Users\LK\Documents\Visual Studio 2013\Projects\Question Bank 2\GUI\obj\x86\Debug\GUI.exe
+C:\Users\LK\Documents\Visual Studio 2013\Projects\Question Bank 2\GUI\obj\x86\Debug\GUI.pdb
+C:\Users\LK\Documents\Visual Studio 2013\Projects\Question Bank 2\GUI\obj\x86\Debug\GUI.csprojResolveAssemblyReference.cache
+C:\Users\LK\Documents\Visual Studio 2013\Projects\Question Bank 2\GUI\obj\x86\Debug\GUI.Form_QuestionManagement.resources
+C:\Users\LK\Documents\Visual Studio 2013\Projects\Question Bank 2\GUI\obj\x86\Debug\GUI.Form_MainMDI.resources
+C:\Users\LK\Documents\Visual Studio 2013\Projects\Question Bank 2\GUI\obj\x86\Debug\GUI.Form_TopicManagement.resources
+C:\Users\LK\Documents\Visual Studio 2013\Projects\Question Bank 2\GUI\obj\x86\Debug\GUI.Properties.Resources.resources
+C:\Users\LK\Documents\Visual Studio 2013\Projects\Question Bank 2\GUI\obj\x86\Debug\GUI.csproj.GenerateResource.Cache
+C:\Users\LK\Documents\Visual Studio 2013\Projects\Question Bank 2\GUI\bin\Debug\GUI.exe.config
+C:\Users\LK\Documents\Visual Studio 2013\Projects\Question Bank 2\GUI\bin\Debug\GUI.exe
+C:\Users\LK\Documents\Visual Studio 2013\Projects\Question Bank 2\GUI\bin\Debug\GUI.pdb
+C:\Users\LK\Documents\Visual Studio 2013\Projects\Question Bank 2\GUI\bin\Debug\QuestionBankLibrary.dll
+C:\Users\LK\Documents\Visual Studio 2013\Projects\Question Bank 2\GUI\bin\Debug\QuestionBankLibrary.pdb
+C:\Users\LK\Documents\Visual Studio 2013\Projects\Question Bank 2\GUI\obj\x86\Debug\GUI.Form_CreateTest.resources
+D:\Users\LK\Documents\Visual Studio 2013\Projects\Question Bank 2\GUI\bin\Debug\GUI.exe.config
+D:\Users\LK\Documents\Visual Studio 2013\Projects\Question Bank 2\GUI\obj\x86\Debug\GUI.exe
+D:\Users\LK\Documents\Visual Studio 2013\Projects\Question Bank 2\GUI\obj\x86\Debug\GUI.pdb
+C:\Users\Samuel columbus\Documents\Visual Studio 2010\Projects\Question Bank 2\GUI\bin\Debug\GUI.exe.config
+C:\Users\Samuel columbus\Documents\Visual Studio 2010\Projects\Question Bank 2\GUI\obj\x86\Debug\GUI.exe
+C:\Users\Samuel columbus\Documents\Visual Studio 2010\Projects\Question Bank 2\GUI\obj\x86\Debug\GUI.pdb
+C:\Users\Samuel columbus\Documents\Visual Studio 2010\Projects\Question Bank 2\GUI\bin\Debug\GUI.exe
+C:\Users\Samuel columbus\Documents\Visual Studio 2010\Projects\Question Bank 2\GUI\bin\Debug\GUI.pdb
+C:\Users\Samuel columbus\Documents\Visual Studio 2010\Projects\Question Bank 2\GUI\bin\Debug\QuestionBankLibrary.dll
+C:\Users\Samuel columbus\Documents\Visual Studio 2010\Projects\Question Bank 2\GUI\bin\Debug\QuestionBankLibrary.pdb
+C:\Users\Samuel columbus\Documents\Visual Studio 2010\Projects\Question Bank 2\GUI\obj\x86\Debug\GUI.csprojResolveAssemblyReference.cache
+C:\Users\Samuel columbus\Documents\Visual Studio 2010\Projects\Question Bank 2\GUI\obj\x86\Debug\GUI.Form_QuestionManagement.resources
+C:\Users\Samuel columbus\Documents\Visual Studio 2010\Projects\Question Bank 2\GUI\obj\x86\Debug\GUI.Form_CreateTest.resources
+C:\Users\Samuel columbus\Documents\Visual Studio 2010\Projects\Question Bank 2\GUI\obj\x86\Debug\GUI.Form_MainMDI.resources
+C:\Users\Samuel columbus\Documents\Visual Studio 2010\Projects\Question Bank 2\GUI\obj\x86\Debug\GUI.Form_TopicManagement.resources
+C:\Users\Samuel columbus\Documents\Visual Studio 2010\Projects\Question Bank 2\GUI\obj\x86\Debug\GUI.Properties.Resources.resources
+C:\Users\Samuel columbus\Documents\Visual Studio 2010\Projects\Question Bank 2\GUI\obj\x86\Debug\GUI.csproj.GenerateResource.Cache

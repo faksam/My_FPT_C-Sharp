@@ -1,0 +1,15 @@
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\MyProject_1\MyProject_1\bin\Debug\MyProject_1.exe
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\MyProject_1\MyProject_1\bin\Debug\MyProject_1.pdb
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\MyProject_1\MyProject_1\obj\Debug\MyProject_1.csprojResolveAssemblyReference.cache
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\MyProject_1\MyProject_1\obj\Debug\MyProject_1.AddClass.resources
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\MyProject_1\MyProject_1\obj\Debug\MyProject_1.Form1.resources
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\MyProject_1\MyProject_1\obj\Debug\MyProject_1.Properties.Resources.resources
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\MyProject_1\MyProject_1\obj\Debug\MyProject_1.csproj.GenerateResource.Cache
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\MyProject_1\MyProject_1\obj\Debug\MyProject_1.exe
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\MyProject_1\MyProject_1\obj\Debug\MyProject_1.pdb
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\MyProject_1\MyProject_1\obj\Debug\MyProject_1.AddSemester.resources
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\MyProject_1\MyProject_1\obj\Debug\MyProject_1.AddStudent.resources
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\MyProject_1\MyProject_1\obj\Debug\MyProject_1.AddStudentClass.resources
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\MyProject_1\MyProject_1\obj\Debug\MyProject_1.FilterStudent.resources
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\MyProject_1\MyProject_1\obj\Debug\MyProject_1.UpdateStudentStatus.resources
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\MyProject_1\MyProject_1\bin\Debug\MyProject_1.exe.config

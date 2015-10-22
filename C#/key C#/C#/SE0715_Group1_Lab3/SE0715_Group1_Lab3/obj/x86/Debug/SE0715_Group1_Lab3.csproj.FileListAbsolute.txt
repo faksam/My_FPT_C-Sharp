@@ -1,0 +1,97 @@
+c:\users\baopham\documents\visual studio 2010\Projects\SE0715_Group1_Lab3\SE0715_Group1_Lab3\bin\Debug\SE0715_Group1_Lab3.exe
+c:\users\baopham\documents\visual studio 2010\Projects\SE0715_Group1_Lab3\SE0715_Group1_Lab3\bin\Debug\SE0715_Group1_Lab3.pdb
+c:\users\baopham\documents\visual studio 2010\Projects\SE0715_Group1_Lab3\SE0715_Group1_Lab3\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\baopham\documents\visual studio 2010\Projects\SE0715_Group1_Lab3\SE0715_Group1_Lab3\obj\x86\Debug\SE0715_Group1_Lab3.Form1.resources
+c:\users\baopham\documents\visual studio 2010\Projects\SE0715_Group1_Lab3\SE0715_Group1_Lab3\obj\x86\Debug\SE0715_Group1_Lab3.Properties.Resources.resources
+c:\users\baopham\documents\visual studio 2010\Projects\SE0715_Group1_Lab3\SE0715_Group1_Lab3\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\baopham\documents\visual studio 2010\Projects\SE0715_Group1_Lab3\SE0715_Group1_Lab3\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\baopham\documents\visual studio 2010\Projects\SE0715_Group1_Lab3\SE0715_Group1_Lab3\obj\x86\Debug\SE0715_Group1_Lab3.exe
+c:\users\baopham\documents\visual studio 2010\Projects\SE0715_Group1_Lab3\SE0715_Group1_Lab3\obj\x86\Debug\SE0715_Group1_Lab3.pdb
+C:\Users\BaoPham\Documents\Visual Studio 2010\Projects\SE0715_Group1_Lab3\SE0715_Group1_Lab3\obj\x86\Debug\SE0715_Group1_Lab3.BookUI.resources
+C:\Users\BaoPham\Documents\Visual Studio 2010\Projects\SE0715_Group1_Lab3\SE0715_Group1_Lab3\obj\x86\Debug\SE0715_Group1_Lab3.MemberUI.resources
+C:\Users\BaoPham\Documents\Visual Studio 2010\Projects\SE0715_Group1_Lab3\SE0715_Group1_Lab3\obj\x86\Debug\SE0715_Group1_Lab3.BorrowUI.resources
+C:\Users\BaoPham\Documents\Visual Studio 2010\Projects\SE0715_Group1_Lab3\SE0715_Group1_Lab3\obj\x86\Debug\SE0715_Group1_Lab3.ReserveUI.resources
+C:\Users\BaoPham\Documents\Visual Studio 2010\Projects\SE0715_Group1_Lab3\SE0715_Group1_Lab3\obj\x86\Debug\SE0715_Group1_Lab3.ReturnUI.resources
+D:\Learning\C#\SE0715_Group1_Lab3\SE0715_Group1_Lab3\obj\x86\Debug\SE0715_Group1_Lab3.exe
+D:\Learning\C#\SE0715_Group1_Lab3\SE0715_Group1_Lab3\obj\x86\Debug\SE0715_Group1_Lab3.pdb
+D:\Learning\C#\SE0715_Group1_Lab3\SE0715_Group1_Lab3\bin\Debug\SE0715_Group1_Lab3.exe
+D:\Learning\C#\SE0715_Group1_Lab3\SE0715_Group1_Lab3\bin\Debug\SE0715_Group1_Lab3.pdb
+D:\Learning\C#\SE0715_Group1_Lab3\SE0715_Group1_Lab3\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Learning\C#\SE0715_Group1_Lab3\SE0715_Group1_Lab3\obj\x86\Debug\SE0715_Group1_Lab3.BookUI.resources
+D:\Learning\C#\SE0715_Group1_Lab3\SE0715_Group1_Lab3\obj\x86\Debug\SE0715_Group1_Lab3.BorrowUI.resources
+D:\Learning\C#\SE0715_Group1_Lab3\SE0715_Group1_Lab3\obj\x86\Debug\SE0715_Group1_Lab3.Form1.resources
+D:\Learning\C#\SE0715_Group1_Lab3\SE0715_Group1_Lab3\obj\x86\Debug\SE0715_Group1_Lab3.MemberUI.resources
+D:\Learning\C#\SE0715_Group1_Lab3\SE0715_Group1_Lab3\obj\x86\Debug\SE0715_Group1_Lab3.Properties.Resources.resources
+D:\Learning\C#\SE0715_Group1_Lab3\SE0715_Group1_Lab3\obj\x86\Debug\SE0715_Group1_Lab3.ReserveUI.resources
+D:\Learning\C#\SE0715_Group1_Lab3\SE0715_Group1_Lab3\obj\x86\Debug\SE0715_Group1_Lab3.ReturnUI.resources
+D:\Learning\C#\SE0715_Group1_Lab3\SE0715_Group1_Lab3\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Learning\C#\SE0715_Group1_Lab3\SE0715_Group1_Lab3\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\BaoPham\Downloads\Compressed\SE0715_Group1_Lab3_TrungvnVersion\SE0715_Group1_Lab3_TrungvnVersion\SE0715_Group1_Lab3\obj\x86\Debug\SE0715_Group1_Lab3.exe
+C:\Users\BaoPham\Downloads\Compressed\SE0715_Group1_Lab3_TrungvnVersion\SE0715_Group1_Lab3_TrungvnVersion\SE0715_Group1_Lab3\obj\x86\Debug\SE0715_Group1_Lab3.pdb
+C:\Users\BaoPham\Downloads\Compressed\SE0715_Group1_Lab3_TrungvnVersion\SE0715_Group1_Lab3_TrungvnVersion\SE0715_Group1_Lab3\bin\Debug\SE0715_Group1_Lab3.exe
+C:\Users\BaoPham\Downloads\Compressed\SE0715_Group1_Lab3_TrungvnVersion\SE0715_Group1_Lab3_TrungvnVersion\SE0715_Group1_Lab3\bin\Debug\SE0715_Group1_Lab3.pdb
+C:\Users\BaoPham\Downloads\Compressed\SE0715_Group1_Lab3_TrungvnVersion\SE0715_Group1_Lab3_TrungvnVersion\SE0715_Group1_Lab3\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\BaoPham\Downloads\Compressed\SE0715_Group1_Lab3_TrungvnVersion\SE0715_Group1_Lab3_TrungvnVersion\SE0715_Group1_Lab3\obj\x86\Debug\SE0715_Group1_Lab3.BookUI.resources
+C:\Users\BaoPham\Downloads\Compressed\SE0715_Group1_Lab3_TrungvnVersion\SE0715_Group1_Lab3_TrungvnVersion\SE0715_Group1_Lab3\obj\x86\Debug\SE0715_Group1_Lab3.BorrowUI.resources
+C:\Users\BaoPham\Downloads\Compressed\SE0715_Group1_Lab3_TrungvnVersion\SE0715_Group1_Lab3_TrungvnVersion\SE0715_Group1_Lab3\obj\x86\Debug\SE0715_Group1_Lab3.Form1.resources
+C:\Users\BaoPham\Downloads\Compressed\SE0715_Group1_Lab3_TrungvnVersion\SE0715_Group1_Lab3_TrungvnVersion\SE0715_Group1_Lab3\obj\x86\Debug\SE0715_Group1_Lab3.MemberUI.resources
+C:\Users\BaoPham\Downloads\Compressed\SE0715_Group1_Lab3_TrungvnVersion\SE0715_Group1_Lab3_TrungvnVersion\SE0715_Group1_Lab3\obj\x86\Debug\SE0715_Group1_Lab3.Properties.Resources.resources
+C:\Users\BaoPham\Downloads\Compressed\SE0715_Group1_Lab3_TrungvnVersion\SE0715_Group1_Lab3_TrungvnVersion\SE0715_Group1_Lab3\obj\x86\Debug\SE0715_Group1_Lab3.ReserveUI.resources
+C:\Users\BaoPham\Downloads\Compressed\SE0715_Group1_Lab3_TrungvnVersion\SE0715_Group1_Lab3_TrungvnVersion\SE0715_Group1_Lab3\obj\x86\Debug\SE0715_Group1_Lab3.ReturnUI.resources
+C:\Users\BaoPham\Downloads\Compressed\SE0715_Group1_Lab3_TrungvnVersion\SE0715_Group1_Lab3_TrungvnVersion\SE0715_Group1_Lab3\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\BaoPham\Downloads\Compressed\SE0715_Group1_Lab3_TrungvnVersion\SE0715_Group1_Lab3_TrungvnVersion\SE0715_Group1_Lab3\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\SDK\Downloads\SE0715_Group1_Lab3_Book&Member\SE0715_Group1_Lab3\obj\x86\Debug\SE0715_Group1_Lab3.exe
+C:\Users\SDK\Downloads\SE0715_Group1_Lab3_Book&Member\SE0715_Group1_Lab3\obj\x86\Debug\SE0715_Group1_Lab3.pdb
+C:\Users\SDK\Downloads\SE0715_Group1_Lab3_Book&Member\SE0715_Group1_Lab3\bin\Debug\SE0715_Group1_Lab3.exe
+C:\Users\SDK\Downloads\SE0715_Group1_Lab3_Book&Member\SE0715_Group1_Lab3\bin\Debug\SE0715_Group1_Lab3.pdb
+C:\Users\SDK\Downloads\SE0715_Group1_Lab3_Book&Member\SE0715_Group1_Lab3\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\SDK\Downloads\SE0715_Group1_Lab3_Book&Member\SE0715_Group1_Lab3\obj\x86\Debug\SE0715_Group1_Lab3.BookUI.resources
+C:\Users\SDK\Downloads\SE0715_Group1_Lab3_Book&Member\SE0715_Group1_Lab3\obj\x86\Debug\SE0715_Group1_Lab3.BorrowUI.resources
+C:\Users\SDK\Downloads\SE0715_Group1_Lab3_Book&Member\SE0715_Group1_Lab3\obj\x86\Debug\SE0715_Group1_Lab3.Form1.resources
+C:\Users\SDK\Downloads\SE0715_Group1_Lab3_Book&Member\SE0715_Group1_Lab3\obj\x86\Debug\SE0715_Group1_Lab3.MemberUI.resources
+C:\Users\SDK\Downloads\SE0715_Group1_Lab3_Book&Member\SE0715_Group1_Lab3\obj\x86\Debug\SE0715_Group1_Lab3.Properties.Resources.resources
+C:\Users\SDK\Downloads\SE0715_Group1_Lab3_Book&Member\SE0715_Group1_Lab3\obj\x86\Debug\SE0715_Group1_Lab3.ReserveUI.resources
+C:\Users\SDK\Downloads\SE0715_Group1_Lab3_Book&Member\SE0715_Group1_Lab3\obj\x86\Debug\SE0715_Group1_Lab3.ReturnUI.resources
+C:\Users\SDK\Downloads\SE0715_Group1_Lab3_Book&Member\SE0715_Group1_Lab3\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\SDK\Downloads\SE0715_Group1_Lab3_Book&Member\SE0715_Group1_Lab3\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\SDK\Desktop\SE0715_Group1_Lab3\SE0715_Group1_Lab3\obj\x86\Debug\SE0715_Group1_Lab3.exe
+C:\Users\SDK\Desktop\SE0715_Group1_Lab3\SE0715_Group1_Lab3\obj\x86\Debug\SE0715_Group1_Lab3.pdb
+C:\Users\SDK\Desktop\SE0715_Group1_Lab3\SE0715_Group1_Lab3\bin\Debug\SE0715_Group1_Lab3.exe
+C:\Users\SDK\Desktop\SE0715_Group1_Lab3\SE0715_Group1_Lab3\bin\Debug\SE0715_Group1_Lab3.pdb
+C:\Users\SDK\Desktop\SE0715_Group1_Lab3\SE0715_Group1_Lab3\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\SDK\Desktop\SE0715_Group1_Lab3\SE0715_Group1_Lab3\obj\x86\Debug\SE0715_Group1_Lab3.BookUI.resources
+C:\Users\SDK\Desktop\SE0715_Group1_Lab3\SE0715_Group1_Lab3\obj\x86\Debug\SE0715_Group1_Lab3.BorrowUI.resources
+C:\Users\SDK\Desktop\SE0715_Group1_Lab3\SE0715_Group1_Lab3\obj\x86\Debug\SE0715_Group1_Lab3.Form1.resources
+C:\Users\SDK\Desktop\SE0715_Group1_Lab3\SE0715_Group1_Lab3\obj\x86\Debug\SE0715_Group1_Lab3.MemberUI.resources
+C:\Users\SDK\Desktop\SE0715_Group1_Lab3\SE0715_Group1_Lab3\obj\x86\Debug\SE0715_Group1_Lab3.Properties.Resources.resources
+C:\Users\SDK\Desktop\SE0715_Group1_Lab3\SE0715_Group1_Lab3\obj\x86\Debug\SE0715_Group1_Lab3.ReserveUI.resources
+C:\Users\SDK\Desktop\SE0715_Group1_Lab3\SE0715_Group1_Lab3\obj\x86\Debug\SE0715_Group1_Lab3.ReturnUI.resources
+C:\Users\SDK\Desktop\SE0715_Group1_Lab3\SE0715_Group1_Lab3\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\SDK\Desktop\SE0715_Group1_Lab3\SE0715_Group1_Lab3\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Trung Tru Tri\Desktop\SE0715_Group1_Lab3\SE0715_Group1_Lab3\obj\x86\Debug\SE0715_Group1_Lab3.exe
+C:\Users\Trung Tru Tri\Desktop\SE0715_Group1_Lab3\SE0715_Group1_Lab3\obj\x86\Debug\SE0715_Group1_Lab3.pdb
+C:\Users\Trung Tru Tri\Desktop\SE0715_Group1_Lab3\SE0715_Group1_Lab3\bin\Debug\SE0715_Group1_Lab3.exe
+C:\Users\Trung Tru Tri\Desktop\SE0715_Group1_Lab3\SE0715_Group1_Lab3\bin\Debug\SE0715_Group1_Lab3.pdb
+C:\Users\Trung Tru Tri\Desktop\SE0715_Group1_Lab3\SE0715_Group1_Lab3\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Trung Tru Tri\Desktop\SE0715_Group1_Lab3\SE0715_Group1_Lab3\obj\x86\Debug\SE0715_Group1_Lab3.BookUI.resources
+C:\Users\Trung Tru Tri\Desktop\SE0715_Group1_Lab3\SE0715_Group1_Lab3\obj\x86\Debug\SE0715_Group1_Lab3.BorrowUI.resources
+C:\Users\Trung Tru Tri\Desktop\SE0715_Group1_Lab3\SE0715_Group1_Lab3\obj\x86\Debug\SE0715_Group1_Lab3.Form1.resources
+C:\Users\Trung Tru Tri\Desktop\SE0715_Group1_Lab3\SE0715_Group1_Lab3\obj\x86\Debug\SE0715_Group1_Lab3.MemberUI.resources
+C:\Users\Trung Tru Tri\Desktop\SE0715_Group1_Lab3\SE0715_Group1_Lab3\obj\x86\Debug\SE0715_Group1_Lab3.Properties.Resources.resources
+C:\Users\Trung Tru Tri\Desktop\SE0715_Group1_Lab3\SE0715_Group1_Lab3\obj\x86\Debug\SE0715_Group1_Lab3.ReserveUI.resources
+C:\Users\Trung Tru Tri\Desktop\SE0715_Group1_Lab3\SE0715_Group1_Lab3\obj\x86\Debug\SE0715_Group1_Lab3.ReturnUI.resources
+C:\Users\Trung Tru Tri\Desktop\SE0715_Group1_Lab3\SE0715_Group1_Lab3\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Trung Tru Tri\Desktop\SE0715_Group1_Lab3\SE0715_Group1_Lab3\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\GAG\Desktop\SE0715_Group1_Lab3\SE0715_Group1_Lab3\obj\x86\Debug\SE0715_Group1_Lab3.exe
+C:\Users\GAG\Desktop\SE0715_Group1_Lab3\SE0715_Group1_Lab3\obj\x86\Debug\SE0715_Group1_Lab3.pdb
+C:\Users\GAG\Desktop\SE0715_Group1_Lab3\SE0715_Group1_Lab3\bin\Debug\SE0715_Group1_Lab3.exe
+C:\Users\GAG\Desktop\SE0715_Group1_Lab3\SE0715_Group1_Lab3\bin\Debug\SE0715_Group1_Lab3.pdb
+C:\Users\GAG\Desktop\SE0715_Group1_Lab3\SE0715_Group1_Lab3\obj\x86\Debug\SE0715_Group1_Lab3.BookUI.resources
+C:\Users\GAG\Desktop\SE0715_Group1_Lab3\SE0715_Group1_Lab3\obj\x86\Debug\SE0715_Group1_Lab3.BorrowUI.resources
+C:\Users\GAG\Desktop\SE0715_Group1_Lab3\SE0715_Group1_Lab3\obj\x86\Debug\SE0715_Group1_Lab3.Form1.resources
+C:\Users\GAG\Desktop\SE0715_Group1_Lab3\SE0715_Group1_Lab3\obj\x86\Debug\SE0715_Group1_Lab3.MemberUI.resources
+C:\Users\GAG\Desktop\SE0715_Group1_Lab3\SE0715_Group1_Lab3\obj\x86\Debug\SE0715_Group1_Lab3.Properties.Resources.resources
+C:\Users\GAG\Desktop\SE0715_Group1_Lab3\SE0715_Group1_Lab3\obj\x86\Debug\SE0715_Group1_Lab3.ReserveUI.resources
+C:\Users\GAG\Desktop\SE0715_Group1_Lab3\SE0715_Group1_Lab3\obj\x86\Debug\SE0715_Group1_Lab3.ReturnUI.resources
+C:\Users\GAG\Desktop\SE0715_Group1_Lab3\SE0715_Group1_Lab3\obj\x86\Debug\SE0715_Group1_Lab3.csproj.GenerateResource.Cache
+C:\Users\GAG\Desktop\SE0715_Group1_Lab3\SE0715_Group1_Lab3\obj\x86\Debug\SE0715_Group1_Lab3.csprojResolveAssemblyReference.cache

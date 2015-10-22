@@ -1,0 +1,5 @@
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\DirectorySample\DirectorySample\bin\Debug\DirectorySample.exe
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\DirectorySample\DirectorySample\bin\Debug\DirectorySample.pdb
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\DirectorySample\DirectorySample\obj\Debug\DirectorySample.csprojResolveAssemblyReference.cache
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\DirectorySample\DirectorySample\obj\Debug\DirectorySample.exe
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\DirectorySample\DirectorySample\obj\Debug\DirectorySample.pdb

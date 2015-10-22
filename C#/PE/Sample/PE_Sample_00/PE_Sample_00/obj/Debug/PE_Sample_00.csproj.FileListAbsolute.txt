@@ -1,0 +1,9 @@
+F:\AAA\Summer 2014\C#\PE\PE_Sample_00\PE_Sample_00\obj\Debug\PE_Sample_00.Form1.resources
+F:\AAA\Summer 2014\C#\PE\PE_Sample_00\PE_Sample_00\obj\Debug\PE_Sample_00.Properties.Resources.resources
+F:\AAA\Summer 2014\C#\PE\PE_Sample_00\PE_Sample_00\obj\Debug\PE_Sample_00.csproj.GenerateResource.Cache
+F:\AAA\Summer 2014\C#\PE\PE_Sample_00\PE_Sample_00\bin\Debug\PE_Sample_00.exe
+F:\AAA\Summer 2014\C#\PE\PE_Sample_00\PE_Sample_00\bin\Debug\PE_Sample_00.pdb
+F:\AAA\Summer 2014\C#\PE\PE_Sample_00\PE_Sample_00\obj\Debug\PE_Sample_00.exe
+F:\AAA\Summer 2014\C#\PE\PE_Sample_00\PE_Sample_00\obj\Debug\PE_Sample_00.pdb
+F:\AAA\Summer 2014\C#\PE\Sample\PE_Sample_00\PE_Sample_00\obj\Debug\PE_Sample_00.exe
+F:\AAA\Summer 2014\C#\PE\Sample\PE_Sample_00\PE_Sample_00\obj\Debug\PE_Sample_00.pdb

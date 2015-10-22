@@ -1,0 +1,10 @@
+D:\TEST\CSharp\Lab4_Group4\Lab4_Group4\bin\Lab4_Group4.dll
+D:\TEST\CSharp\Lab4_Group4\Lab4_Group4\bin\Lab4_Group4.pdb
+D:\TEST\CSharp\Lab4_Group4\Lab4_Group4\obj\Debug\ResolveAssemblyReference.cache
+D:\TEST\CSharp\Lab4_Group4\Lab4_Group4\obj\Debug\Lab4_Group4.dll
+D:\TEST\CSharp\Lab4_Group4\Lab4_Group4\obj\Debug\Lab4_Group4.pdb
+D:\STUDY\Course_4\C#.NET\Lab\Lab4\Lab4_Group4\Lab4_Group4\bin\Lab4_Group4.dll
+D:\STUDY\Course_4\C#.NET\Lab\Lab4\Lab4_Group4\Lab4_Group4\bin\Lab4_Group4.pdb
+D:\STUDY\Course_4\C#.NET\Lab\Lab4\Lab4_Group4\Lab4_Group4\obj\Debug\ResolveAssemblyReference.cache
+D:\STUDY\Course_4\C#.NET\Lab\Lab4\Lab4_Group4\Lab4_Group4\obj\Debug\Lab4_Group4.dll
+D:\STUDY\Course_4\C#.NET\Lab\Lab4\Lab4_Group4\Lab4_Group4\obj\Debug\Lab4_Group4.pdb

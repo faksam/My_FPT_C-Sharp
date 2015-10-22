@@ -1,0 +1,5 @@
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\FileWatcherSample\FileWatcherSample\bin\Debug\FileWatcherSample.exe
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\FileWatcherSample\FileWatcherSample\bin\Debug\FileWatcherSample.pdb
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\FileWatcherSample\FileWatcherSample\obj\Debug\FileWatcherSample.csprojResolveAssemblyReference.cache
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\FileWatcherSample\FileWatcherSample\obj\Debug\FileWatcherSample.exe
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\FileWatcherSample\FileWatcherSample\obj\Debug\FileWatcherSample.pdb

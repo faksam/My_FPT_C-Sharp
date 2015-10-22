@@ -1,0 +1,15 @@
+C:\Users\DuyDT\Desktop\C#\SamplePrjDemo\SamplePrjDemo\bin\Debug\SamplePrjDemo.exe
+C:\Users\DuyDT\Desktop\C#\SamplePrjDemo\SamplePrjDemo\bin\Debug\SamplePrjDemo.pdb
+C:\Users\DuyDT\Desktop\C#\SamplePrjDemo\SamplePrjDemo\bin\Debug\PrjBLL.dll
+C:\Users\DuyDT\Desktop\C#\SamplePrjDemo\SamplePrjDemo\bin\Debug\PrjEntities.dll
+C:\Users\DuyDT\Desktop\C#\SamplePrjDemo\SamplePrjDemo\bin\Debug\PrjDAL.dll
+C:\Users\DuyDT\Desktop\C#\SamplePrjDemo\SamplePrjDemo\bin\Debug\PrjBLL.pdb
+C:\Users\DuyDT\Desktop\C#\SamplePrjDemo\SamplePrjDemo\bin\Debug\PrjEntities.pdb
+C:\Users\DuyDT\Desktop\C#\SamplePrjDemo\SamplePrjDemo\bin\Debug\PrjDAL.pdb
+C:\Users\DuyDT\Desktop\C#\SamplePrjDemo\SamplePrjDemo\obj\x86\Debug\SamplePrjDemo.csprojResolveAssemblyReference.cache
+C:\Users\DuyDT\Desktop\C#\SamplePrjDemo\SamplePrjDemo\obj\x86\Debug\SamplePrjDemo.Form1.resources
+C:\Users\DuyDT\Desktop\C#\SamplePrjDemo\SamplePrjDemo\obj\x86\Debug\SamplePrjDemo.Properties.Resources.resources
+C:\Users\DuyDT\Desktop\C#\SamplePrjDemo\SamplePrjDemo\obj\x86\Debug\SamplePrjDemo.csproj.GenerateResource.Cache
+C:\Users\DuyDT\Desktop\C#\SamplePrjDemo\SamplePrjDemo\obj\x86\Debug\SamplePrjDemo.exe
+C:\Users\DuyDT\Desktop\C#\SamplePrjDemo\SamplePrjDemo\obj\x86\Debug\SamplePrjDemo.pdb
+C:\Users\DuyDT\Desktop\C#\SamplePrjDemo\SamplePrjDemo\obj\x86\Debug\SamplePrjDemo.Form2.resources

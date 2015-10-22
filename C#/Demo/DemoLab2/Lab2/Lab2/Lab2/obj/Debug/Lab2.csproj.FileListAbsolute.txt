@@ -1,0 +1,12 @@
+F:\006. Documents\Study\Summer2014\PRN292\Lab2\Lab2\bin\Debug\Lab2.exe.config
+F:\006. Documents\Study\Summer2014\PRN292\Lab2\Lab2\bin\Debug\Lab2.exe
+F:\006. Documents\Study\Summer2014\PRN292\Lab2\Lab2\bin\Debug\Lab2.pdb
+F:\006. Documents\Study\Summer2014\PRN292\Lab2\Lab2\obj\Debug\Lab2.CustomerInformation.resources
+F:\006. Documents\Study\Summer2014\PRN292\Lab2\Lab2\obj\Debug\Lab2.Properties.Resources.resources
+F:\006. Documents\Study\Summer2014\PRN292\Lab2\Lab2\obj\Debug\Lab2.csproj.GenerateResource.Cache
+F:\006. Documents\Study\Summer2014\PRN292\Lab2\Lab2\obj\Debug\Lab2.exe
+F:\006. Documents\Study\Summer2014\PRN292\Lab2\Lab2\obj\Debug\Lab2.pdb
+F:\006. Documents\Study\Summer2014\PRN292\Lab2\Lab2\obj\Debug\Lab2.csprojResolveAssemblyReference.cache
+F:\AAA\Summer 2014\Lab2\Lab2\bin\Debug\Lab2.exe.config
+F:\AAA\Summer 2014\Lab2\Lab2\obj\Debug\Lab2.exe
+F:\AAA\Summer 2014\Lab2\Lab2\obj\Debug\Lab2.pdb

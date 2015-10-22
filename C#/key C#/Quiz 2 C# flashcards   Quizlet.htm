@@ -1,0 +1,3732 @@
+<!DOCTYPE html>
+<!-- saved from url=(0049)http://quizlet.com/39862660/quiz-2-c-flash-cards/ -->
+<html lang="en" class="windows webkit chrome cursor"><script>(function installFakeGeolocationCode() {
+  var timerId = null;
+  if (!navigator.geolocation) {
+    return;
+  }
+  navigator.geolocation.getCurrentPosition_ = navigator.geolocation.getCurrentPosition;
+  navigator.geolocation.watchPosition_ = navigator.geolocation.watchPosition;
+  navigator.geolocation.clearWatch_ = navigator.geolocation.clearWatch;
+
+  navigator.geolocation.clearWatch = function (id) {
+    window.clearInterval(id);
+  };
+
+  function sendBackResponse (successCb, errorCb, options, jsonedResponse) {
+    var response = JSON.parse(jsonedResponse);
+    if (response.isEnabled) {
+      successCb({ 'coords': { 'latitude': response.lat, 'longitude': response.lng,
+        'accuracy': response.accuracy }, 'timestamp': new Date().getTime() });
+    } else {
+      navigator.geolocation.getCurrentPosition_(successCb, errorCb, options);
+    }
+  }
+
+  function createGetFakePosition(successCb, errorCb, options) {
+    return function () {
+      var positionElement = document.getElementById('fake_position_meta');
+      if (!positionElement) {
+        var interval = setInterval(function() {
+          positionElement = document.getElementById('fake_position_meta');
+          if (positionElement) {
+            clearInterval(interval);
+            sendBackResponse(successCb, errorCb, options, positionElement.getAttribute('content'));
+          }
+        }, 200 /* ms */);
+      } else {
+        // we already have the div, no need for intervals etc.
+        sendBackResponse(successCb, errorCb, options, positionElement.getAttribute('content'));
+      }
+    };
+  };
+
+  navigator.geolocation.getCurrentPosition = function (cb1, cb2, options) {
+    var getFakePosition = createGetFakePosition(cb1, cb2, options);
+    getFakePosition();
+  };
+
+  navigator.geolocation.watchPosition = function (cb1, cb2, options) {
+    var getFakePosition = createGetFakePosition(cb1, cb2, options);
+    getFakePosition();
+    if (timerId) {
+      window.clearInterval(timerId);
+    }
+    timerId = window.setInterval(getFakePosition, 5 * 1000);
+    return timerId;
+  };
+})();</script><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script src="./Quiz 2 C# flashcards   Quizlet_files/beacon.js"></script><script src="./Quiz 2 C# flashcards   Quizlet_files/quant.js"></script><script src="./Quiz 2 C# flashcards   Quizlet_files/dc.js"></script><script src="./Quiz 2 C# flashcards   Quizlet_files/gpt.js"></script><script src="./Quiz 2 C# flashcards   Quizlet_files/set.ZMAJM.js"></script><script src="./Quiz 2 C# flashcards   Quizlet_files/quizlib-jquery-2.vxE9Y.js"></script>
+	<script>if(typeof performance !== "undefined" && 'mark' in performance){performance.mark("mark_head_start");}</script>
+	<title>Quiz 2 C# flashcards | Quizlet</title>
+
+			<script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o?o:n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({D5DuLP:[function(t,n){function e(t,n){var e=r[t];return e?e.apply(this,n):(o[t]||(o[t]=[]),void o[t].push(n))}var r={},o={};n.exports=e,e.queues=o,e.handlers=r},{}],handle:[function(t,n){n.exports=t("D5DuLP")},{}],G9z0Bl:[function(t,n){function e(){var t=l.info=NREUM.info;if(t&&t.agent&&t.licenseKey&&t.applicationID&&p&&p.body){l.proto="https"===f.split(":")[0]||t.sslForHttp?"https://":"http://",i("mark",["onload",a()]);var n=p.createElement("script");n.src=l.proto+t.agent,p.body.appendChild(n)}}function r(){"complete"===p.readyState&&o()}function o(){i("mark",["domContent",a()])}function a(){return(new Date).getTime()}var i=t("handle"),u=window,p=u.document,s="addEventListener",c="attachEvent",f=(""+location).split("?")[0],l=n.exports={offset:a(),origin:f,features:[]};p[s]?(p[s]("DOMContentLoaded",o,!1),u[s]("load",e,!1)):(p[c]("onreadystatechange",r),u[c]("onload",e)),i("mark",["firstbyte",a()])},{handle:"D5DuLP"}],loader:[function(t,n){n.exports=t("G9z0Bl")},{}]},{},["G9z0Bl"]);</script>	
+			<script type="text/javascript">
+
+		var _gaq=[['_setAccount','UA-1203987-1'],['_setDomainName','none'],['_setCustomVar',1,'Logged In','true',2],['_setCustomVar',2,'Lang','en',1],['_setCustomVar',3,'ABTests','analytics_source:doubleclick'],['_setCustomVar',4,'LoginSource','facebook']],Quizlet={LOGGED_IN:true,SERVER_TIME:1406596125,DEBUG:false};
+		var QWait,QLoad;
+(function(){var c=[],g={},h=0,f=function(b,a,c,d){6>h++&&((new Image).src="/activity-log/create?title="+(d||"preload_js_error")+"&data="+encodeURIComponent('"msg: '+b+"; "+a+"#"+c+'"'))};window.onerror=f;QWait=function(){for(var b=arguments,a=b.length-1,e=b[a],d=[];a--;)g.hasOwnProperty(b[a])||d.push(b[a]);d.length?c.push({labels:d,func:e}):e()};QLoad=function(b){var a,e,d,f;a=0;for(e=c.length;a<e;a++)for(d=f=c[a].labels.length;d--;)if(c[a].labels[d]===b){c[a].labels.splice(d,1);if(1===f){c.splice(a,
+1)[0].func();QLoad(b);return}break}g[b]=1};setTimeout(function(){var b=c.length,a="";for(label in g)a+=", "+label;for(;b--;)f(c[b].labels.toString()+" UNFIRED; "+a.substr(2)+" DONE","","","unfired_label")},2E4);window.onload=function(){QWait("quizlib",function(){QLoad("dom");QLoad("onload")})}})();
+		/*! LAB.js (LABjs :: Loading And Blocking JavaScript)
+    v2.0.3 (c) Kyle Simpson
+    MIT License
+*/
+(function(n){var q=n.$LAB,i="UseLocalXHR",m="AlwaysPreserveOrder",k="AllowDuplicates",j="CacheBust",d="BasePath",o=/^[^?#]*\//.exec(location.href)[0],y=/^\w+\:\/\/\/?[^\/]+/.exec(o)[0],e=document.head||document.getElementsByTagName("head"),g=(n.opera&&Object.prototype.toString.call(n.opera)=="[object Opera]")||("MozAppearance" in document.documentElement.style),w=document.createElement("script"),a=typeof w.preload=="boolean",t=a||(w.readyState&&w.readyState=="uninitialized"),u=!t&&w.async===true,v=!t&&!u&&!g;function r(z){return Object.prototype.toString.call(z)=="[object Function]"}function x(z){return Object.prototype.toString.call(z)=="[object Array]"}function f(B,A){var z=/^\w+\:\/\//;if(/^\/\/\/?/.test(B)){B=location.protocol+B}else{if(!z.test(B)&&B.charAt(0)!="/"){B=(A||"")+B}}return z.test(B)?B:((B.charAt(0)=="/"?y:o)+B)}function h(A,B){for(var z in A){if(A.hasOwnProperty(z)){B[z]=A[z]}}return B}function b(A){var B=false;for(var z=0;z<A.scripts.length;z++){if(A.scripts[z].ready&&A.scripts[z].exec_trigger){B=true;A.scripts[z].exec_trigger();A.scripts[z].exec_trigger=null}}return B}function c(B,A,z,C){B.onload=B.onreadystatechange=function(){if((B.readyState&&B.readyState!="complete"&&B.readyState!="loaded")||A[z]){return}B.onload=B.onreadystatechange=null;C()}}function s(z){z.ready=z.finished=true;for(var A=0;A<z.finished_listeners.length;A++){z.finished_listeners[A]()}z.ready_listeners=[];z.finished_listeners=[]}function p(B,C,A,D,z){setTimeout(function(){var E,G=C.real_src,F;if("item" in e){if(!e[0]){setTimeout(arguments.callee,25);return}e=e[0]}E=document.createElement("script");if(C.type){E.type=C.type}if(C.charset){E.charset=C.charset}if(C.crossorigin){E.crossOrigin=C.crossorigin}if(z){if(t){A.elem=E;if(a){E.preload=true;E.onpreload=D}else{E.onreadystatechange=function(){if(E.readyState=="loaded"){D()}}}E.src=G}else{if(z&&G.indexOf(y)==0&&B[i]){F=new XMLHttpRequest();F.onreadystatechange=function(){if(F.readyState==4){F.onreadystatechange=function(){};A.text=F.responseText+"\n//@ sourceURL="+G;D()}};F.open("GET",G);F.send()}else{E.type="text/cache-script";c(E,A,"ready",function(){e.removeChild(E);D()});E.src=G;e.insertBefore(E,e.firstChild)}}}else{if(u){E.async=false;c(E,A,"finished",D);E.src=G;e.insertBefore(E,e.firstChild)}else{c(E,A,"finished",D);E.src=G;e.insertBefore(E,e.firstChild)}}},0)}function l(){var B={},G=t||v,z=[],A={},D;B[i]=true;B[m]=false;B[k]=false;B[j]=false;B[d]="";function F(J,L,I){var H;function K(){if(H!=null){H=null;s(I)}}if(A[L.src].finished){return}if(!J[k]){A[L.src].finished=true}H=I.elem||document.createElement("script");if(L.type){H.type=L.type}if(L.charset){H.charset=L.charset}c(H,I,"finished",K);if(I.elem){I.elem=null}else{if(I.text){H.onload=H.onreadystatechange=null;H.text=I.text}else{H.src=L.real_src}}e.insertBefore(H,e.firstChild);if(I.text){K()}}function C(J,N,M,H){var I,L,K=function(){N.ready_cb(N,function(){F(J,N,I)})},O=function(){N.finished_cb(N,M)};N.src=f(N.src,J[d]);N.real_src=N.src+(J[j]?((/\?.*$/.test(N.src)?"&_":"?_")+~~(Math.random()*1000000000)+"="):"");if(!A[N.src]){A[N.src]={items:[],finished:false}}L=A[N.src].items;if(J[k]||L.length==0){I=L[L.length]={ready:false,finished:false,ready_listeners:[K],finished_listeners:[O]};p(J,N,I,((H)?function(){I.ready=true;for(var P=0;P<I.ready_listeners.length;P++){I.ready_listeners[P]()}I.ready_listeners=[]}:function(){s(I)}),H)}else{I=L[0];if(I.finished){O()}else{I.finished_listeners.push(O)}}}function E(){var K,O=h(B,{}),H=[],J=0,L=false,N;function Q(S,R){S.ready=true;S.exec_trigger=R;I()}function P(T,S){T.ready=T.finished=true;T.exec_trigger=null;for(var R=0;R<S.scripts.length;R++){if(!S.scripts[R].finished){return}}S.finished=true;I()}function I(){while(J<H.length){if(r(H[J])){try{H[J++]()}catch(R){}continue}else{if(!H[J].finished){if(b(H[J])){continue}break}}J++}if(J==H.length){L=false;N=false}}function M(){if(!N||!N.scripts){H.push(N={scripts:[],finished:true})}}K={script:function(){for(var R=0;R<arguments.length;R++){(function(V,T){var U;if(!x(V)){T=[V]}for(var S=0;S<T.length;S++){M();V=T[S];if(r(V)){V=V()}if(!V){continue}if(x(V)){U=[].slice.call(V);U.unshift(S,1);[].splice.apply(T,U);S--;continue}if(typeof V=="string"){V={src:V}}V=h(V,{ready:false,ready_cb:Q,finished:false,finished_cb:P});N.finished=false;N.scripts.push(V);C(O,V,N,(G&&L));L=true;if(O[m]){K.wait()}}})(arguments[R],arguments[R])}return K},wait:function(){if(arguments.length>0){for(var R=0;R<arguments.length;R++){H.push(arguments[R])}N=H[H.length-1]}else{N=false}I();return K}};return{script:K.script,wait:K.wait,setOptions:function(R){h(R,O);return K}}}D={setGlobalDefaults:function(H){h(H,B);return D},setOptions:function(){return E().setOptions.apply(null,arguments)},script:function(){return E().script.apply(null,arguments)},wait:function(){return E().wait.apply(null,arguments)},queueScript:function(){z[z.length]={type:"script",args:[].slice.call(arguments)};return D},queueWait:function(){z[z.length]={type:"wait",args:[].slice.call(arguments)};return D},runQueue:function(){var J=D,H=z.length,I=H,K;for(;--I>=0;){K=z.shift();J=J[K.type].apply(null,K.args)}return J},noConflict:function(){n.$LAB=q;return D},sandbox:function(){return l()}};return D}n.$LAB=l();(function(B,z,A){if(document.readyState==null&&document[B]){document.readyState="loading";document[B](z,A=function(){document.removeEventListener(z,A,false);document.readyState="complete"},false)}})("addEventListener","DOMContentLoaded")})(this);
+		
+		$LAB.setOptions({AlwaysPreserveOrder:true})
+			.script([{"src":"http://quizlet.com/a/j/en/quizlib-jquery-2.vxE9Y.js","crossdomain":"anonymous"},{"src":"http://quizlet.com/a/j/en/set.ZMAJM.js","crossdomain":"anonymous"}]);
+
+					$LAB.script('http://www.googletagservices.com/tag/js/gpt.js');
+		
+</script>
+	
+		<script>DPR=typeof devicePixelRatio=='undefined'?1:devicePixelRatio</script>
+			<script type="text/javascript">
+			// load CSS
+			(function(){var link,fragment=document.createDocumentFragment(),arr=["(DPR>1.3) ? 'http:\/\/quizlet.com\/a\/c\/global\/all-svg.wsRRR.r.css' : 'http:\/\/quizlet.com\/a\/c\/global\/all-svg.wsRRR.n.css'","(DPR>1.3) ? 'http:\/\/quizlet.com\/a\/c\/set\/all.vmUEy.r.css' : 'http:\/\/quizlet.com\/a\/c\/set\/all.vmUEy.n.css'"];for(var i=0;i<arr.length;i++){if(document.createStyleSheet){document.createStyleSheet(eval(arr[i]));}else{link=document.createElement('link');link.type='text/css';link.rel='stylesheet';link.href=eval(arr[i]);fragment.appendChild(link)}document.getElementsByTagName('head')[0].appendChild(fragment)}})();
+		</script><link type="text/css" rel="stylesheet" href="./Quiz 2 C# flashcards   Quizlet_files/all-svg.wsRRR.n.css"><link type="text/css" rel="stylesheet" href="./Quiz 2 C# flashcards   Quizlet_files/all.vmUEy.n.css">
+	
+	<link rel="dns-prefetch" href="http://up.quizlet.com/">
+	<link rel="dns-prefetch" href="http://fb.quizlet.com/">
+
+	
+	<link rel="shortcut icon" href="http://quizlet.com/a/i/favicon.Rwzs.ico">
+
+									
+	<link rel="canonical" href="./Quiz 2 C# flashcards   Quizlet_files/Quiz 2 C# flashcards   Quizlet.htm">
+
+				
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@quizlet">
+	<meta name="twitter:title" content="Quiz 2 C#">
+	<meta name="twitter:description" content="70 terms · B → Which sentence is correct?
+..., C → In below events of page, wh..., A &amp; D → What is method of form to t..., D → What are properties of [Web..., B → What are client-side script..., D → Which sentence is">
+
+	<meta property="og:title" content="Quiz 2 C#">
+	<meta property="og:description" content="70 terms · B → Which sentence is correct?
+..., C → In below events of page, wh..., A &amp; D → What is method of form to t..., D → What are properties of [Web..., B → What are client-side script..., D → Which sentence is">
+
+	
+			<meta property="og:image" content="http://quizlet.com/a/i/icons/256.tQMH.jpg">
+	
+			<meta name="twitter:app:name:iphone" content="Quizlet">
+		<meta name="twitter:app:id:iphone" content="546473125">
+
+		<meta name="twitter:app:name:ipad" content="Quizlet">
+		<meta name="twitter:app:id:ipad" content="546473125">
+	<meta name="description" content="Vocabulary words for Quiz 2 C#. Includes studying games and tools such as flashcards.">
+	
+	<script type="text/javascript">
+  var analytics=analytics||[];(function(){var e=["identify","track","trackLink","trackForm","trackClick","trackSubmit","page","pageview","ab","alias","ready","group"],t=function(e){return function(){analytics.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var n=0;n<e.length;n++)analytics[e[n]]=t(e[n])})();
+  window.analyticsProperties = {};
+</script>
+
+
+
+
+	
+	<script type="text/javascript">window.DFPADS = false;if ((window.innerWidth || (document.documentElement && document.documentElement.clientWidth) || (document.body && document.body.clientWidth)) >= 568) {window.DFPADS={};googletag=window.googletag||{};googletag.cmd=googletag.cmd||[];googletag.cmd.push(function(){if(DFPADS)DFPADS["dfp-SetSidebarV2"]=googletag.defineSlot("\/6396803\/SetSidebarV2",[160,600],"dfp-SetSidebarV2").addService(googletag.pubads()).setTargeting('cats',['jp']).setTargeting('c','100').setTargeting('a','19');if(DFPADS)DFPADS["dfp-NewFooterLI-17Plus"]=googletag.defineSlot("\/6396803\/NewFooterLI-17Plus",[728,90],"dfp-NewFooterLI-17Plus").addService(googletag.pubads()).setTargeting('cats',['jp']).setTargeting('c','100').setTargeting('a','19');googletag.pubads().enableSingleRequest();googletag.enableServices();});}</script>	
+<script async="" type="text/javascript" src="./Quiz 2 C# flashcards   Quizlet_files/pubads_impl_45.js"></script><script type="text/javascript" src="./Quiz 2 C# flashcards   Quizlet_files/osd.js"></script></head>
+<body class="setpage none-selected plural-selected order-original none-selected plural-selected study-all-terms show-all terms-tab qad-is-showing">
+
+<div class="site">
+
+<script>if(typeof performance !== "undefined" && 'mark' in performance){performance.mark("mark_body_start"); }</script>
+
+<header id="header" class="global header logged-in">
+	<div class="container">
+
+		<a class="td activate-nav nav-icon" id="activate-nav" href="http://quizlet.com/39862660/quiz-2-c-flash-cards/#"><span class="glyph icon nav-icon "></span></a>
+
+		<h1 class="logo td" id="logo">
+			<a href="http://quizlet.com/latest" class="link" data-sourcename="header-logo">
+				Quizlet			</a>
+		</h1>
+
+		<div class="search-wrap td">
+			<form class="search searchForm" action="http://quizlet.com/subject/" method="GET" onsubmit="return sendSearch(&#39;header-search&#39;)">
+				<label class="input">
+					<input type="text" class="text" tabindex="1" name="q" id="header-search" placeholder="Search Quizlet" autocomplete="off">
+				</label>
+				<input type="submit" class="submit" value="" tabindex="2">
+			</form>
+		</div>
+
+		<a class="td activate-search nav-icon" id="activate-search" href="http://quizlet.com/39862660/quiz-2-c-flash-cards/#"><span class="glyph icon search-icon "></span></a>
+		<a class="td deactivate-search nav-icon" id="deactivate-search" href="http://quizlet.com/39862660/quiz-2-c-flash-cards/#"><span class="glyph icon x-icon "></span></a>
+
+		<a href="https://quizlet.com/create-set" class="td create-link nav-icon" data-sourcename="header-create-set">
+			<span class="glyph icon create-set-icon "></span>			<span class="label">Create a Set</span>
+		</a>
+
+		
+	<aside class="user td">
+
+														<a href="https://quizlet.com/upgrade?source=header_plus" class="upgrade chiclet">Upgrade to <span>Quizlet Plus</span></a>									
+		<div class="poppable hoverable">
+			<span class="activate">
+				<a class="avatar" href="http://quizlet.com/KhanhHuyensmile" title="KhanhHuyensmile">
+					<span class="profile-image" style="background-image:url(http://fb.quizlet.com/hprofile-ak-xfp1/v/t1.0-1/s200x200/10489838_582350125219309_4714303511817025965_n.jpg?oh=870df8e5a332bfe7a4e6565781889410&amp;oe=54340C1D&amp;__gda__=1414479478_4311705a8ef38936e317d63b6bbe0430);height:32px;width:32px;"></span>				</a>
+
+				<span class="username">
+					<a href="http://quizlet.com/KhanhHuyensmile" title="KhanhHuyensmile">
+						<span class="text">KhanhHuyensmile</span>
+					</a>
+					<span class="glyph icon arrow-down-icon "></span>				</span>
+				<span class="bridge"><span class="glyph icon arrow-up-icon "></span></span>			</span>
+
+			<div class="popout anchor-right">
+
+				<ul class="account-links">
+					<li><a href="http://quizlet.com/KhanhHuyensmile">Your Sets</a></li>
+					<li><a href="https://quizlet.com/settings" title="Edit your Settings" class="prefslink">Settings</a></li>
+					<li><a href="https://quizlet.com/logout" class="logout">Log Out</a></li>
+				</ul>
+
+				<ul class="inside-links">
+					<li><a href="http://quizlet.com/help">Help Center</a></li>
+										<li><a href="http://quizlet.com/feedback" target="_blank" class="show-feedback-modal">Feedback</a></li>
+				</ul>
+
+									<ul class="upgrades">
+													<li><a href="https://quizlet.com/upgrade?source=dropdown">Upgrade</a></li>
+																	</ul>
+							</div>
+		</div>
+
+	</aside>
+
+
+		<div id="feedbackContainer" class="dnone">
+	<h2>Give us Feedback</h2>
+	<form action="http://quizlet.com/feedback" method="POST">
+		<p>If you’re having trouble, want to report a bug, provide a suggestion, or just want to say hello — please fill out the form below.</p>
+
+		
+		
+		<label class="type">
+							<span class="small qselect">
+					<label>
+						<select name="minorCategory">
+							<option value="">Choose Type</option>
+							<option value="Question / Need Help">Question / Need Help</option>
+							<option value="Suggestion">Suggestion</option>
+							<option value="Bug Report">Bug Report</option>
+							<option value="Just Saying Thanks">Just Saying Thanks</option>
+							<option value="Other Comment / Feedback">Other Comment / Feedback</option>
+						</select>
+					</label>
+				</span>
+					</label>
+
+		<label class="message">
+			<textarea class="text" placeholder="What we can do to make Quizlet even better?" name="feedback"></textarea>
+		</label>
+
+		
+		
+		
+		<button type="submit" class="large submit button">Send Message</button>
+	</form>
+</div>
+
+						
+	</div>
+</header>
+
+
+
+
+
+<section class="SetHeader">
+
+	<div class="container">
+
+		<div class="SetHeader-setTitle">
+			<div class="SetTitle">
+	<h1 class="SetTitle-title">Quiz 2 C#</h1>
+
+			<h3 class="SetTitle-creator">
+			<a href="http://quizlet.com/beansieunhan" title="Visit beansieunhan&#39;s profile"><span class="profile-image" style="background-image:url(http://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M/photo.jpg);height:21px;width:21px;"></span></a>			70 terms by <a href="http://quizlet.com/beansieunhan" title="Visit beansieunhan&#39;s profile">beansieunhan&nbsp;</a> 		</h3>
+			
+	</div>		</div>
+	
+		<div class="SetHeader-divider"></div>
+	
+		<div class="SetHeader-modes"><div class="SetHeader-ModeButtonWrapper SetHeader-ModeButtonWrapper--flashcards">
+					<h4 class="SetHeader-sectionHeader">Study</h4>
+	<h4 class="SetHeader-sectionHeader SetHeader-sectionHeader--stars-only">Study <span class="glyph icon star-icon "></span> only</h4>
+
+
+<a href="http://quizlet.com/39862660/flashcards" class="ModeButton flashcards " data-sourcename="mode-link-flashcards">
+	<span class="ModeButton-inner">
+		<span class="glyph icon flashcards-icon ModeButton-icon"></span>		<span class="ModeButton-name">Flashcards</span>
+			</span>
+
+</a><a href="http://quizlet.com/39862660/flashcards/starred" class="ModeButton ModeButton--stars-only flashcards " data-sourcename="mode-link-flashcards">
+	<span class="ModeButton-inner">
+		<span class="glyph icon flashcards-icon ModeButton-icon"></span>		<span class="ModeButton-name">Flashcards</span>
+			</span>
+</a>			</div><div class="SetHeader-ModeButtonWrapper SetHeader-ModeButtonWrapper--learn">
+				
+<a href="http://quizlet.com/39862660/learn" class="ModeButton learn " data-sourcename="mode-link-learn">
+	<span class="ModeButton-inner">
+		<span class="glyph icon learn-icon ModeButton-icon"></span>		<span class="ModeButton-name">Learn</span>
+			</span>
+
+</a><a href="http://quizlet.com/39862660/learn/starred" class="ModeButton ModeButton--stars-only learn " data-sourcename="mode-link-learn">
+	<span class="ModeButton-inner">
+		<span class="glyph icon learn-icon ModeButton-icon"></span>		<span class="ModeButton-name">Learn</span>
+			</span>
+</a>			</div><div class="SetHeader-ModeButtonWrapper SetHeader-ModeButtonWrapper--speller">
+				
+<a href="http://quizlet.com/39862660/speller" class="ModeButton speller " data-sourcename="mode-link-speller">
+	<span class="ModeButton-inner">
+		<span class="glyph icon speller-icon ModeButton-icon"></span>		<span class="ModeButton-name">Speller</span>
+			</span>
+
+</a><a href="http://quizlet.com/39862660/speller/starred" class="ModeButton ModeButton--stars-only speller " data-sourcename="mode-link-speller">
+	<span class="ModeButton-inner">
+		<span class="glyph icon speller-icon ModeButton-icon"></span>		<span class="ModeButton-name">Speller</span>
+			</span>
+</a>			</div><div class="SetHeader-ModeButtonWrapper SetHeader-ModeButtonWrapper--test">
+				
+<a href="http://quizlet.com/39862660/test" class="ModeButton test " data-sourcename="mode-link-test">
+	<span class="ModeButton-inner">
+		<span class="glyph icon test-icon ModeButton-icon"></span>		<span class="ModeButton-name">Test</span>
+		<span class="ModeButton-status"></span>
+
+	</span>
+
+</a><a href="http://quizlet.com/39862660/test/starred" class="ModeButton ModeButton--stars-only test " data-sourcename="mode-link-test">
+	<span class="ModeButton-inner">
+		<span class="glyph icon test-icon ModeButton-icon"></span>		<span class="ModeButton-name">Test</span>
+		<span class="ModeButton-status"></span>
+
+	</span>
+</a>			</div><div class="SetHeader-ModeButtonWrapper SetHeader-ModeButtonWrapper--scatter">
+					<h4 class="SetHeader-sectionHeader">Play</h4>
+	<h4 class="SetHeader-sectionHeader SetHeader-sectionHeader--stars-only">Play <span class="glyph icon star-icon "></span> only</h4>
+
+
+<a href="http://quizlet.com/39862660/scatter" class="ModeButton scatter " data-sourcename="mode-link-scatter">
+	<span class="ModeButton-inner">
+		<span class="glyph icon scatter-icon ModeButton-icon"></span>		<span class="ModeButton-name">Scatter</span>
+			</span>
+
+</a><a href="http://quizlet.com/39862660/scatter/starred" class="ModeButton ModeButton--stars-only scatter " data-sourcename="mode-link-scatter">
+	<span class="ModeButton-inner">
+		<span class="glyph icon scatter-icon ModeButton-icon"></span>		<span class="ModeButton-name">Scatter</span>
+			</span>
+</a>			</div><div class="SetHeader-ModeButtonWrapper SetHeader-ModeButtonWrapper--microscatter">
+					<h4 class="SetHeader-sectionHeader">Play</h4>
+	<h4 class="SetHeader-sectionHeader SetHeader-sectionHeader--stars-only">Play <span class="glyph icon star-icon "></span> only</h4>
+
+
+<a href="http://quizlet.com/39862660/microscatter" class="ModeButton microscatter " data-sourcename="mode-link-microscatter">
+	<span class="ModeButton-inner">
+		<span class="glyph icon microscatter-icon ModeButton-icon"></span>		<span class="ModeButton-name">Scatter</span>
+			</span>
+
+</a><a href="http://quizlet.com/39862660/microscatter/starred" class="ModeButton ModeButton--stars-only microscatter " data-sourcename="mode-link-microscatter">
+	<span class="ModeButton-inner">
+		<span class="glyph icon microscatter-icon ModeButton-icon"></span>		<span class="ModeButton-name">Scatter</span>
+			</span>
+</a>			</div><div class="SetHeader-ModeButtonWrapper SetHeader-ModeButtonWrapper--spacerace">
+				
+<a href="https://quizlet.com/39862660/spacerace" class="ModeButton spacerace " data-sourcename="mode-link-spacerace">
+	<span class="ModeButton-inner">
+		<span class="glyph icon spacerace-icon ModeButton-icon"></span>		<span class="ModeButton-name">Space Race</span>
+			</span>
+
+</a><a href="https://quizlet.com/39862660/spacerace/starred" class="ModeButton ModeButton--stars-only spacerace " data-sourcename="mode-link-spacerace">
+	<span class="ModeButton-inner">
+		<span class="glyph icon spacerace-icon ModeButton-icon"></span>		<span class="ModeButton-name">Space Race</span>
+			</span>
+</a>			</div><div class="SetHeader-divider SetHeader-divider--for-tools">
+	
+			</div><div class="SetHeader-setTools">
+				<div class="SetTools">
+	<h4 class="SetHeader-sectionHeader SetHeader-sectionHeader--for-tools">
+		Tools
+	</h4><div class="SetTools-tool-section">
+
+		<div class="SetTools-toolColumn SetTools-toolColumn1">
+
+			<div class="SetTools-tool">
+									<a href="https://quizlet.com/39862660/recreate-set" class="SetTools-toolLink">
+						<span class="glyph icon copy-icon "></span>						<span class="text">Copy</span>
+					</a>
+							</div><div class="SetTools-tool">
+
+				<a href="http://quizlet.com/39862660/quiz-2-c-flash-cards/#" class="class-tool SetTools-toolLink">
+					<span class="glyph icon class-icon "></span>					<span class="text">Add to Class</span>
+				</a>
+
+			</div><div class="SetTools-tool">
+
+				<a href="http://quizlet.com/39862660/quiz-2-c-flash-cards/#" class="SetTools-toolLink folder-tool">
+					<span class="glyph icon folder-icon "></span>					<span class="text">Add to Folder</span>
+				</a>
+
+		</div></div><div class="SetTools-toolColumn SetTools-toolColumn2"><div class="SetTools-tool">
+
+				<a href="http://quizlet.com/39862660/quiz-2-c-flash-cards/#" class="SetTools-toolLink share-tool">
+					<span class="glyph icon share-icon "></span>					<span class="text">Share</span>
+				</a>
+
+			</div><div class="SetTools-tool">
+
+				<a class="SetTools-toolLink" href="http://quizlet.com/39862660/print">
+					<span class="glyph icon print-icon "></span>					<span class="text">Print</span>
+				</a>
+
+			</div><div class="poppable hoverable SetTools-tool">
+
+				<a class="activate SetTools-toolLink" href="http://quizlet.com/39862660/quiz-2-c-flash-cards/#">
+					<span class="glyph icon more-icon "></span>					<span class="text ">More</span>
+				</a>
+
+				<div class="popout four-items">
+
+					<span class="bridge"><span class="glyph icon arrow-up-icon "></span></span>
+					<a href="http://quizlet.com/combine/39862660" class="SetTools-moreTool SetTools-moreTool--combine">
+						<span class="glyph icon combine-icon "></span>						<span class="label">Combine</span>
+					</a>
+
+					
+					<a href="http://quizlet.com/39862660/export" class="SetTools-moreTool SetTools-moreTool--export">
+						<span class="glyph icon export-icon "></span>						<span class="label">Export</span>
+					</a>
+
+											<a href="http://quizlet.com/39862660/embed" class="SetTools-moreTool SetTools-moreTool--embed embed-tool">
+							<span class="glyph icon embed-icon "></span>							<span class="label">Embed</span>
+						</a>
+					
+					<a href="http://quizlet.com/set/39862660/flags/add" class="SetTools-moreTool SetTools-moreTool--report report-tool">
+						<span class="glyph icon alert-icon "></span>						<span class="label">Report</span>
+					</a>
+
+									</div>
+
+			</div>
+		</div>
+	</div>
+</div>			</div>
+		</div>
+	
+		<div class="add-to-folders-modal qmodal-preloaded">
+			<div class="qmodal-title">
+			<span class="glyph icon folder-icon "></span>			<h2 class="qmodal-title-text">Add this set to a folder</h2>
+		</div>
+
+		<ul class="qmodal-list">
+																					<li class="add-remove-wrapper ">
+						<a class="add-remove do-add" data-href="/KhanhHuyensmile/folders/japanese/add-set/39862660" data-qnonce="17Ou75-RHn942Pja1-0OYweRXc8yWyxMidAegdJgtKqzkEjXlu8kwqHsoBZu9QjsnC3wqx3jiq4zivACHCJNUg">
+							<span class="label-text add">Japanese</span>
+						</a>
+						<a class="add-remove do-remove" data-href="/KhanhHuyensmile/folders/japanese/remove-set/39862660" data-qnonce="17Ou75-RHn942Pja1-0OYweRXc8yWyxMidAegdJgtKqzkEjXlu8kwqHsoBZu9QjsnC3wqx3jiq4zivACHCJNUg">
+							<span class="label-text remove">Japanese</span>
+							<span class="glyph icon check-icon "></span>							<span class="glyph icon x-icon "></span>						</a>
+					</li>
+							
+			<li class="add-remove-wrapper">
+				<a href="http://quizlet.com/new-folder?withSet=39862660" class="add-remove create-folder create">
+					<strong>Create a new folder</strong>
+					<span class="glyph icon plus-icon "></span>				</a>
+			</li>
+		</ul>
+
+	</div>		<div class="new-folder-modal">
+	<form class="new-folder-form" action="http://quizlet.com/new-folder" method="POST">
+
+		<div class="qmodal-title">
+			<span class="glyph icon folder-icon "></span>			<h2 class="qmodal-title-text">Create a new folder</h2>
+		</div>
+
+
+
+		<label>
+			<strong>Folder Name</strong>
+			<input type="text" name="name" placeholder="Folder Name" class="new-folder-name">
+		</label>
+
+		<label>
+			<strong>Folder Description (optional)</strong>
+			<textarea rows="3" name="description" placeholder="Folder Description (optional)"></textarea>
+		</label>
+
+		<input type="hidden" name="setId" id="setToAdd" value="39862660">
+		<button class="button" type="submit">Create</button>
+	</form>
+</div>
+
+		<div class="few classes qmodal-preloaded add-to-classes-modal">
+
+			<div class="qmodal-title">
+			<span class="glyph icon class-icon "></span>			<h2 class="qmodal-title-text">Add this set to a class</h2>
+		</div>
+
+		<ul class="qmodal-list">
+																					<li class="add-remove-wrapper ">
+						<a class="add-remove do-add" data-href="/class/633481/add-set/39862660" data-qnonce="17Ou75-RHn942Pja1-0OYweRXc8yWyxMidAegdJgtKqzkEjXlu8kwqHsoBZu9QjsnC3wqx3jiq4zivACHCJNUg">
+							<span class="label-text add">Business English 4</span>
+						</a>
+						<a class="add-remove do-remove" data-href="/class/633481/remove-set/39862660" data-qnonce="17Ou75-RHn942Pja1-0OYweRXc8yWyxMidAegdJgtKqzkEjXlu8kwqHsoBZu9QjsnC3wqx3jiq4zivACHCJNUg">
+							<span class="label-text remove">Business English 4</span>
+							<span class="glyph icon check-icon "></span>							<span class="glyph icon x-icon "></span>						</a>
+					</li>
+				
+			
+
+							<li class="add-remove-wrapper">
+					<a href="http://quizlet.com/new-class?withSet=39862660" class="create add-remove">
+						<strong>Create a new class</strong>
+						<span class="glyph icon plus-icon "></span>					</a>
+				</li>
+					</ul>
+	
+</div>
+		<div class="share-tool-modal qmodal-preloaded">
+	<div class="qmodal-title">
+		<span class="glyph icon share-icon "></span>		<h2 class="qmodal-title-text">Share this set</h2>
+	</div>
+
+	<form class="email share-item" action="http://quizlet.com/39862660/email">
+		<div class="qmodal-confirmation email-confirmation"></div>
+
+		<label class="recipient-wrap">
+			<span class="label">Email a link to this page</span>
+			<span class="glyph icon mail-icon "></span>
+			<input class="text qmodal-input-with-button" type="email" name="recipient" id="emailRecipient" placeholder="Email address"><button class="button qmodal-button-with-input" type="submit">Send Email</button>
+
+		</label>
+
+		<input name="qnonce" type="hidden" value="DGdJBydDuID6Nsk8ssZ7yCEEwmHSciGJ2HgWKCzJY.KzkEjXlu8kwqHsoBZu9QjsnC3wqx3jiq4zivACHCJNUg">	</form>
+
+	<form class="short-url share-item">
+		<label>
+			<span class="label">Short URL</span>
+			<input type="text" class="text" readonly="" value="http://quizlet.com/_nqe84" onclick="this.select()">
+		</label>
+	</form>
+
+		<div class="destinations">
+		<a class="share-item" href="http://quizlet.com/39862660/quiz-2-c-flash-cards/#" onclick="window.open(&#39;http://twitter.com/home?status=Studying+on+Quizlet%3A+Quiz+2+C%23+http%3A%2F%2Fquizlet.com%2F_nqe84&#39;,&#39;&#39;,&#39;width=626,height=436&#39;);return false;">
+			<span class="label-text">Share on Twitter</span>
+			<span class="glyph icon twitter-icon "></span>		</a>
+
+		<a class="share-item" href="http://quizlet.com/39862660/quiz-2-c-flash-cards/#" onclick="window.open(&#39;https://www.facebook.com/sharer/sharer.php?u=&#39;+encodeURIComponent(location.href),&#39;&#39;,&#39;width=626,height=436&#39;);return false;">
+			<span class="label-text">Share on Facebook</span>
+			<span class="glyph icon facebook-icon "></span>		</a>
+
+			</div>
+	
+</div>
+	</div>
+</section>
+<nav class="tabs-bar">
+	<div class="container">
+		<ul class="tabs has-3-tabs">
+								<li class="terms-tab">
+				<a href="./Quiz 2 C# flashcards   Quizlet_files/Quiz 2 C# flashcards   Quizlet.htm" class="pjax">
+					List									</a>
+			</li>
+								<li class="scores-tab">
+				<a href="http://quizlet.com/39862660/scores" class="pjax">
+					Scores									</a>
+			</li>
+								<li class="info-tab">
+				<a href="http://quizlet.com/39862660/info" class="pjax">
+					Info									</a>
+			</li>
+				</ul>
+	</div>
+</nav>
+
+<div class="page-container">
+<div class="container qad-is-showing">
+	<main class="page" id="page">
+		
+<div id="terms" class="layout-list multi-column">
+		
+	<div class="skyscraper ad">
+		<span class="ad-label">Advertisement</span>
+<a class="upgrade-link" href="https://quizlet.com/upgrade?source=ad" target="_blank">Upgrade to remove ads</a>
+		<div id="dfp-SetSidebarV2" style="width:160px;height:600px" class="ad noprint "><script type="text/javascript">if(DFPADS)googletag.cmd.push(function(){googletag.display("dfp-SetSidebarV2");});</script><span class="patch one"></span><span class="patch two"></span><span class="patch three"></span><span class="patch four"></span><div id="google_ads_iframe_/6396803/SetSidebarV2_0__container__" style="border: 0pt none;"><iframe id="google_ads_iframe_/6396803/SetSidebarV2_0" name="google_ads_iframe_/6396803/SetSidebarV2_0" width="160" height="600" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" src="javascript:"<html><body style='background:transparent'></body></html>"" style="border: 0px; vertical-align: bottom;"></iframe></div><iframe id="google_ads_iframe_/6396803/SetSidebarV2_0__hidden__" name="google_ads_iframe_/6396803/SetSidebarV2_0__hidden__" width="0" height="0" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" src="javascript:"<html><body style='background:transparent'></body></html>"" style="border: 0px; vertical-align: bottom; visibility: hidden; display: none;"></iframe></div>	</div>
+
+
+	<article class="subpage" id="subpage">
+		
+<header class="page-top has-order-toggle">
+
+	
+	<nav class="controls">
+					<div class="order segmented-control">
+				<a class="order-alphabetical terms-ajax first" data-href="http://quizlet.com/39862660/quiz-2-c-flash-cards/alphabetical">
+					Alphabetical				</a><a class="last order-original terms-ajax" data-href="http://quizlet.com/39862660/quiz-2-c-flash-cards/original">
+					Original				</a>
+			</div>
+		
+		
+		<div class="study-starred segmented-control">
+			<a class="first study-all">
+				Study all 70 terms			</a><a class="last study-selected">
+				Study <span class="selected-count">0</span> <span class="glyph icon star-icon "></span><span class="selected-word singular">term</span><span class="selected-word plural">terms</span> only
+			</a>
+		</div>
+
+			</nav>
+
+</header>
+<article class="terms">
+
+		
+		
+				<div data-id="1359570131" class="term has-audio">
+			
+<div class="details-wrap">
+	<div class="details">
+
+		<div class="icons">
+
+			<a class="star">
+				<span class="glyph icon star-icon "></span>				<span class="glyph icon star-empty-icon "></span>			</a>
+
+			<a class="play-audio" title="Play audio for this term">
+				<span class="glyph icon audio-icon "></span>			</a>
+
+			
+					</div>
+		<div class="clear"></div>
+
+	</div>
+</div>
+
+
+<div class="text">
+
+	<h3 class="word has-audio ">
+		<span class="qWord lang-en">B</span>	</h3>
+
+			<p class="definition has-audio ">
+			<span class="qDef lang-en">Which sentence is correct?<br>
+<br>
+[A] A persistent cookie exists only within the HTTP header.<br>
+[B] A persistent cookie is not destroyed after the user logs off your site.<br>
+[C] A temporary cookie is saved to the user's hard drive.<br>
+[D] A temporary cookie is not destroyed after the user logs off your site.</span>		</p>
+	
+</div>
+
+
+		</div>
+
+			
+		
+				<div data-id="1359570132" class="term has-audio">
+			
+<div class="details-wrap">
+	<div class="details">
+
+		<div class="icons">
+
+			<a class="star">
+				<span class="glyph icon star-icon "></span>				<span class="glyph icon star-empty-icon "></span>			</a>
+
+			<a class="play-audio" title="Play audio for this term">
+				<span class="glyph icon audio-icon "></span>			</a>
+
+			
+					</div>
+		<div class="clear"></div>
+
+	</div>
+</div>
+
+
+<div class="text">
+
+	<h3 class="word has-audio ">
+		<span class="qWord lang-en">C</span>	</h3>
+
+			<p class="definition has-audio ">
+			<span class="qDef lang-en">In below events of page, which one is raised first?<br>
+<br>
+[A] PreRender<br>
+[B] Load<br>
+[C] Prelnit<br>
+[D] Unload</span>		</p>
+	
+</div>
+
+
+		</div>
+
+			
+		
+				<div data-id="1359570133" class="term has-audio">
+			
+<div class="details-wrap">
+	<div class="details">
+
+		<div class="icons">
+
+			<a class="star">
+				<span class="glyph icon star-icon "></span>				<span class="glyph icon star-empty-icon "></span>			</a>
+
+			<a class="play-audio" title="Play audio for this term">
+				<span class="glyph icon audio-icon "></span>			</a>
+
+			
+					</div>
+		<div class="clear"></div>
+
+	</div>
+</div>
+
+
+<div class="text">
+
+	<h3 class="word has-audio ">
+		<span class="qWord lang-en">A &amp; D</span>	</h3>
+
+			<p class="definition has-audio ">
+			<span class="qDef lang-en">What is method of form to transmit the form data back to web server for processing? (Choose 2)<br>
+<br>
+[A] Get<br>
+[B] Postback<br>
+[C] Receive<br>
+[D] Post</span>		</p>
+	
+</div>
+
+
+		</div>
+
+			
+		
+				<div data-id="1359570134" class="term has-audio">
+			
+<div class="details-wrap">
+	<div class="details">
+
+		<div class="icons">
+
+			<a class="star">
+				<span class="glyph icon star-icon "></span>				<span class="glyph icon star-empty-icon "></span>			</a>
+
+			<a class="play-audio" title="Play audio for this term">
+				<span class="glyph icon audio-icon "></span>			</a>
+
+			
+					</div>
+		<div class="clear"></div>
+
+	</div>
+</div>
+
+
+<div class="text">
+
+	<h3 class="word has-audio ">
+		<span class="qWord lang-en">D</span>	</h3>
+
+			<p class="definition has-audio ">
+			<span class="qDef lang-en">What are properties of [WebService] attribute?<br>
+<br>
+[A] Description and Name.<br>
+[B] Description and Namespace.<br>
+[C] Name and Namespace.<br>
+[D] Description. Name and Namespace.</span>		</p>
+	
+</div>
+
+
+		</div>
+
+			
+		
+				<div data-id="1359570135" class="term has-audio">
+			
+<div class="details-wrap">
+	<div class="details">
+
+		<div class="icons">
+
+			<a class="star">
+				<span class="glyph icon star-icon "></span>				<span class="glyph icon star-empty-icon "></span>			</a>
+
+			<a class="play-audio" title="Play audio for this term">
+				<span class="glyph icon audio-icon "></span>			</a>
+
+			
+					</div>
+		<div class="clear"></div>
+
+	</div>
+</div>
+
+
+<div class="text">
+
+	<h3 class="word has-audio ">
+		<span class="qWord lang-en">B</span>	</h3>
+
+			<p class="definition has-audio ">
+			<span class="qDef lang-en">What are client-side script languages?<br>
+<br>
+[A] JavaScript only.<br>
+[B] VBScript and JavaScript<br>
+[C] Visual C#. Visual Basic.NET and Visual J#.<br>
+[D] VBScript only.</span>		</p>
+	
+</div>
+
+
+		</div>
+
+			
+		
+				<div data-id="1359570136" class="term has-audio">
+			
+<div class="details-wrap">
+	<div class="details">
+
+		<div class="icons">
+
+			<a class="star">
+				<span class="glyph icon star-icon "></span>				<span class="glyph icon star-empty-icon "></span>			</a>
+
+			<a class="play-audio" title="Play audio for this term">
+				<span class="glyph icon audio-icon "></span>			</a>
+
+			
+					</div>
+		<div class="clear"></div>
+
+	</div>
+</div>
+
+
+<div class="text">
+
+	<h3 class="word has-audio ">
+		<span class="qWord lang-en">D</span>	</h3>
+
+			<p class="definition has-audio ">
+			<span class="qDef lang-en">Which sentence is correct?<br>
+<br>
+[A] A web server provides Mail Exchange service only.<br>
+[B] A web server is a collection of files and related components.<br>
+[C] A web server provides File Transfer Protocol service only.<br>
+[D] A web server is a software product in charge of hosting your web applications.</span>		</p>
+	
+</div>
+
+
+		</div>
+
+			
+		
+				<div data-id="1359570137" class="term has-audio">
+			
+<div class="details-wrap">
+	<div class="details">
+
+		<div class="icons">
+
+			<a class="star">
+				<span class="glyph icon star-icon "></span>				<span class="glyph icon star-empty-icon "></span>			</a>
+
+			<a class="play-audio" title="Play audio for this term">
+				<span class="glyph icon audio-icon "></span>			</a>
+
+			
+					</div>
+		<div class="clear"></div>
+
+	</div>
+</div>
+
+
+<div class="text">
+
+	<h3 class="word has-audio ">
+		<span class="qWord lang-en">C</span>	</h3>
+
+			<p class="definition no-audio ">
+			<span class="qDef lang-en">Which sentence is correct?<br>
+<br>
+[A] ASP.NET supports multi-file model only.<br>
+[B] Performance of single-file model is the same as of multi-file model.<br>
+[C] ASP.NET supports single-file model only.<br>
+[D] Performance of single-file model is better than of multi-file model.<br>
+[E] Performance of single-file model is less than of multi-file model.</span>		</p>
+	
+</div>
+
+
+		</div>
+
+			
+		
+				<div data-id="1359570138" class="term has-audio">
+			
+<div class="details-wrap">
+	<div class="details">
+
+		<div class="icons">
+
+			<a class="star">
+				<span class="glyph icon star-icon "></span>				<span class="glyph icon star-empty-icon "></span>			</a>
+
+			<a class="play-audio" title="Play audio for this term">
+				<span class="glyph icon audio-icon "></span>			</a>
+
+			
+					</div>
+		<div class="clear"></div>
+
+	</div>
+</div>
+
+
+<div class="text">
+
+	<h3 class="word has-audio ">
+		<span class="qWord lang-en">B</span>	</h3>
+
+			<p class="definition has-audio ">
+			<span class="qDef lang-en">Can the errors be displayed in a pop-up message box?<br>
+<br>
+[A] No<br>
+[B] Yes</span>		</p>
+	
+</div>
+
+
+		</div>
+
+			
+		
+				<div data-id="1359570139" class="term has-audio">
+			
+<div class="details-wrap">
+	<div class="details">
+
+		<div class="icons">
+
+			<a class="star">
+				<span class="glyph icon star-icon "></span>				<span class="glyph icon star-empty-icon "></span>			</a>
+
+			<a class="play-audio" title="Play audio for this term">
+				<span class="glyph icon audio-icon "></span>			</a>
+
+			
+					</div>
+		<div class="clear"></div>
+
+	</div>
+</div>
+
+
+<div class="text">
+
+	<h3 class="word has-audio ">
+		<span class="qWord lang-en">B</span>	</h3>
+
+			<p class="definition has-audio ">
+			<span class="qDef lang-en">The runtime will automatically assign a new session ID for user when he/she logs on to an ASP.NET web application.<br>
+<br>
+[A] False<br>
+[B] True</span>		</p>
+	
+</div>
+
+
+		</div>
+
+			
+		
+				<div data-id="1359570140" class="term has-audio">
+			
+<div class="details-wrap">
+	<div class="details">
+
+		<div class="icons">
+
+			<a class="star">
+				<span class="glyph icon star-icon "></span>				<span class="glyph icon star-empty-icon "></span>			</a>
+
+			<a class="play-audio" title="Play audio for this term">
+				<span class="glyph icon audio-icon "></span>			</a>
+
+			
+					</div>
+		<div class="clear"></div>
+
+	</div>
+</div>
+
+
+<div class="text">
+
+	<h3 class="word has-audio ">
+		<span class="qWord lang-en">A</span>	</h3>
+
+			<p class="definition no-audio ">
+			<span class="qDef lang-en">Which sentence about ViewState is correct?<br>
+<br>
+[A] Values of each GUI widget on the page are stored in a hidden form field.<br>
+[B] Values of each GUI widget on the page are included in a no-encoded string.<br>
+[C] Values of each GUI widget on the page will be destroyed after a period of time.<br>
+[D] Values of each GUI widget on the page are stored in a server-side variable.</span>		</p>
+	
+</div>
+
+
+		</div>
+
+			
+		
+				<div data-id="1359570141" class="term has-audio">
+			
+<div class="details-wrap">
+	<div class="details">
+
+		<div class="icons">
+
+			<a class="star">
+				<span class="glyph icon star-icon "></span>				<span class="glyph icon star-empty-icon "></span>			</a>
+
+			<a class="play-audio" title="Play audio for this term">
+				<span class="glyph icon audio-icon "></span>			</a>
+
+			
+					</div>
+		<div class="clear"></div>
+
+	</div>
+</div>
+
+
+<div class="text">
+
+	<h3 class="word has-audio ">
+		<span class="qWord lang-en">B</span>	</h3>
+
+			<p class="definition has-audio ">
+			<span class="qDef lang-en">What are building blocks of an XML Web service?<br>
+<br>
+[A] A discovery service and a transport protocol.<br>
+[B] A discovery service, a description service and a transport protocol.<br>
+[C] A description service and a transport protocol.<br>
+[D] A discovery service and a description service.</span>		</p>
+	
+</div>
+
+
+		</div>
+
+			
+		
+				<div data-id="1359570142" class="term has-audio">
+			
+<div class="details-wrap">
+	<div class="details">
+
+		<div class="icons">
+
+			<a class="star">
+				<span class="glyph icon star-icon "></span>				<span class="glyph icon star-empty-icon "></span>			</a>
+
+			<a class="play-audio" title="Play audio for this term">
+				<span class="glyph icon audio-icon "></span>			</a>
+
+			
+					</div>
+		<div class="clear"></div>
+
+	</div>
+</div>
+
+
+<div class="text">
+
+	<h3 class="word has-audio ">
+		<span class="qWord lang-en">A</span>	</h3>
+
+			<p class="definition has-audio ">
+			<span class="qDef lang-en">For testing and development does website have to be hosted under IIS?<br>
+<br>
+[A] Yes<br>
+[B] No</span>		</p>
+	
+</div>
+
+
+		</div>
+
+			
+		
+				<div data-id="1359570143" class="term has-audio">
+			
+<div class="details-wrap">
+	<div class="details">
+
+		<div class="icons">
+
+			<a class="star">
+				<span class="glyph icon star-icon "></span>				<span class="glyph icon star-empty-icon "></span>			</a>
+
+			<a class="play-audio" title="Play audio for this term">
+				<span class="glyph icon audio-icon "></span>			</a>
+
+			
+					</div>
+		<div class="clear"></div>
+
+	</div>
+</div>
+
+
+<div class="text">
+
+	<h3 class="word has-audio ">
+		<span class="qWord lang-en">A</span>	</h3>
+
+			<p class="definition has-audio ">
+			<span class="qDef lang-en">_____is any action directed at the application. <br>
+<br>
+[A] Event<br>
+[B] Method<br>
+[C] Class<br>
+[D] Object</span>		</p>
+	
+</div>
+
+
+		</div>
+
+			
+		
+				<div data-id="1359570144" class="term has-audio">
+			
+<div class="details-wrap">
+	<div class="details">
+
+		<div class="icons">
+
+			<a class="star">
+				<span class="glyph icon star-icon "></span>				<span class="glyph icon star-empty-icon "></span>			</a>
+
+			<a class="play-audio" title="Play audio for this term">
+				<span class="glyph icon audio-icon "></span>			</a>
+
+			
+					</div>
+		<div class="clear"></div>
+
+	</div>
+</div>
+
+
+<div class="text">
+
+	<h3 class="word has-audio ">
+		<span class="qWord lang-en">A</span>	</h3>
+
+			<p class="definition has-audio ">
+			<span class="qDef lang-en">____property is used to get or set the object that contains data about the control.<br>
+<br>
+[A] Value<br>
+[B] Tag<br>
+[C] Text<br>
+[D] Name</span>		</p>
+	
+</div>
+
+
+		</div>
+
+			
+		
+				<div data-id="1359570145" class="term has-audio">
+			
+<div class="details-wrap">
+	<div class="details">
+
+		<div class="icons">
+
+			<a class="star">
+				<span class="glyph icon star-icon "></span>				<span class="glyph icon star-empty-icon "></span>			</a>
+
+			<a class="play-audio" title="Play audio for this term">
+				<span class="glyph icon audio-icon "></span>			</a>
+
+			
+					</div>
+		<div class="clear"></div>
+
+	</div>
+</div>
+
+
+<div class="text">
+
+	<h3 class="word has-audio ">
+		<span class="qWord lang-en">C &amp; D</span>	</h3>
+
+			<p class="definition no-audio ">
+			<span class="qDef lang-en">Which of the following statement with respect to Data Grid control are True? (Choose all correct answers)<br>
+<br>
+[A] By default, the DataGrid display 1 page at a time.<br>
+[B] When the DataGrid control is set to a valid data source, the control is populated automatically<br>
+[C] Each field in the DataGrid is bound to a single column based on the DataSource<br>
+[D] The DataGrid control display data in tabular format and optionally supports data editing.</span>		</p>
+	
+</div>
+
+
+		</div>
+
+			
+		
+				<div data-id="1359570146" class="term has-audio">
+			
+<div class="details-wrap">
+	<div class="details">
+
+		<div class="icons">
+
+			<a class="star">
+				<span class="glyph icon star-icon "></span>				<span class="glyph icon star-empty-icon "></span>			</a>
+
+			<a class="play-audio" title="Play audio for this term">
+				<span class="glyph icon audio-icon "></span>			</a>
+
+			
+					</div>
+		<div class="clear"></div>
+
+	</div>
+</div>
+
+
+<div class="text">
+
+	<h3 class="word has-audio ">
+		<span class="qWord lang-en">B</span>	</h3>
+
+			<p class="definition has-audio ">
+			<span class="qDef lang-en">When an MDI parent form is closed, the Closing event of all MDI child forms are raised before the MDI parent form's Closing event is raised<br>
+<br>
+[A] False<br>
+[B] True</span>		</p>
+	
+</div>
+
+
+		</div>
+
+			
+		
+				<div data-id="1359570147" class="term has-audio">
+			
+<div class="details-wrap">
+	<div class="details">
+
+		<div class="icons">
+
+			<a class="star">
+				<span class="glyph icon star-icon "></span>				<span class="glyph icon star-empty-icon "></span>			</a>
+
+			<a class="play-audio" title="Play audio for this term">
+				<span class="glyph icon audio-icon "></span>			</a>
+
+			
+					</div>
+		<div class="clear"></div>
+
+	</div>
+</div>
+
+
+<div class="text">
+
+	<h3 class="word has-audio ">
+		<span class="qWord lang-en">D</span>	</h3>
+
+			<p class="definition no-audio ">
+			<span class="qDef lang-en">What of the followings is correct for creating a command object with the connection con? <br>
+<br>
+[A] SqlCommandCmd = con.SetSqlCommand("Select * From Student");<br>
+[B] SqlCommandCmd = con.GetSqlCommand("Select * From Student");<br>
+[C] SqlCommandCmd = new SqlCommand(con,"Select * From Student");<br>
+[D] SqlCommandCmd = new SqlCommand("Select * From Student", con);</span>		</p>
+	
+</div>
+
+
+		</div>
+
+			
+		
+				<div data-id="1359570148" class="term has-audio">
+			
+<div class="details-wrap">
+	<div class="details">
+
+		<div class="icons">
+
+			<a class="star">
+				<span class="glyph icon star-icon "></span>				<span class="glyph icon star-empty-icon "></span>			</a>
+
+			<a class="play-audio" title="Play audio for this term">
+				<span class="glyph icon audio-icon "></span>			</a>
+
+			
+					</div>
+		<div class="clear"></div>
+
+	</div>
+</div>
+
+
+<div class="text">
+
+	<h3 class="word has-audio ">
+		<span class="qWord lang-en">D</span>	</h3>
+
+			<p class="definition has-audio ">
+			<span class="qDef lang-en">The method can be used to draw a rectangle or a square depending on the coordinates passed as its argument.<br>
+<br>
+[A] FillSquare<br>
+[B] FillRectangle<br>
+[C] DrawSquare<br>
+[D] DrawRetangle</span>		</p>
+	
+</div>
+
+
+		</div>
+
+			
+		
+				<div data-id="1359570149" class="term has-audio">
+			
+<div class="details-wrap">
+	<div class="details">
+
+		<div class="icons">
+
+			<a class="star">
+				<span class="glyph icon star-icon "></span>				<span class="glyph icon star-empty-icon "></span>			</a>
+
+			<a class="play-audio" title="Play audio for this term">
+				<span class="glyph icon audio-icon "></span>			</a>
+
+			
+					</div>
+		<div class="clear"></div>
+
+	</div>
+</div>
+
+
+<div class="text">
+
+	<h3 class="word has-audio ">
+		<span class="qWord lang-en">A</span>	</h3>
+
+			<p class="definition has-audio ">
+			<span class="qDef lang-en">_____it the normal ouput type for a WinForm project<br>
+<br>
+[A] Windows Application<br>
+[B] Console Application<br>
+[C] Class Library<br>
+[D] Windows Forms</span>		</p>
+	
+</div>
+
+
+		</div>
+
+			
+		
+				<div data-id="1359570150" class="term has-audio">
+			
+<div class="details-wrap">
+	<div class="details">
+
+		<div class="icons">
+
+			<a class="star">
+				<span class="glyph icon star-icon "></span>				<span class="glyph icon star-empty-icon "></span>			</a>
+
+			<a class="play-audio" title="Play audio for this term">
+				<span class="glyph icon audio-icon "></span>			</a>
+
+			
+					</div>
+		<div class="clear"></div>
+
+	</div>
+</div>
+
+
+<div class="text">
+
+	<h3 class="word has-audio ">
+		<span class="qWord lang-en">D</span>	</h3>
+
+			<p class="definition has-audio ">
+			<span class="qDef lang-en">The ____control groups a set of controls within a non-labeled an scrollable frame<br>
+<br>
+[A] PictureBox<br>
+[B] Tab<br>
+[C] Frame<br>
+[D] Panel</span>		</p>
+	
+</div>
+
+
+		</div>
+
+			
+		
+				<div data-id="1359570151" class="term has-audio">
+			
+<div class="details-wrap">
+	<div class="details">
+
+		<div class="icons">
+
+			<a class="star">
+				<span class="glyph icon star-icon "></span>				<span class="glyph icon star-empty-icon "></span>			</a>
+
+			<a class="play-audio" title="Play audio for this term">
+				<span class="glyph icon audio-icon "></span>			</a>
+
+			
+					</div>
+		<div class="clear"></div>
+
+	</div>
+</div>
+
+
+<div class="text">
+
+	<h3 class="word has-audio ">
+		<span class="qWord lang-en">D</span>	</h3>
+
+			<p class="definition has-audio ">
+			<span class="qDef lang-en">The ____feature of Windows Installer provider a standard method for distributing components and ensures that the installed component is of the correct version.<br>
+<br>
+[A] VersionUpdate<br>
+[B] CAB <br>
+[C] Msi<br>
+[D] Merge Modules</span>		</p>
+	
+</div>
+
+
+		</div>
+
+			
+		
+				<div data-id="1359570152" class="term has-audio">
+			
+<div class="details-wrap">
+	<div class="details">
+
+		<div class="icons">
+
+			<a class="star">
+				<span class="glyph icon star-icon "></span>				<span class="glyph icon star-empty-icon "></span>			</a>
+
+			<a class="play-audio" title="Play audio for this term">
+				<span class="glyph icon audio-icon "></span>			</a>
+
+			
+					</div>
+		<div class="clear"></div>
+
+	</div>
+</div>
+
+
+<div class="text">
+
+	<h3 class="word has-audio ">
+		<span class="qWord lang-en">E</span>	</h3>
+
+			<p class="definition no-audio ">
+			<span class="qDef lang-en">To create an instance of the Font class using existing Font and FontStyle, the constructor is:<br>
+<br>
+[A] public void Font(string fontname, float size);<br>
+[B] public Font(FontStylefs, Font f);<br>
+[C] public void Font(Font f, FontStylefs);<br>
+[D] public Font(Font f, FontStylefs);<br>
+[E] public Font(string fontname, float size);</span>		</p>
+	
+</div>
+
+
+		</div>
+
+			
+		
+				<div data-id="1359570153" class="term has-audio">
+			
+<div class="details-wrap">
+	<div class="details">
+
+		<div class="icons">
+
+			<a class="star">
+				<span class="glyph icon star-icon "></span>				<span class="glyph icon star-empty-icon "></span>			</a>
+
+			<a class="play-audio" title="Play audio for this term">
+				<span class="glyph icon audio-icon "></span>			</a>
+
+			
+					</div>
+		<div class="clear"></div>
+
+	</div>
+</div>
+
+
+<div class="text">
+
+	<h3 class="word has-audio ">
+		<span class="qWord lang-en">A</span>	</h3>
+
+			<p class="definition has-audio ">
+			<span class="qDef lang-en">Which control is used to display a short, customized help message for individual controls on a form?<br>
+<br>
+[A] ToolTip<br>
+[B] HelpText<br>
+[C] HelpTool<br>
+[D] ToolClass</span>		</p>
+	
+</div>
+
+
+		</div>
+
+			
+		
+				<div data-id="1359570154" class="term has-audio">
+			
+<div class="details-wrap">
+	<div class="details">
+
+		<div class="icons">
+
+			<a class="star">
+				<span class="glyph icon star-icon "></span>				<span class="glyph icon star-empty-icon "></span>			</a>
+
+			<a class="play-audio" title="Play audio for this term">
+				<span class="glyph icon audio-icon "></span>			</a>
+
+			
+					</div>
+		<div class="clear"></div>
+
+	</div>
+</div>
+
+
+<div class="text">
+
+	<h3 class="word has-audio ">
+		<span class="qWord lang-en">D</span>	</h3>
+
+			<p class="definition has-audio ">
+			<span class="qDef lang-en">For using SQL.NET Data Provider what using statement of the following is correct?<br>
+<br>
+[A] using System.Data;<br>
+[B] using System.Data.SqlServer;<br>
+[C] using System.Data.OleDb;<br>
+[D] using System.Data.SqlClient;</span>		</p>
+	
+</div>
+
+
+		</div>
+
+			
+		
+				<div data-id="1359570155" class="term has-audio">
+			
+<div class="details-wrap">
+	<div class="details">
+
+		<div class="icons">
+
+			<a class="star">
+				<span class="glyph icon star-icon "></span>				<span class="glyph icon star-empty-icon "></span>			</a>
+
+			<a class="play-audio" title="Play audio for this term">
+				<span class="glyph icon audio-icon "></span>			</a>
+
+			
+					</div>
+		<div class="clear"></div>
+
+	</div>
+</div>
+
+
+<div class="text">
+
+	<h3 class="word has-audio ">
+		<span class="qWord lang-en">A</span>	</h3>
+
+			<p class="definition has-audio ">
+			<span class="qDef lang-en">Which namespace is VS.NET contains classes that help in constructing and sending emails?<br>
+<br>
+[A] System.Web.Mail<br>
+[B] System.Mail<br>
+[C] System.Web.MailMessage<br>
+[D] System.Web.MailMessages</span>		</p>
+	
+</div>
+
+
+		</div>
+
+			
+		
+				<div data-id="1359570156" class="term has-audio">
+			
+<div class="details-wrap">
+	<div class="details">
+
+		<div class="icons">
+
+			<a class="star">
+				<span class="glyph icon star-icon "></span>				<span class="glyph icon star-empty-icon "></span>			</a>
+
+			<a class="play-audio" title="Play audio for this term">
+				<span class="glyph icon audio-icon "></span>			</a>
+
+			
+					</div>
+		<div class="clear"></div>
+
+	</div>
+</div>
+
+
+<div class="text">
+
+	<h3 class="word has-audio ">
+		<span class="qWord lang-en">D</span>	</h3>
+
+			<p class="definition has-audio ">
+			<span class="qDef lang-en">To perform a change to a table using the Command object named Cmd, what statement of the following correct?<br>
+<br>
+[A] Cmd.ExecuteReader()<br>
+[B] Cmd.ExecuteScalar()<br>
+[C] Cmd.ExecuteQuery()<br>
+[D] Cmd.ExecuteNonQuery()<br>
+[E] Cmd.ExecuteUpdate()</span>		</p>
+	
+</div>
+
+
+		</div>
+
+			
+		
+				<div data-id="1359570157" class="term has-audio">
+			
+<div class="details-wrap">
+	<div class="details">
+
+		<div class="icons">
+
+			<a class="star">
+				<span class="glyph icon star-icon "></span>				<span class="glyph icon star-empty-icon "></span>			</a>
+
+			<a class="play-audio" title="Play audio for this term">
+				<span class="glyph icon audio-icon "></span>			</a>
+
+			
+					</div>
+		<div class="clear"></div>
+
+	</div>
+</div>
+
+
+<div class="text">
+
+	<h3 class="word has-audio ">
+		<span class="qWord lang-en">D &amp; E &amp; F</span>	</h3>
+
+			<p class="definition has-audio ">
+			<span class="qDef lang-en">When a Data Form is created using the Data Form Wizard, which of the following classes are used by default?(Choose all correct answers)<br>
+<br>
+[A] OleDbDataWriter<br>
+[B] OleDbDataAdapter<br>
+[C] OleDbStatement<br>
+[D] OleDbDataReader<br>
+[E] OleDbConnection<br>
+[F] OleDbCommand</span>		</p>
+	
+</div>
+
+
+		</div>
+
+			
+		
+				<div data-id="1359570158" class="term has-audio">
+			
+<div class="details-wrap">
+	<div class="details">
+
+		<div class="icons">
+
+			<a class="star">
+				<span class="glyph icon star-icon "></span>				<span class="glyph icon star-empty-icon "></span>			</a>
+
+			<a class="play-audio" title="Play audio for this term">
+				<span class="glyph icon audio-icon "></span>			</a>
+
+			
+					</div>
+		<div class="clear"></div>
+
+	</div>
+</div>
+
+
+<div class="text">
+
+	<h3 class="word has-audio ">
+		<span class="qWord lang-en">D</span>	</h3>
+
+			<p class="definition has-audio ">
+			<span class="qDef lang-en">____property of a connection object is used to get or set the string used to open a database<br>
+<br>
+[A] ConnectionParams<br>
+[B] ConnectionInfo<br>
+[C] StringConnection<br>
+[D] ConnectionString</span>		</p>
+	
+</div>
+
+
+		</div>
+
+			
+		
+				<div data-id="1359570159" class="term has-audio">
+			
+<div class="details-wrap">
+	<div class="details">
+
+		<div class="icons">
+
+			<a class="star">
+				<span class="glyph icon star-icon "></span>				<span class="glyph icon star-empty-icon "></span>			</a>
+
+			<a class="play-audio" title="Play audio for this term">
+				<span class="glyph icon audio-icon "></span>			</a>
+
+			
+					</div>
+		<div class="clear"></div>
+
+	</div>
+</div>
+
+
+<div class="text">
+
+	<h3 class="word has-audio ">
+		<span class="qWord lang-en">C</span>	</h3>
+
+			<p class="definition has-audio ">
+			<span class="qDef lang-en">_____property is used to get or set the edges of the control are anchored to the edges of its container.<br>
+<br>
+[A] Hang<br>
+[B] Fixed<br>
+[C] Anchor<br>
+[D] Dock</span>		</p>
+	
+</div>
+
+
+		</div>
+
+			
+		
+				<div data-id="1359570160" class="term has-audio">
+			
+<div class="details-wrap">
+	<div class="details">
+
+		<div class="icons">
+
+			<a class="star">
+				<span class="glyph icon star-icon "></span>				<span class="glyph icon star-empty-icon "></span>			</a>
+
+			<a class="play-audio" title="Play audio for this term">
+				<span class="glyph icon audio-icon "></span>			</a>
+
+			
+					</div>
+		<div class="clear"></div>
+
+	</div>
+</div>
+
+
+<div class="text">
+
+	<h3 class="word has-audio ">
+		<span class="qWord lang-en">A</span>	</h3>
+
+			<p class="definition has-audio ">
+			<span class="qDef lang-en">____property is used to get or set the shortcut menu associated with the control.<br>
+<br>
+[A] PopUpMenu<br>
+[B] SubMenu<br>
+[C] ContextMenu<br>
+[D] MainMenu</span>		</p>
+	
+</div>
+
+
+		</div>
+
+			
+		
+				<div data-id="1359570161" class="term has-audio">
+			
+<div class="details-wrap">
+	<div class="details">
+
+		<div class="icons">
+
+			<a class="star">
+				<span class="glyph icon star-icon "></span>				<span class="glyph icon star-empty-icon "></span>			</a>
+
+			<a class="play-audio" title="Play audio for this term">
+				<span class="glyph icon audio-icon "></span>			</a>
+
+			
+					</div>
+		<div class="clear"></div>
+
+	</div>
+</div>
+
+
+<div class="text">
+
+	<h3 class="word has-audio ">
+		<span class="qWord lang-en">A</span>	</h3>
+
+			<p class="definition has-audio ">
+			<span class="qDef lang-en">System.Windows.Forms is an important____of the class libraries in .NET framework?<br>
+<br>
+[A] Namespace<br>
+[B] Class</span>		</p>
+	
+</div>
+
+
+		</div>
+
+			
+		
+				<div data-id="1359570162" class="term has-audio">
+			
+<div class="details-wrap">
+	<div class="details">
+
+		<div class="icons">
+
+			<a class="star">
+				<span class="glyph icon star-icon "></span>				<span class="glyph icon star-empty-icon "></span>			</a>
+
+			<a class="play-audio" title="Play audio for this term">
+				<span class="glyph icon audio-icon "></span>			</a>
+
+			
+					</div>
+		<div class="clear"></div>
+
+	</div>
+</div>
+
+
+<div class="text">
+
+	<h3 class="word has-audio ">
+		<span class="qWord lang-en">D</span>	</h3>
+
+			<p class="definition no-audio ">
+			<span class="qDef lang-en">To get values of the columns of the i-th row in a DataTable object named datatable, what of the follwings is correct? <br>
+<br>
+[A] DataColumn array = datatable.Rows[i].ItemArray;<br>
+[B] String[]array = datatable.Rows[i].ItemArray;<br>
+[C] Object[]array = datatable.Rows[i].ItemArray;<br>
+[D] DataRow array = datatable.Rows[i].ItemArray;</span>		</p>
+	
+</div>
+
+
+		</div>
+
+			
+		
+				<div data-id="1359570163" class="term has-audio">
+			
+<div class="details-wrap">
+	<div class="details">
+
+		<div class="icons">
+
+			<a class="star">
+				<span class="glyph icon star-icon "></span>				<span class="glyph icon star-empty-icon "></span>			</a>
+
+			<a class="play-audio" title="Play audio for this term">
+				<span class="glyph icon audio-icon "></span>			</a>
+
+			
+					</div>
+		<div class="clear"></div>
+
+	</div>
+</div>
+
+
+<div class="text">
+
+	<h3 class="word has-audio ">
+		<span class="qWord lang-en">D</span>	</h3>
+
+			<p class="definition has-audio ">
+			<span class="qDef lang-en">What mode is VS.NET allow you to step through each line of code and trace the execution of your application?<br>
+<br>
+[A] Neither Debug Mode nor Release Mode<br>
+[B] Both Debug Mode and Release Mode<br>
+[C] Release Mode<br>
+[D] Debug Mode</span>		</p>
+	
+</div>
+
+
+		</div>
+
+			
+		
+				<div data-id="1359570164" class="term has-audio">
+			
+<div class="details-wrap">
+	<div class="details">
+
+		<div class="icons">
+
+			<a class="star">
+				<span class="glyph icon star-icon "></span>				<span class="glyph icon star-empty-icon "></span>			</a>
+
+			<a class="play-audio" title="Play audio for this term">
+				<span class="glyph icon audio-icon "></span>			</a>
+
+			
+					</div>
+		<div class="clear"></div>
+
+	</div>
+</div>
+
+
+<div class="text">
+
+	<h3 class="word has-audio ">
+		<span class="qWord lang-en">D &amp; E &amp; F</span>	</h3>
+
+			<p class="definition has-audio ">
+			<span class="qDef lang-en">Brushes can be created using one of the following classe(Choose all correct answers)<br>
+<br>
+[A] ThinBrush<br>
+[B] ThickBrush<br>
+[C] PlainBrush<br>
+[D] TextureBrush<br>
+[E] SolidBrush<br>
+[F] LinearGradientBrush<br>
+[G] GradientBrush</span>		</p>
+	
+</div>
+
+
+		</div>
+
+			
+		
+				<div data-id="1359570165" class="term has-audio">
+			
+<div class="details-wrap">
+	<div class="details">
+
+		<div class="icons">
+
+			<a class="star">
+				<span class="glyph icon star-icon "></span>				<span class="glyph icon star-empty-icon "></span>			</a>
+
+			<a class="play-audio" title="Play audio for this term">
+				<span class="glyph icon audio-icon "></span>			</a>
+
+			
+					</div>
+		<div class="clear"></div>
+
+	</div>
+</div>
+
+
+<div class="text">
+
+	<h3 class="word has-audio ">
+		<span class="qWord lang-en">C</span>	</h3>
+
+			<p class="definition has-audio ">
+			<span class="qDef lang-en">What mode is VS.NET allow you create a portable exe(EXE) file?<br>
+<br>
+[A] Neither Debug Mode nor Release Mode<br>
+[B] Debug Mode<br>
+[C] Both Debug Mode and Release Mode<br>
+[D] Release Mode</span>		</p>
+	
+</div>
+
+
+		</div>
+
+			
+		
+				<div data-id="1359570166" class="term has-audio">
+			
+<div class="details-wrap">
+	<div class="details">
+
+		<div class="icons">
+
+			<a class="star">
+				<span class="glyph icon star-icon "></span>				<span class="glyph icon star-empty-icon "></span>			</a>
+
+			<a class="play-audio" title="Play audio for this term">
+				<span class="glyph icon audio-icon "></span>			</a>
+
+			
+					</div>
+		<div class="clear"></div>
+
+	</div>
+</div>
+
+
+<div class="text">
+
+	<h3 class="word has-audio ">
+		<span class="qWord lang-en">A</span>	</h3>
+
+			<p class="definition no-audio ">
+			<span class="qDef lang-en">What statement in the followings is correct<br>
+I. The instance properties and methods are those, which are common to all the instances of the class.<br>
+II. The shared properties and methods are those, which are specific to a particular instance.<br>
+<br>
+[A] Both of I and II statements are correct<br>
+[B] Both of I and II statements are incorrect<br>
+[C] Only II statement is correct<br>
+[D] Only I statement is correct</span>		</p>
+	
+</div>
+
+
+		</div>
+
+			
+		
+				<div data-id="1359570167" class="term has-audio">
+			
+<div class="details-wrap">
+	<div class="details">
+
+		<div class="icons">
+
+			<a class="star">
+				<span class="glyph icon star-icon "></span>				<span class="glyph icon star-empty-icon "></span>			</a>
+
+			<a class="play-audio" title="Play audio for this term">
+				<span class="glyph icon audio-icon "></span>			</a>
+
+			
+					</div>
+		<div class="clear"></div>
+
+	</div>
+</div>
+
+
+<div class="text">
+
+	<h3 class="word has-audio ">
+		<span class="qWord lang-en">A</span>	</h3>
+
+			<p class="definition has-audio ">
+			<span class="qDef lang-en">ADO.NET provides features for accessing traditional databases like SQL Server as well as databases, which are accessed using ____.(choose all correct answers)<br>
+<br>
+[A] ODBC<br>
+[B] VB.NET<br>
+[C] OLEDB<br>
+[D] XML<br>
+[E] DataSets</span>		</p>
+	
+</div>
+
+
+		</div>
+
+			
+		
+				<div data-id="1359570168" class="term has-audio">
+			
+<div class="details-wrap">
+	<div class="details">
+
+		<div class="icons">
+
+			<a class="star">
+				<span class="glyph icon star-icon "></span>				<span class="glyph icon star-empty-icon "></span>			</a>
+
+			<a class="play-audio" title="Play audio for this term">
+				<span class="glyph icon audio-icon "></span>			</a>
+
+			
+					</div>
+		<div class="clear"></div>
+
+	</div>
+</div>
+
+
+<div class="text">
+
+	<h3 class="word has-audio ">
+		<span class="qWord lang-en">A &amp; C &amp; D</span>	</h3>
+
+			<p class="definition has-audio ">
+			<span class="qDef lang-en">Name the .NET data providers which are available is VS.NET?(Choose all correct answers)<br>
+<br>
+[A] ODBC.NET Framework Data Provider<br>
+[B] SQL.NET Framework Data Provider<br>
+[C] OLEDB.NET Framework Data Provider<br>
+[D] Oracle.NET Framework Data Provider<br>
+[E] Access.NET Framework Data Provider</span>		</p>
+	
+</div>
+
+
+		</div>
+
+			
+		
+				<div data-id="1359570169" class="term has-audio">
+			
+<div class="details-wrap">
+	<div class="details">
+
+		<div class="icons">
+
+			<a class="star">
+				<span class="glyph icon star-icon "></span>				<span class="glyph icon star-empty-icon "></span>			</a>
+
+			<a class="play-audio" title="Play audio for this term">
+				<span class="glyph icon audio-icon "></span>			</a>
+
+			
+					</div>
+		<div class="clear"></div>
+
+	</div>
+</div>
+
+
+<div class="text">
+
+	<h3 class="word has-audio ">
+		<span class="qWord lang-en">D</span>	</h3>
+
+			<p class="definition has-audio ">
+			<span class="qDef lang-en">The____ event of the PrintDocument class is triggered immediately before each PrintPage event ocurs.<br>
+<br>
+[A] StartPrint<br>
+[B] BeginPrint<br>
+[C] PrintPage<br>
+[D] QueryPageSettings</span>		</p>
+	
+</div>
+
+
+		</div>
+
+			
+		
+				<div data-id="1359570170" class="term has-audio">
+			
+<div class="details-wrap">
+	<div class="details">
+
+		<div class="icons">
+
+			<a class="star">
+				<span class="glyph icon star-icon "></span>				<span class="glyph icon star-empty-icon "></span>			</a>
+
+			<a class="play-audio" title="Play audio for this term">
+				<span class="glyph icon audio-icon "></span>			</a>
+
+			
+					</div>
+		<div class="clear"></div>
+
+	</div>
+</div>
+
+
+<div class="text">
+
+	<h3 class="word has-audio ">
+		<span class="qWord lang-en">D</span>	</h3>
+
+			<p class="definition has-audio ">
+			<span class="qDef lang-en">Which namespace does the class ListView belong to?<br>
+<br>
+[A] System.Windows.Lists<br>
+[B] System.Windows.Drawing<br>
+[C] System.Windows.Paint<br>
+[D] System.Windows.Forms</span>		</p>
+	
+</div>
+
+
+		</div>
+
+			
+		
+				<div data-id="1359570171" class="term has-audio">
+			
+<div class="details-wrap">
+	<div class="details">
+
+		<div class="icons">
+
+			<a class="star">
+				<span class="glyph icon star-icon "></span>				<span class="glyph icon star-empty-icon "></span>			</a>
+
+			<a class="play-audio" title="Play audio for this term">
+				<span class="glyph icon audio-icon "></span>			</a>
+
+			
+					</div>
+		<div class="clear"></div>
+
+	</div>
+</div>
+
+
+<div class="text">
+
+	<h3 class="word has-audio ">
+		<span class="qWord lang-en">E</span>	</h3>
+
+			<p class="definition has-audio ">
+			<span class="qDef lang-en">The____property of a DataGrid control, allow filling various kinds of data in a DataGrid including data from a DataSet, DataViewManager, Arrays, Lists etc.<br>
+<br>
+[A] DataRecords<br>
+[B] FillSchema<br>
+[C] Fill<br>
+[D] FillData<br>
+[E] DataSource</span>		</p>
+	
+</div>
+
+
+		</div>
+
+			
+		
+				<div data-id="1359570172" class="term has-audio">
+			
+<div class="details-wrap">
+	<div class="details">
+
+		<div class="icons">
+
+			<a class="star">
+				<span class="glyph icon star-icon "></span>				<span class="glyph icon star-empty-icon "></span>			</a>
+
+			<a class="play-audio" title="Play audio for this term">
+				<span class="glyph icon audio-icon "></span>			</a>
+
+			
+					</div>
+		<div class="clear"></div>
+
+	</div>
+</div>
+
+
+<div class="text">
+
+	<h3 class="word has-audio ">
+		<span class="qWord lang-en">D</span>	</h3>
+
+			<p class="definition has-audio ">
+			<span class="qDef lang-en">The Pen class belongs to the ____namespace and cannot be inherited<br>
+<br>
+[A] System.Painting<br>
+[B] System.GraphicsObjects<br>
+[C] System.Graphics<br>
+[D] System.Drawing</span>		</p>
+	
+</div>
+
+
+		</div>
+
+			
+		
+				<div data-id="1359570173" class="term has-audio">
+			
+<div class="details-wrap">
+	<div class="details">
+
+		<div class="icons">
+
+			<a class="star">
+				<span class="glyph icon star-icon "></span>				<span class="glyph icon star-empty-icon "></span>			</a>
+
+			<a class="play-audio" title="Play audio for this term">
+				<span class="glyph icon audio-icon "></span>			</a>
+
+			
+					</div>
+		<div class="clear"></div>
+
+	</div>
+</div>
+
+
+<div class="text">
+
+	<h3 class="word has-audio ">
+		<span class="qWord lang-en">C</span>	</h3>
+
+			<p class="definition has-audio ">
+			<span class="qDef lang-en">Which class represents shortcut menus that can be displayed when the user clicks the right mouse button over a control or area of the form?<br>
+<br>
+[A] ToolMenu<br>
+[B] MainMenu<br>
+[C] ContextMenu<br>
+[D] FileMenu</span>		</p>
+	
+</div>
+
+
+		</div>
+
+			
+		
+				<div data-id="1359570174" class="term has-audio">
+			
+<div class="details-wrap">
+	<div class="details">
+
+		<div class="icons">
+
+			<a class="star">
+				<span class="glyph icon star-icon "></span>				<span class="glyph icon star-empty-icon "></span>			</a>
+
+			<a class="play-audio" title="Play audio for this term">
+				<span class="glyph icon audio-icon "></span>			</a>
+
+			
+					</div>
+		<div class="clear"></div>
+
+	</div>
+</div>
+
+
+<div class="text">
+
+	<h3 class="word has-audio ">
+		<span class="qWord lang-en">A</span>	</h3>
+
+			<p class="definition has-audio ">
+			<span class="qDef lang-en">The value of the HelpButton property is ignored if the maximize of minimize boxes are shown.<br>
+<br>
+[A] False<br>
+[B] True</span>		</p>
+	
+</div>
+
+
+		</div>
+
+			
+		
+				<div data-id="1359570175" class="term has-audio">
+			
+<div class="details-wrap">
+	<div class="details">
+
+		<div class="icons">
+
+			<a class="star">
+				<span class="glyph icon star-icon "></span>				<span class="glyph icon star-empty-icon "></span>			</a>
+
+			<a class="play-audio" title="Play audio for this term">
+				<span class="glyph icon audio-icon "></span>			</a>
+
+			
+					</div>
+		<div class="clear"></div>
+
+	</div>
+</div>
+
+
+<div class="text">
+
+	<h3 class="word has-audio ">
+		<span class="qWord lang-en">C &amp; D</span>	</h3>
+
+			<p class="definition no-audio ">
+			<span class="qDef lang-en">List the key elements of COM (choose all correct answers)<br>
+<br>
+[A] A set of theorems which must be proven for checking the correctness of the object model<br>
+[B] A set of graphical symbol for modeling the objects<br>
+[C] A set of services for creating and exposing the classes<br>
+[D] A set of specifications defining the programming protocol</span>		</p>
+	
+</div>
+
+
+		</div>
+
+			
+		
+				<div data-id="1359570176" class="term has-audio">
+			
+<div class="details-wrap">
+	<div class="details">
+
+		<div class="icons">
+
+			<a class="star">
+				<span class="glyph icon star-icon "></span>				<span class="glyph icon star-empty-icon "></span>			</a>
+
+			<a class="play-audio" title="Play audio for this term">
+				<span class="glyph icon audio-icon "></span>			</a>
+
+			
+					</div>
+		<div class="clear"></div>
+
+	</div>
+</div>
+
+
+<div class="text">
+
+	<h3 class="word has-audio ">
+		<span class="qWord lang-en">C &amp; E</span>	</h3>
+
+			<p class="definition has-audio ">
+			<span class="qDef lang-en">____ are the Print support controls provided by WinForms.(Choose all correct answers)<br>
+<br>
+[A] PrintPreview<br>
+[B] PrintFile<br>
+[C] PrintPreviewControl<br>
+[D] PrintDirectory<br>
+[E] PrintDocument</span>		</p>
+	
+</div>
+
+
+		</div>
+
+			
+		
+				<div data-id="1359570177" class="term has-audio">
+			
+<div class="details-wrap">
+	<div class="details">
+
+		<div class="icons">
+
+			<a class="star">
+				<span class="glyph icon star-icon "></span>				<span class="glyph icon star-empty-icon "></span>			</a>
+
+			<a class="play-audio" title="Play audio for this term">
+				<span class="glyph icon audio-icon "></span>			</a>
+
+			
+					</div>
+		<div class="clear"></div>
+
+	</div>
+</div>
+
+
+<div class="text">
+
+	<h3 class="word no-audio ">
+		<span class="qWord lang-en">...</span>	</h3>
+
+			<p class="definition has-audio ">
+			<span class="qDef lang-en">What of the followings are data validation mode in WinForms?(Choose all correct answers)<br>
+[A] Form-Level Validation<br>
+[B] There is no Data validation mode in Winforms<br>
+[C] Control-Level Validation<br>
+[D] Field-Level Validation</span>		</p>
+	
+</div>
+
+
+		</div>
+
+			
+		
+				<div data-id="1359570178" class="term has-audio">
+			
+<div class="details-wrap">
+	<div class="details">
+
+		<div class="icons">
+
+			<a class="star">
+				<span class="glyph icon star-icon "></span>				<span class="glyph icon star-empty-icon "></span>			</a>
+
+			<a class="play-audio" title="Play audio for this term">
+				<span class="glyph icon audio-icon "></span>			</a>
+
+			
+					</div>
+		<div class="clear"></div>
+
+	</div>
+</div>
+
+
+<div class="text">
+
+	<h3 class="word has-audio ">
+		<span class="qWord lang-en">A &amp; C &amp; D</span>	</h3>
+
+			<p class="definition has-audio ">
+			<span class="qDef lang-en">What of the followings are data validation mode in WinForms?(Choose all correct answers)<br>
+<br>
+[A] Form-Level Validation<br>
+[B] There is no Data validation mode in Winforms<br>
+[C] Control-Level Validation<br>
+[D] Field-Level Validation</span>		</p>
+	
+</div>
+
+
+		</div>
+
+			
+		
+				<div data-id="1359570179" class="term has-audio">
+			
+<div class="details-wrap">
+	<div class="details">
+
+		<div class="icons">
+
+			<a class="star">
+				<span class="glyph icon star-icon "></span>				<span class="glyph icon star-empty-icon "></span>			</a>
+
+			<a class="play-audio" title="Play audio for this term">
+				<span class="glyph icon audio-icon "></span>			</a>
+
+			
+					</div>
+		<div class="clear"></div>
+
+	</div>
+</div>
+
+
+<div class="text">
+
+	<h3 class="word has-audio ">
+		<span class="qWord lang-en">A</span>	</h3>
+
+			<p class="definition has-audio ">
+			<span class="qDef lang-en">What of the folllowings is correct if we want to set the Achild form as a child form of the parent form named TheParent?<br>
+<br>
+[A] AChild.MdiParent = TheParent;<br>
+[B] AChild.TheParent = true;<br>
+[C] Achild.MdiChild = AChild;<br>
+[D] TheParent.MdiChild = AChild; <br>
+[E] TheParent.AChild = true;</span>		</p>
+	
+</div>
+
+
+		</div>
+
+			
+		
+				<div data-id="1359570180" class="term has-audio">
+			
+<div class="details-wrap">
+	<div class="details">
+
+		<div class="icons">
+
+			<a class="star">
+				<span class="glyph icon star-icon "></span>				<span class="glyph icon star-empty-icon "></span>			</a>
+
+			<a class="play-audio" title="Play audio for this term">
+				<span class="glyph icon audio-icon "></span>			</a>
+
+			
+					</div>
+		<div class="clear"></div>
+
+	</div>
+</div>
+
+
+<div class="text">
+
+	<h3 class="word has-audio ">
+		<span class="qWord lang-en">C</span>	</h3>
+
+			<p class="definition has-audio ">
+			<span class="qDef lang-en">The ____control groups a set of controls within a non-labeled and scrollable frame<br>
+<br>
+[A] PictureBox<br>
+[B] CheckedBox<br>
+[C] Panel<br>
+[D] Frame</span>		</p>
+	
+</div>
+
+
+		</div>
+
+			
+		
+				<div data-id="1359570181" class="term has-audio">
+			
+<div class="details-wrap">
+	<div class="details">
+
+		<div class="icons">
+
+			<a class="star">
+				<span class="glyph icon star-icon "></span>				<span class="glyph icon star-empty-icon "></span>			</a>
+
+			<a class="play-audio" title="Play audio for this term">
+				<span class="glyph icon audio-icon "></span>			</a>
+
+			
+					</div>
+		<div class="clear"></div>
+
+	</div>
+</div>
+
+
+<div class="text">
+
+	<h3 class="word has-audio ">
+		<span class="qWord lang-en">F</span>	</h3>
+
+			<p class="definition has-audio ">
+			<span class="qDef lang-en">Arrange the sequence in which the key events are triggered <br>
+<br>
+[A] KeyPress, KeyUp, KeyDown<br>
+[B] KeyUp, KeyPress, KeyDown<br>
+[C] KeyDown, keyPress, KeyUp<br>
+[D] KeyPress, keyDown, KeyUp<br>
+[E] KeyUp, KeyDown, KeyPress<br>
+[F] KeyDown, KeyUp, KeyPress</span>		</p>
+	
+</div>
+
+
+		</div>
+
+			
+		
+				<div data-id="1359570182" class="term has-audio">
+			
+<div class="details-wrap">
+	<div class="details">
+
+		<div class="icons">
+
+			<a class="star">
+				<span class="glyph icon star-icon "></span>				<span class="glyph icon star-empty-icon "></span>			</a>
+
+			<a class="play-audio" title="Play audio for this term">
+				<span class="glyph icon audio-icon "></span>			</a>
+
+			
+					</div>
+		<div class="clear"></div>
+
+	</div>
+</div>
+
+
+<div class="text">
+
+	<h3 class="word has-audio ">
+		<span class="qWord lang-en">A</span>	</h3>
+
+			<p class="definition has-audio ">
+			<span class="qDef lang-en">The types of list box supported in Winforms are(Choose all correct answers) <br>
+<br>
+[A] ListBox<br>
+[B] CheckedListBox<br>
+[C] ComboBox<br>
+[D] DropDownbox</span>		</p>
+	
+</div>
+
+
+		</div>
+
+			
+		
+				<div data-id="1359570183" class="term has-audio">
+			
+<div class="details-wrap">
+	<div class="details">
+
+		<div class="icons">
+
+			<a class="star">
+				<span class="glyph icon star-icon "></span>				<span class="glyph icon star-empty-icon "></span>			</a>
+
+			<a class="play-audio" title="Play audio for this term">
+				<span class="glyph icon audio-icon "></span>			</a>
+
+			
+					</div>
+		<div class="clear"></div>
+
+	</div>
+</div>
+
+
+<div class="text">
+
+	<h3 class="word has-audio ">
+		<span class="qWord lang-en">C</span>	</h3>
+
+			<p class="definition has-audio ">
+			<span class="qDef lang-en">What are thee steps involved involved in calling one from another form?(choose all answers)<br>
+<br>
+[A] Create an instance of the calling form<br>
+[B] Create an instance of the form to be called<br>
+[C] Invoke Show</span>		</p>
+	
+</div>
+
+
+		</div>
+
+			
+		
+				<div data-id="1359570184" class="term has-audio">
+			
+<div class="details-wrap">
+	<div class="details">
+
+		<div class="icons">
+
+			<a class="star">
+				<span class="glyph icon star-icon "></span>				<span class="glyph icon star-empty-icon "></span>			</a>
+
+			<a class="play-audio" title="Play audio for this term">
+				<span class="glyph icon audio-icon "></span>			</a>
+
+			
+					</div>
+		<div class="clear"></div>
+
+	</div>
+</div>
+
+
+<div class="text">
+
+	<h3 class="word has-audio ">
+		<span class="qWord lang-en">A &amp; C &amp; D</span>	</h3>
+
+			<p class="definition has-audio ">
+			<span class="qDef lang-en">Which of the following objects can we use to read data from a Micorosoft SQL Server 2000 database? (choose all correct answers)<br>
+<br>
+[A] SQLDataAdapter<br>
+[B] DataSet<br>
+[C] OleDbDataAdapter<br>
+[D] ADORecordSet<br>
+[E] XmlTextReader</span>		</p>
+	
+</div>
+
+
+		</div>
+
+			
+		
+				<div data-id="1359570185" class="term has-audio">
+			
+<div class="details-wrap">
+	<div class="details">
+
+		<div class="icons">
+
+			<a class="star">
+				<span class="glyph icon star-icon "></span>				<span class="glyph icon star-empty-icon "></span>			</a>
+
+			<a class="play-audio" title="Play audio for this term">
+				<span class="glyph icon audio-icon "></span>			</a>
+
+			
+					</div>
+		<div class="clear"></div>
+
+	</div>
+</div>
+
+
+<div class="text">
+
+	<h3 class="word has-audio ">
+		<span class="qWord lang-en">C</span>	</h3>
+
+			<p class="definition has-audio ">
+			<span class="qDef lang-en">What is component is used to fetch the values from the data source to DataSet and also update the data source with data in the DataSet?<br>
+<br>
+[A] DataWriter<br>
+[B] DataReader<br>
+[C] DataAdapter<br>
+[D] DataCommand</span>		</p>
+	
+</div>
+
+
+		</div>
+
+			
+		
+				<div data-id="1359570186" class="term has-audio">
+			
+<div class="details-wrap">
+	<div class="details">
+
+		<div class="icons">
+
+			<a class="star">
+				<span class="glyph icon star-icon "></span>				<span class="glyph icon star-empty-icon "></span>			</a>
+
+			<a class="play-audio" title="Play audio for this term">
+				<span class="glyph icon audio-icon "></span>			</a>
+
+			
+					</div>
+		<div class="clear"></div>
+
+	</div>
+</div>
+
+
+<div class="text">
+
+	<h3 class="word has-audio ">
+		<span class="qWord lang-en">C</span>	</h3>
+
+			<p class="definition has-audio ">
+			<span class="qDef lang-en">The ____property of the Form control is used to determine whether there are any MDI child forms open in your MDI application.<br>
+<br>
+[A] ActiveMdiChildren<br>
+[B] ActiveMdiChild<br>
+[C] IsMdiChild<br>
+[D] IsMdiChildren</span>		</p>
+	
+</div>
+
+
+		</div>
+
+			
+		
+				<div data-id="1359570187" class="term has-audio">
+			
+<div class="details-wrap">
+	<div class="details">
+
+		<div class="icons">
+
+			<a class="star">
+				<span class="glyph icon star-icon "></span>				<span class="glyph icon star-empty-icon "></span>			</a>
+
+			<a class="play-audio" title="Play audio for this term">
+				<span class="glyph icon audio-icon "></span>			</a>
+
+			
+					</div>
+		<div class="clear"></div>
+
+	</div>
+</div>
+
+
+<div class="text">
+
+	<h3 class="word has-audio ">
+		<span class="qWord lang-en">C</span>	</h3>
+
+			<p class="definition has-audio ">
+			<span class="qDef lang-en">____are the collection of reusable classes or types<br>
+<br>
+[A] Namespaces<br>
+[B] Collections<br>
+[C] Class libraries</span>		</p>
+	
+</div>
+
+
+		</div>
+
+			
+		
+				<div data-id="1359570188" class="term has-audio">
+			
+<div class="details-wrap">
+	<div class="details">
+
+		<div class="icons">
+
+			<a class="star">
+				<span class="glyph icon star-icon "></span>				<span class="glyph icon star-empty-icon "></span>			</a>
+
+			<a class="play-audio" title="Play audio for this term">
+				<span class="glyph icon audio-icon "></span>			</a>
+
+			
+					</div>
+		<div class="clear"></div>
+
+	</div>
+</div>
+
+
+<div class="text">
+
+	<h3 class="word has-audio ">
+		<span class="qWord lang-en">D</span>	</h3>
+
+			<p class="definition has-audio ">
+			<span class="qDef lang-en">____control combines the features of the TextBox and the ListBox controls<br>
+<br>
+[A] ToolBar<br>
+[B] StatusBar<br>
+[C] Label<br>
+[D] ComboBox</span>		</p>
+	
+</div>
+
+
+		</div>
+
+			
+		
+				<div data-id="1359570189" class="term has-audio">
+			
+<div class="details-wrap">
+	<div class="details">
+
+		<div class="icons">
+
+			<a class="star">
+				<span class="glyph icon star-icon "></span>				<span class="glyph icon star-empty-icon "></span>			</a>
+
+			<a class="play-audio" title="Play audio for this term">
+				<span class="glyph icon audio-icon "></span>			</a>
+
+			
+					</div>
+		<div class="clear"></div>
+
+	</div>
+</div>
+
+
+<div class="text">
+
+	<h3 class="word has-audio ">
+		<span class="qWord lang-en">D</span>	</h3>
+
+			<p class="definition has-audio ">
+			<span class="qDef lang-en">A custom control should you use to verify an authorized aplication user called as _____<br>
+<br>
+[A] Composite Custom Control<br>
+[B] Standard Control<br>
+[C] Single Control<br>
+[D] Complex Control</span>		</p>
+	
+</div>
+
+
+		</div>
+
+			
+		
+				<div data-id="1359570190" class="term has-audio">
+			
+<div class="details-wrap">
+	<div class="details">
+
+		<div class="icons">
+
+			<a class="star">
+				<span class="glyph icon star-icon "></span>				<span class="glyph icon star-empty-icon "></span>			</a>
+
+			<a class="play-audio" title="Play audio for this term">
+				<span class="glyph icon audio-icon "></span>			</a>
+
+			
+					</div>
+		<div class="clear"></div>
+
+	</div>
+</div>
+
+
+<div class="text">
+
+	<h3 class="word has-audio ">
+		<span class="qWord lang-en">A &amp; C</span>	</h3>
+
+			<p class="definition no-audio ">
+			<span class="qDef lang-en">Which of the following statements with respect to ADO.Net are True? (Choose all correct answers)<br>
+<br>
+[A] System built on ADO.NET are intrinsically highly scaleable<br>
+[B] ADO.NET objects are all strongly typed.<br>
+[C] When we use the DataSet object, ADO.NET is based on disconnected data access.<br>
+[D] in ADO.NET, the RecordSet is bound to the data source</span>		</p>
+	
+</div>
+
+
+		</div>
+
+			
+		
+				<div data-id="1359570191" class="term has-audio">
+			
+<div class="details-wrap">
+	<div class="details">
+
+		<div class="icons">
+
+			<a class="star">
+				<span class="glyph icon star-icon "></span>				<span class="glyph icon star-empty-icon "></span>			</a>
+
+			<a class="play-audio" title="Play audio for this term">
+				<span class="glyph icon audio-icon "></span>			</a>
+
+			
+					</div>
+		<div class="clear"></div>
+
+	</div>
+</div>
+
+
+<div class="text">
+
+	<h3 class="word has-audio ">
+		<span class="qWord lang-en">A</span>	</h3>
+
+			<p class="definition has-audio ">
+			<span class="qDef lang-en">What control support us to display the list items in different types as text only, text with small icons, text with large icons and report views?<br>
+<br>
+[A] ListView<br>
+[B] ListBox<br>
+[C] CheckedListBox<br>
+[D] ComboBox</span>		</p>
+	
+</div>
+
+
+		</div>
+
+			
+		
+				<div data-id="1359570192" class="term has-audio">
+			
+<div class="details-wrap">
+	<div class="details">
+
+		<div class="icons">
+
+			<a class="star">
+				<span class="glyph icon star-icon "></span>				<span class="glyph icon star-empty-icon "></span>			</a>
+
+			<a class="play-audio" title="Play audio for this term">
+				<span class="glyph icon audio-icon "></span>			</a>
+
+			
+					</div>
+		<div class="clear"></div>
+
+	</div>
+</div>
+
+
+<div class="text">
+
+	<h3 class="word has-audio ">
+		<span class="qWord lang-en">D</span>	</h3>
+
+			<p class="definition has-audio ">
+			<span class="qDef lang-en">The____ control is used to display text when the mouse points to a particular control<br>
+<br>
+[A] Toolbar<br>
+[B] StatusBar<br>
+[C] Menu<br>
+[D] ToolTip</span>		</p>
+	
+</div>
+
+
+		</div>
+
+			
+		
+				<div data-id="1359570193" class="term has-audio">
+			
+<div class="details-wrap">
+	<div class="details">
+
+		<div class="icons">
+
+			<a class="star">
+				<span class="glyph icon star-icon "></span>				<span class="glyph icon star-empty-icon "></span>			</a>
+
+			<a class="play-audio" title="Play audio for this term">
+				<span class="glyph icon audio-icon "></span>			</a>
+
+			
+					</div>
+		<div class="clear"></div>
+
+	</div>
+</div>
+
+
+<div class="text">
+
+	<h3 class="word has-audio ">
+		<span class="qWord lang-en">A</span>	</h3>
+
+			<p class="definition has-audio ">
+			<span class="qDef lang-en">which class is the base class for all the controls that can be used in Windows Forms?<br>
+<br>
+[A] Control<br>
+[B] Controls<br>
+[C] Forms<br>
+[D] Objects</span>		</p>
+	
+</div>
+
+
+		</div>
+
+			
+		
+				<div data-id="1359570194" class="term has-audio">
+			
+<div class="details-wrap">
+	<div class="details">
+
+		<div class="icons">
+
+			<a class="star">
+				<span class="glyph icon star-icon "></span>				<span class="glyph icon star-empty-icon "></span>			</a>
+
+			<a class="play-audio" title="Play audio for this term">
+				<span class="glyph icon audio-icon "></span>			</a>
+
+			
+					</div>
+		<div class="clear"></div>
+
+	</div>
+</div>
+
+
+<div class="text">
+
+	<h3 class="word has-audio ">
+		<span class="qWord lang-en">D</span>	</h3>
+
+			<p class="definition has-audio ">
+			<span class="qDef lang-en">GDI + resides in _____ assembly. <br>
+<br>
+[A] System.Painting<br>
+[B] System<br>
+[C] System.Graphics<br>
+[D] System.Drawing</span>		</p>
+	
+</div>
+
+
+		</div>
+
+			
+		
+				<div data-id="1359570195" class="term has-audio">
+			
+<div class="details-wrap">
+	<div class="details">
+
+		<div class="icons">
+
+			<a class="star">
+				<span class="glyph icon star-icon "></span>				<span class="glyph icon star-empty-icon "></span>			</a>
+
+			<a class="play-audio" title="Play audio for this term">
+				<span class="glyph icon audio-icon "></span>			</a>
+
+			
+					</div>
+		<div class="clear"></div>
+
+	</div>
+</div>
+
+
+<div class="text">
+
+	<h3 class="word has-audio ">
+		<span class="qWord lang-en">D</span>	</h3>
+
+			<p class="definition has-audio ">
+			<span class="qDef lang-en">The ____ property of the LinkLabel control is used to specity the text, which has to be displayed as a link.<br>
+<br>
+[A] HyperLink<br>
+[B] URLName<br>
+[C] LinkName<br>
+[D] LinkArea</span>		</p>
+	
+</div>
+
+
+		</div>
+
+			
+		
+				<div data-id="1359570196" class="term has-audio">
+			
+<div class="details-wrap">
+	<div class="details">
+
+		<div class="icons">
+
+			<a class="star">
+				<span class="glyph icon star-icon "></span>				<span class="glyph icon star-empty-icon "></span>			</a>
+
+			<a class="play-audio" title="Play audio for this term">
+				<span class="glyph icon audio-icon "></span>			</a>
+
+			
+					</div>
+		<div class="clear"></div>
+
+	</div>
+</div>
+
+
+<div class="text">
+
+	<h3 class="word has-audio ">
+		<span class="qWord lang-en">C</span>	</h3>
+
+			<p class="definition no-audio ">
+			<span class="qDef lang-en">What of the following are correct for creating a connection object to database named MyDB? (Choose all correct answers) <br>
+<br>
+[A] SqlConnection con = new SqlConnection("server=myserver; <br>
+Integrated Security = SSPI; database=MyDB");<br>
+[B] SqlConnection con = new SqlConnection("server=myserver"<br>
+Intergrated Security=SSPI; Data Source=MyDB);<br>
+[C] SqlConnection con = new SqlConnection("Data Source=myserver;<br>
+Integrated Sercurity=SSPI; Initial Catalog=MyDB");</span>		</p>
+	
+</div>
+
+
+		</div>
+
+			
+		
+				<div data-id="1359570197" class="term has-audio">
+			
+<div class="details-wrap">
+	<div class="details">
+
+		<div class="icons">
+
+			<a class="star">
+				<span class="glyph icon star-icon "></span>				<span class="glyph icon star-empty-icon "></span>			</a>
+
+			<a class="play-audio" title="Play audio for this term">
+				<span class="glyph icon audio-icon "></span>			</a>
+
+			
+					</div>
+		<div class="clear"></div>
+
+	</div>
+</div>
+
+
+<div class="text">
+
+	<h3 class="word has-audio ">
+		<span class="qWord lang-en">D</span>	</h3>
+
+			<p class="definition has-audio ">
+			<span class="qDef lang-en">The view types supported in Winforms are (choose all correct answers)<br>
+<br>
+[A] Text with large icons<br>
+[B] Text only<br>
+[C] Text with small icons<br>
+[D] Report view</span>		</p>
+	
+</div>
+
+
+		</div>
+
+			
+		
+				<div data-id="1359570198" class="term has-audio">
+			
+<div class="details-wrap">
+	<div class="details">
+
+		<div class="icons">
+
+			<a class="star">
+				<span class="glyph icon star-icon "></span>				<span class="glyph icon star-empty-icon "></span>			</a>
+
+			<a class="play-audio" title="Play audio for this term">
+				<span class="glyph icon audio-icon "></span>			</a>
+
+			
+					</div>
+		<div class="clear"></div>
+
+	</div>
+</div>
+
+
+<div class="text">
+
+	<h3 class="word has-audio ">
+		<span class="qWord lang-en">A</span>	</h3>
+
+			<p class="definition has-audio ">
+			<span class="qDef lang-en">If maximize and minimize buttons are displayed then the HelpButton property is ignored.<br>
+<br>
+[A] False<br>
+[B] True</span>		</p>
+	
+</div>
+
+
+		</div>
+
+			
+		
+				<div data-id="1359570199" class="term has-audio">
+			
+<div class="details-wrap">
+	<div class="details">
+
+		<div class="icons">
+
+			<a class="star">
+				<span class="glyph icon star-icon "></span>				<span class="glyph icon star-empty-icon "></span>			</a>
+
+			<a class="play-audio" title="Play audio for this term">
+				<span class="glyph icon audio-icon "></span>			</a>
+
+			
+					</div>
+		<div class="clear"></div>
+
+	</div>
+</div>
+
+
+<div class="text">
+
+	<h3 class="word has-audio ">
+		<span class="qWord lang-en">C</span>	</h3>
+
+			<p class="definition has-audio ">
+			<span class="qDef lang-en">The ____ event of the Form control is used to perform tasks such as allocating resources used by the form<br>
+<br>
+[A] Allocate<br>
+[B] Activate<br>
+[C] Load<br>
+[D] Activated</span>		</p>
+	
+</div>
+
+
+		</div>
+
+			
+		
+				<div data-id="1359570200" class="term has-audio">
+			
+<div class="details-wrap">
+	<div class="details">
+
+		<div class="icons">
+
+			<a class="star">
+				<span class="glyph icon star-icon "></span>				<span class="glyph icon star-empty-icon "></span>			</a>
+
+			<a class="play-audio" title="Play audio for this term">
+				<span class="glyph icon audio-icon "></span>			</a>
+
+			
+					</div>
+		<div class="clear"></div>
+
+	</div>
+</div>
+
+
+<div class="text">
+
+	<h3 class="word has-audio ">
+		<span class="qWord lang-en">D</span>	</h3>
+
+			<p class="definition no-audio ">
+			<span class="qDef lang-en">To get values of the colums of the i-th row in a DataTable object named datatable, what of the followings is correct?<br>
+<br>
+[A] Object [] array = datatable.Rows[i].ItemArray;<br>
+[B] DataColumn array = datatable. Rows[i].ItemArray;<br>
+[C] String[] array = datatable. Rows[i].ItemArray;<br>
+[D] DataRow array = datatable. Rows[i].ItemArray;</span>		</p>
+	
+</div>
+
+
+		</div>
+
+			
+			</article>
+	
+<span id="image-fullscreen-cover"></span>
+
+	</article></div>
+
+<section class="permissions-notice waiting">
+	<h3>Please allow access to your computer’s microphone to use Voice Recording.</h3>
+
+	<div class="for-flash">
+		<div class="recorder-container"></div>
+		<p class="help">Having trouble? <a href="http://quizlet.com/help/faq-why-cant-i-click-the-flash-player-allow-button" target="_blank">Click here</a> for help.</p>
+		<span class="arrow"><span class="glyph icon arrow-right-icon "></span></span>
+	</div>
+</section>
+
+<div class="permissions-arrow">
+	<span class="leg-1"></span>
+	<span class="leg-2"></span>
+	<span class="pointer"><span class="glyph icon arrow-up-icon "></span></span>
+</div>
+
+<section class="permissions-notice denied">
+	<h2 class="no-access">We can’t access your microphone!</h2>
+	<div class="for-html5">
+		<div class="for-chrome">
+			<h3>Click the icon above to update your browser permissions above and try again</h3>
+
+			<p>Example:</p>
+			<div class="diagram"></div>
+		</div>
+	</div>
+
+	<div class="try-again">
+		<h3>Reload the page to try again!</h3>
+		<a class="button" href="./Quiz 2 C# flashcards   Quizlet_files/Quiz 2 C# flashcards   Quizlet.htm">Reload</a>
+	</div>
+
+	<div class="try-again flash-zoom">
+		<h2 class="mac">Press Cmd-0 to reset your zoom</h2>
+		<h2 class="windows">Press Ctrl-0 to reset your zoom</h2>
+		<h3>It looks like your browser might be zoomed in or out. Your browser needs to be zoomed to a normal size to record audio.</h3>
+	</div>
+</section>
+
+<section class="permissions-notice incompatible">
+	<h3>Please <a href="http://get.adobe.com/flashplayer/" target="_blank">upgrade Flash</a> or <a href="https://www.google.com/chrome/" target="_blank">install Chrome</a><br>to use Voice Recording.</h3>
+	<p class="help">For more help, see our <a href="http://quizlet.com/help/faq-troubleshooting-with-voice-recording" target="_blank">troubleshooting page</a>.</p>
+</section>
+
+<section class="permissions-notice muted">
+	<h2>Your microphone is muted</h2>
+	<h3>For help fixing this issue, see <a href="http://quizlet.com/help/faq-is-my-mic-not-working" target="_blank">this FAQ</a>.</h3>
+</section>
+
+<div class="term-detail-tooltips">
+	<div class="star tooltip">
+		<h5>Star this term</h5>
+		<p>You can study starred terms together</p>
+		<span class="bridge"><span class="glyph icon arrow-down-icon "></span></span>	</div>
+
+	<div class="edit custom-audio tooltip">
+		<h5>NEW! Voice Recording</h5>
+				<span class="bridge"><span class="glyph icon arrow-down-icon "></span></span>	</div>
+
+	<div class="blank tooltip">
+		<p class="tip"></p>
+		<span class="bridge"><span class="glyph icon arrow-down-icon "></span></span>	</div>
+</div>
+<script>
+QWait('SetPageObject', function() {
+	CustomAudio.init(window.setPage, {"maxDuration":30000,"webSocketUrl":"wss:\/\/audio.quizlet.com\/voice-recorder","ajaxChunkUrl":"http:\/\/quizlet.com\/custom-audio\/upload-pcm-chunk","ajaxFinishedUrl":"http:\/\/quizlet.com\/custom-audio\/finish-chunked-pcm","connectionPrimingUrl":"http:\/\/s3-us-west-1.amazonaws.com\/voice.quizlet.com\/favicon.ico","swfPath":"http:\/\/quizlet.com\/a\/i\/FlashRecorder.KHvB.swf","qecookies":"N7XuDhsirg9tOQV1CcZgMYF6kKWCjIoopqdf3bOI1ZTiSb9JENAD-4VrsizA-Xcc.aXfkNjnbtz4AUDk3fQtM0JJrcbQMdLBKqKpdwMtkpto1GIVm3FMPDl1Qx7K5JWwIjRMvOPky-UAmdUjoksWdZQfr7mxF-xNXBFJHQMX0A4gwwvlx1DMJU95p6t8db8LWscxVovBPpNLPsg-UldhWY9xI8qw1C5HUJBBr660ce2cNzNTJAaUtf1G3NNwPbPLbjIwi3rtNfgSD1L8z40Di4b8hSt9nt7oo8kOQv9Oo9SjKYRomDb-Wowbp8L0s4LzezKSYhrBDLXFXFbqYyALuRC40Y6UHGbQVcInV4iZqtGsUg3vymfPysMRzjm3dqElyLnHypKIST0WLWX4PaDTwUYT3mjHmYn4ltrlC74ZcnMYfkFw7TvAHMasb9EPDvmQwn9Dyu-ekjPdG6eeWynAn.UakSWHnCnHxMs2t.prwrLGWh7wxWda-CdMKJjrPrmJQLi7hE0.M1DdFK83V7ZmbcpcFlddwKhWftMCmfAN.mKnIrS3tJcj6d9yxcrO4o-HiUY3tWAAhVkEdRE8aymzsgXgK6E0w8JJnS65lsn54Gpm72s882I9h-RqpTxT7N6orJnkQU9bOxgg-V2PhuS588Q23PWsNL9GrFc.BE11.jubkpjn7xvLC11A48pLOve6FSttSh.xzSQSZHJV.AtijT3SmkwU8SecM.w3yDWzZ1KlrhyT1wPypF6UlhuMwS5Y","workerPath":"http:\/\/quizlet.com\/a\/j\/en\/custom_audio\/recorder\/html5\/worker.7HY4U.js","canRecord":false,"showTeaser":false,"modifyAudioNonce":"Bgm6a9yUy7kgAUmQxOeSigH99p.fXEueiRkSEfFh9iGzkEjXlu8kwqHsoBZu9QjsnC3wqx3jiq4zivACHCJNUg"});
+});
+</script>
+
+	
+
+<script type="text/javascript">
+    window.analyticsProperties = {"numTerms":70,"multilang":false,"definitionsHaveText":true,"public":true,"firstSetId":39862660,"isCombination":false,"title":"Quiz 2 C#","setIds":[39862660],"hasAnyAudio":true,"wordLang":"en","definitionLang":"en","numSets":1,"allowsDiscussion":true,"hasImages":false,"teacherCreated":false,"plusUserCreated":false,"isOriginal":true,"setDeleted":false,"ads":"visible","age":19,"loggedIn":true,"involvedTests":["analytics_source:doubleclick"],"userId":6037146,"username":"KhanhHuyensmile","isTeacher":false,"classes":1,"isPlus":false,"hasFB":true,"lastSeen":16280,"lastSeenTimestamp":1406592000,"signupTime":1358835765,"confirmed":true};
+    
+    </script>
+	<script type="text/javascript">
+		analytics.track('view_set', window.analyticsProperties);
+			</script>
+	</main>
+</div>
+</div>
+
+
+<script>
+QWait('dom', 'SetPage', function() {
+	window.setPage = new SetPage({"setId":39862660,"selectedTermsQnonce":"NyRHdIhX.I1S5YcxmV.DPq65ikc4-LLocm1Wp9M.6QGzkEjXlu8kwqHsoBZu9QjsnC3wqx3jiq4zivACHCJNUg","discussionQnonce":"s4OLrhLQG5oiOEk4GyNmUWmb3ryAAIIqEYM7g9pHLq2zkEjXlu8kwqHsoBZu9QjsnC3wqx3jiq4zivACHCJNUg","notificationCount":0,"lastDiscussionId":-1}, [{"id":1359570131,"photo":"","word":"B","definition":"Which sentence is correct?\n\n[A] A persistent cookie exists only within the HTTP header.\n[B] A persistent cookie is not destroyed after the user logs off your site.\n[C] A temporary cookie is saved to the user's hard drive.\n[D] A temporary cookie is not destroyed after the user logs off your site.","quiz_id":39862660,"term_lang":"en","def_lang":"en","word_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=Qg&s=.W5089WA","has_word_custom_audio":false,"def_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=V2hpY2ggc2VudGVuY2UgaXMgY29ycmVjdD8KCltBXSBBIHBlcnNpc3RlbnQgY29va2llIGV4aXN0cyBvbmx5IHdpdGhpbiB0aGUgSFRUUCBoZWFkZXIuCltCXSBBIHBlcnNpc3RlbnQgY29va2llIGlzIG5vdCBkZXN0cm95ZWQgYWZ0ZXIgdGhlIHVzZXIgbG9ncyBvZmYgeW91ciBzaXRlLgpbQ10gQSB0ZW1wb3JhcnkgY29va2llIGlzIHNhdmVkIHRvIHRoZSB1c2VyJ3MgaGFyZCBkcml2ZS4KW0RdIEEgdGVtcG9yYXJ5IGNvb2tpZSBpcyBub3QgZGVzdHJveWVkIGFmdGVyIHRoZSB1c2VyIGxvZ3Mgb2ZmIHlvdXIgc2l0ZS4&s=Mow-4One","has_def_custom_audio":false},{"id":1359570132,"photo":"","word":"C","definition":"In below events of page, which one is raised first?\n\n[A] PreRender\n[B] Load\n[C] Prelnit\n[D] Unload","quiz_id":39862660,"term_lang":"en","def_lang":"en","word_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=Qw&s=XPi2fo7F","has_word_custom_audio":false,"def_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=SW4gYmVsb3cgZXZlbnRzIG9mIHBhZ2UsIHdoaWNoIG9uZSBpcyByYWlzZWQgZmlyc3Q.CgpbQV0gUHJlUmVuZGVyCltCXSBMb2FkCltDXSBQcmVsbml0CltEXSBVbmxvYWQ&s=l1L.jpDx","has_def_custom_audio":false},{"id":1359570133,"photo":"","word":"A & D","definition":"What is method of form to transmit the form data back to web server for processing? (Choose 2)\n\n[A] Get\n[B] Postback\n[C] Receive\n[D] Post","quiz_id":39862660,"term_lang":"en","def_lang":"en","word_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=QSAmIEQ&s=dKuwFrqi","has_word_custom_audio":false,"def_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=V2hhdCBpcyBtZXRob2Qgb2YgZm9ybSB0byB0cmFuc21pdCB0aGUgZm9ybSBkYXRhIGJhY2sgdG8gd2ViIHNlcnZlciBmb3IgcHJvY2Vzc2luZz8gKENob29zZSAyKQoKW0FdIEdldApbQl0gUG9zdGJhY2sKW0NdIFJlY2VpdmUKW0RdIFBvc3Q&s=f395TUcY","has_def_custom_audio":false},{"id":1359570134,"photo":"","word":"D","definition":"What are properties of [WebService] attribute?\n\n[A] Description and Name.\n[B] Description and Namespace.\n[C] Name and Namespace.\n[D] Description. Name and Namespace.","quiz_id":39862660,"term_lang":"en","def_lang":"en","word_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=RA&s=T4A5wd3C","has_word_custom_audio":false,"def_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=V2hhdCBhcmUgcHJvcGVydGllcyBvZiBbV2ViU2VydmljZV0gYXR0cmlidXRlPwoKW0FdIERlc2NyaXB0aW9uIGFuZCBOYW1lLgpbQl0gRGVzY3JpcHRpb24gYW5kIE5hbWVzcGFjZS4KW0NdIE5hbWUgYW5kIE5hbWVzcGFjZS4KW0RdIERlc2NyaXB0aW9uLiBOYW1lIGFuZCBOYW1lc3BhY2Uu&s=exKRPC0N","has_def_custom_audio":false},{"id":1359570135,"photo":"","word":"B","definition":"What are client-side script languages?\n\n[A] JavaScript only.\n[B] VBScript and JavaScript\n[C] Visual C#. Visual Basic.NET and Visual J#.\n[D] VBScript only.","quiz_id":39862660,"term_lang":"en","def_lang":"en","word_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=Qg&s=.W5089WA","has_word_custom_audio":false,"def_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=V2hhdCBhcmUgY2xpZW50LXNpZGUgc2NyaXB0IGxhbmd1YWdlcz8KCltBXSBKYXZhU2NyaXB0IG9ubHkuCltCXSBWQlNjcmlwdCBhbmQgSmF2YVNjcmlwdApbQ10gVmlzdWFsIEMjLiBWaXN1YWwgQmFzaWMuTkVUIGFuZCBWaXN1YWwgSiMuCltEXSBWQlNjcmlwdCBvbmx5Lg&s=AUzu1biI","has_def_custom_audio":false},{"id":1359570136,"photo":"","word":"D","definition":"Which sentence is correct?\n\n[A] A web server provides Mail Exchange service only.\n[B] A web server is a collection of files and related components.\n[C] A web server provides File Transfer Protocol service only.\n[D] A web server is a software product in charge of hosting your web applications.","quiz_id":39862660,"term_lang":"en","def_lang":"en","word_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=RA&s=T4A5wd3C","has_word_custom_audio":false,"def_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=V2hpY2ggc2VudGVuY2UgaXMgY29ycmVjdD8KCltBXSBBIHdlYiBzZXJ2ZXIgcHJvdmlkZXMgTWFpbCBFeGNoYW5nZSBzZXJ2aWNlIG9ubHkuCltCXSBBIHdlYiBzZXJ2ZXIgaXMgYSBjb2xsZWN0aW9uIG9mIGZpbGVzIGFuZCByZWxhdGVkIGNvbXBvbmVudHMuCltDXSBBIHdlYiBzZXJ2ZXIgcHJvdmlkZXMgRmlsZSBUcmFuc2ZlciBQcm90b2NvbCBzZXJ2aWNlIG9ubHkuCltEXSBBIHdlYiBzZXJ2ZXIgaXMgYSBzb2Z0d2FyZSBwcm9kdWN0IGluIGNoYXJnZSBvZiBob3N0aW5nIHlvdXIgd2ViIGFwcGxpY2F0aW9ucy4&s=jsvp-BEM","has_def_custom_audio":false},{"id":1359570137,"photo":"","word":"C","definition":"Which sentence is correct?\n\n[A] ASP.NET supports multi-file model only.\n[B] Performance of single-file model is the same as of multi-file model.\n[C] ASP.NET supports single-file model only.\n[D] Performance of single-file model is better than of multi-file model.\n[E] Performance of single-file model is less than of multi-file model.","quiz_id":39862660,"term_lang":"en","def_lang":"en","word_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=Qw&s=XPi2fo7F","has_word_custom_audio":false,"def_audio":false,"has_def_custom_audio":false},{"id":1359570138,"photo":"","word":"B","definition":"Can the errors be displayed in a pop-up message box?\n\n[A] No\n[B] Yes","quiz_id":39862660,"term_lang":"en","def_lang":"en","word_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=Qg&s=.W5089WA","has_word_custom_audio":false,"def_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=Q2FuIHRoZSBlcnJvcnMgYmUgZGlzcGxheWVkIGluIGEgcG9wLXVwIG1lc3NhZ2UgYm94PwoKW0FdIE5vCltCXSBZZXM&s=5ZpnvzTc","has_def_custom_audio":false},{"id":1359570139,"photo":"","word":"B","definition":"The runtime will automatically assign a new session ID for user when he\/she logs on to an ASP.NET web application.\n\n[A] False\n[B] True","quiz_id":39862660,"term_lang":"en","def_lang":"en","word_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=Qg&s=.W5089WA","has_word_custom_audio":false,"def_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=VGhlIHJ1bnRpbWUgd2lsbCBhdXRvbWF0aWNhbGx5IGFzc2lnbiBhIG5ldyBzZXNzaW9uIElEIGZvciB1c2VyIHdoZW4gaGUvc2hlIGxvZ3Mgb24gdG8gYW4gQVNQLk5FVCB3ZWIgYXBwbGljYXRpb24uCgpbQV0gRmFsc2UKW0JdIFRydWU&s=SuFHtj5E","has_def_custom_audio":false},{"id":1359570140,"photo":"","word":"A","definition":"Which sentence about ViewState is correct?\n\n[A] Values of each GUI widget on the page are stored in a hidden form field.\n[B] Values of each GUI widget on the page are included in a no-encoded string.\n[C] Values of each GUI widget on the page will be destroyed after a period of time.\n[D] Values of each GUI widget on the page are stored in a server-side variable.","quiz_id":39862660,"term_lang":"en","def_lang":"en","word_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=QQ&s=V1yTH95T","has_word_custom_audio":false,"def_audio":false,"has_def_custom_audio":false},{"id":1359570141,"photo":"","word":"B","definition":"What are building blocks of an XML Web service?\n\n[A] A discovery service and a transport protocol.\n[B] A discovery service, a description service and a transport protocol.\n[C] A description service and a transport protocol.\n[D] A discovery service and a description service.","quiz_id":39862660,"term_lang":"en","def_lang":"en","word_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=Qg&s=.W5089WA","has_word_custom_audio":false,"def_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=V2hhdCBhcmUgYnVpbGRpbmcgYmxvY2tzIG9mIGFuIFhNTCBXZWIgc2VydmljZT8KCltBXSBBIGRpc2NvdmVyeSBzZXJ2aWNlIGFuZCBhIHRyYW5zcG9ydCBwcm90b2NvbC4KW0JdIEEgZGlzY292ZXJ5IHNlcnZpY2UsIGEgZGVzY3JpcHRpb24gc2VydmljZSBhbmQgYSB0cmFuc3BvcnQgcHJvdG9jb2wuCltDXSBBIGRlc2NyaXB0aW9uIHNlcnZpY2UgYW5kIGEgdHJhbnNwb3J0IHByb3RvY29sLgpbRF0gQSBkaXNjb3Zlcnkgc2VydmljZSBhbmQgYSBkZXNjcmlwdGlvbiBzZXJ2aWNlLg&s=BnBFrJiX","has_def_custom_audio":false},{"id":1359570142,"photo":"","word":"A","definition":"For testing and development does website have to be hosted under IIS?\n\n[A] Yes\n[B] No","quiz_id":39862660,"term_lang":"en","def_lang":"en","word_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=QQ&s=V1yTH95T","has_word_custom_audio":false,"def_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=Rm9yIHRlc3RpbmcgYW5kIGRldmVsb3BtZW50IGRvZXMgd2Vic2l0ZSBoYXZlIHRvIGJlIGhvc3RlZCB1bmRlciBJSVM.CgpbQV0gWWVzCltCXSBObw&s=7XpeVksx","has_def_custom_audio":false},{"id":1359570143,"photo":"","word":"A","definition":"_____is any action directed at the application. \n\n[A] Event\n[B] Method\n[C] Class\n[D] Object","quiz_id":39862660,"term_lang":"en","def_lang":"en","word_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=QQ&s=V1yTH95T","has_word_custom_audio":false,"def_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=X19fX19pcyBhbnkgYWN0aW9uIGRpcmVjdGVkIGF0IHRoZSBhcHBsaWNhdGlvbi4gCgpbQV0gRXZlbnQKW0JdIE1ldGhvZApbQ10gQ2xhc3MKW0RdIE9iamVjdA&s=7BxoGYLP","has_def_custom_audio":false},{"id":1359570144,"photo":"","word":"A","definition":"____property is used to get or set the object that contains data about the control.\n\n[A] Value\n[B] Tag\n[C] Text\n[D] Name","quiz_id":39862660,"term_lang":"en","def_lang":"en","word_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=QQ&s=V1yTH95T","has_word_custom_audio":false,"def_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=X19fX3Byb3BlcnR5IGlzIHVzZWQgdG8gZ2V0IG9yIHNldCB0aGUgb2JqZWN0IHRoYXQgY29udGFpbnMgZGF0YSBhYm91dCB0aGUgY29udHJvbC4KCltBXSBWYWx1ZQpbQl0gVGFnCltDXSBUZXh0CltEXSBOYW1l&s=EVl6GI3c","has_def_custom_audio":false},{"id":1359570145,"photo":"","word":"C & D","definition":"Which of the following statement with respect to Data Grid control are True? (Choose all correct answers)\n\n[A] By default, the DataGrid display 1 page at a time.\n[B] When the DataGrid control is set to a valid data source, the control is populated automatically\n[C] Each field in the DataGrid is bound to a single column based on the DataSource\n[D] The DataGrid control display data in tabular format and optionally supports data editing.","quiz_id":39862660,"term_lang":"en","def_lang":"en","word_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=QyAmIEQ&s=awNbQJ-N","has_word_custom_audio":false,"def_audio":false,"has_def_custom_audio":false},{"id":1359570146,"photo":"","word":"B","definition":"When an MDI parent form is closed, the Closing event of all MDI child forms are raised before the MDI parent form's Closing event is raised\n\n[A] False\n[B] True","quiz_id":39862660,"term_lang":"en","def_lang":"en","word_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=Qg&s=.W5089WA","has_word_custom_audio":false,"def_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=V2hlbiBhbiBNREkgcGFyZW50IGZvcm0gaXMgY2xvc2VkLCB0aGUgQ2xvc2luZyBldmVudCBvZiBhbGwgTURJIGNoaWxkIGZvcm1zIGFyZSByYWlzZWQgYmVmb3JlIHRoZSBNREkgcGFyZW50IGZvcm0ncyBDbG9zaW5nIGV2ZW50IGlzIHJhaXNlZAoKW0FdIEZhbHNlCltCXSBUcnVl&s=fFQDJmrq","has_def_custom_audio":false},{"id":1359570147,"photo":"","word":"D","definition":"What of the followings is correct for creating a command object with the connection con? \n\n[A] SqlCommandCmd = con.SetSqlCommand(\"Select * From Student\");\n[B] SqlCommandCmd = con.GetSqlCommand(\"Select * From Student\");\n[C] SqlCommandCmd = new SqlCommand(con,\"Select * From Student\");\n[D] SqlCommandCmd = new SqlCommand(\"Select * From Student\", con);","quiz_id":39862660,"term_lang":"en","def_lang":"en","word_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=RA&s=T4A5wd3C","has_word_custom_audio":false,"def_audio":false,"has_def_custom_audio":false},{"id":1359570148,"photo":"","word":"D","definition":"The method can be used to draw a rectangle or a square depending on the coordinates passed as its argument.\n\n[A] FillSquare\n[B] FillRectangle\n[C] DrawSquare\n[D] DrawRetangle","quiz_id":39862660,"term_lang":"en","def_lang":"en","word_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=RA&s=T4A5wd3C","has_word_custom_audio":false,"def_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=VGhlIG1ldGhvZCBjYW4gYmUgdXNlZCB0byBkcmF3IGEgcmVjdGFuZ2xlIG9yIGEgc3F1YXJlIGRlcGVuZGluZyBvbiB0aGUgY29vcmRpbmF0ZXMgcGFzc2VkIGFzIGl0cyBhcmd1bWVudC4KCltBXSBGaWxsU3F1YXJlCltCXSBGaWxsUmVjdGFuZ2xlCltDXSBEcmF3U3F1YXJlCltEXSBEcmF3UmV0YW5nbGU&s=aRL-9RqC","has_def_custom_audio":false},{"id":1359570149,"photo":"","word":"A","definition":"_____it the normal ouput type for a WinForm project\n\n[A] Windows Application\n[B] Console Application\n[C] Class Library\n[D] Windows Forms","quiz_id":39862660,"term_lang":"en","def_lang":"en","word_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=QQ&s=V1yTH95T","has_word_custom_audio":false,"def_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=X19fX19pdCB0aGUgbm9ybWFsIG91cHV0IHR5cGUgZm9yIGEgV2luRm9ybSBwcm9qZWN0CgpbQV0gV2luZG93cyBBcHBsaWNhdGlvbgpbQl0gQ29uc29sZSBBcHBsaWNhdGlvbgpbQ10gQ2xhc3MgTGlicmFyeQpbRF0gV2luZG93cyBGb3Jtcw&s=JzeP82NP","has_def_custom_audio":false},{"id":1359570150,"photo":"","word":"D","definition":"The ____control groups a set of controls within a non-labeled an scrollable frame\n\n[A] PictureBox\n[B] Tab\n[C] Frame\n[D] Panel","quiz_id":39862660,"term_lang":"en","def_lang":"en","word_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=RA&s=T4A5wd3C","has_word_custom_audio":false,"def_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=VGhlIF9fX19jb250cm9sIGdyb3VwcyBhIHNldCBvZiBjb250cm9scyB3aXRoaW4gYSBub24tbGFiZWxlZCBhbiBzY3JvbGxhYmxlIGZyYW1lCgpbQV0gUGljdHVyZUJveApbQl0gVGFiCltDXSBGcmFtZQpbRF0gUGFuZWw&s=3wveWA6C","has_def_custom_audio":false},{"id":1359570151,"photo":"","word":"D","definition":"The ____feature of Windows Installer provider a standard method for distributing components and ensures that the installed component is of the correct version.\n\n[A] VersionUpdate\n[B] CAB \n[C] Msi\n[D] Merge Modules","quiz_id":39862660,"term_lang":"en","def_lang":"en","word_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=RA&s=T4A5wd3C","has_word_custom_audio":false,"def_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=VGhlIF9fX19mZWF0dXJlIG9mIFdpbmRvd3MgSW5zdGFsbGVyIHByb3ZpZGVyIGEgc3RhbmRhcmQgbWV0aG9kIGZvciBkaXN0cmlidXRpbmcgY29tcG9uZW50cyBhbmQgZW5zdXJlcyB0aGF0IHRoZSBpbnN0YWxsZWQgY29tcG9uZW50IGlzIG9mIHRoZSBjb3JyZWN0IHZlcnNpb24uCgpbQV0gVmVyc2lvblVwZGF0ZQpbQl0gQ0FCIApbQ10gTXNpCltEXSBNZXJnZSBNb2R1bGVz&s=66yXufha","has_def_custom_audio":false},{"id":1359570152,"photo":"","word":"E","definition":"To create an instance of the Font class using existing Font and FontStyle, the constructor is:\n\n[A] public void Font(string fontname, float size);\n[B] public Font(FontStylefs, Font f);\n[C] public void Font(Font f, FontStylefs);\n[D] public Font(Font f, FontStylefs);\n[E] public Font(string fontname, float size);","quiz_id":39862660,"term_lang":"en","def_lang":"en","word_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=RQ&s=GfzF1u.g","has_word_custom_audio":false,"def_audio":false,"has_def_custom_audio":false},{"id":1359570153,"photo":"","word":"A","definition":"Which control is used to display a short, customized help message for individual controls on a form?\n\n[A] ToolTip\n[B] HelpText\n[C] HelpTool\n[D] ToolClass","quiz_id":39862660,"term_lang":"en","def_lang":"en","word_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=QQ&s=V1yTH95T","has_word_custom_audio":false,"def_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=V2hpY2ggY29udHJvbCBpcyB1c2VkIHRvIGRpc3BsYXkgYSBzaG9ydCwgY3VzdG9taXplZCBoZWxwIG1lc3NhZ2UgZm9yIGluZGl2aWR1YWwgY29udHJvbHMgb24gYSBmb3JtPwoKW0FdIFRvb2xUaXAKW0JdIEhlbHBUZXh0CltDXSBIZWxwVG9vbApbRF0gVG9vbENsYXNz&s=uxjr5r0B","has_def_custom_audio":false},{"id":1359570154,"photo":"","word":"D","definition":"For using SQL.NET Data Provider what using statement of the following is correct?\n\n[A] using System.Data;\n[B] using System.Data.SqlServer;\n[C] using System.Data.OleDb;\n[D] using System.Data.SqlClient;","quiz_id":39862660,"term_lang":"en","def_lang":"en","word_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=RA&s=T4A5wd3C","has_word_custom_audio":false,"def_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=Rm9yIHVzaW5nIFNRTC5ORVQgRGF0YSBQcm92aWRlciB3aGF0IHVzaW5nIHN0YXRlbWVudCBvZiB0aGUgZm9sbG93aW5nIGlzIGNvcnJlY3Q.CgpbQV0gdXNpbmcgU3lzdGVtLkRhdGE7CltCXSB1c2luZyBTeXN0ZW0uRGF0YS5TcWxTZXJ2ZXI7CltDXSB1c2luZyBTeXN0ZW0uRGF0YS5PbGVEYjsKW0RdIHVzaW5nIFN5c3RlbS5EYXRhLlNxbENsaWVudDs&s=vv10mXSQ","has_def_custom_audio":false},{"id":1359570155,"photo":"","word":"A","definition":"Which namespace is VS.NET contains classes that help in constructing and sending emails?\n\n[A] System.Web.Mail\n[B] System.Mail\n[C] System.Web.MailMessage\n[D] System.Web.MailMessages","quiz_id":39862660,"term_lang":"en","def_lang":"en","word_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=QQ&s=V1yTH95T","has_word_custom_audio":false,"def_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=V2hpY2ggbmFtZXNwYWNlIGlzIFZTLk5FVCBjb250YWlucyBjbGFzc2VzIHRoYXQgaGVscCBpbiBjb25zdHJ1Y3RpbmcgYW5kIHNlbmRpbmcgZW1haWxzPwoKW0FdIFN5c3RlbS5XZWIuTWFpbApbQl0gU3lzdGVtLk1haWwKW0NdIFN5c3RlbS5XZWIuTWFpbE1lc3NhZ2UKW0RdIFN5c3RlbS5XZWIuTWFpbE1lc3NhZ2Vz&s=v5kefYyd","has_def_custom_audio":false},{"id":1359570156,"photo":"","word":"D","definition":"To perform a change to a table using the Command object named Cmd, what statement of the following correct?\n\n[A] Cmd.ExecuteReader()\n[B] Cmd.ExecuteScalar()\n[C] Cmd.ExecuteQuery()\n[D] Cmd.ExecuteNonQuery()\n[E] Cmd.ExecuteUpdate()","quiz_id":39862660,"term_lang":"en","def_lang":"en","word_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=RA&s=T4A5wd3C","has_word_custom_audio":false,"def_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=VG8gcGVyZm9ybSBhIGNoYW5nZSB0byBhIHRhYmxlIHVzaW5nIHRoZSBDb21tYW5kIG9iamVjdCBuYW1lZCBDbWQsIHdoYXQgc3RhdGVtZW50IG9mIHRoZSBmb2xsb3dpbmcgY29ycmVjdD8KCltBXSBDbWQuRXhlY3V0ZVJlYWRlcigpCltCXSBDbWQuRXhlY3V0ZVNjYWxhcigpCltDXSBDbWQuRXhlY3V0ZVF1ZXJ5KCkKW0RdIENtZC5FeGVjdXRlTm9uUXVlcnkoKQpbRV0gQ21kLkV4ZWN1dGVVcGRhdGUoKQ&s=bCg9C1vB","has_def_custom_audio":false},{"id":1359570157,"photo":"","word":"D & E & F","definition":"When a Data Form is created using the Data Form Wizard, which of the following classes are used by default?(Choose all correct answers)\n\n[A] OleDbDataWriter\n[B] OleDbDataAdapter\n[C] OleDbStatement\n[D] OleDbDataReader\n[E] OleDbConnection\n[F] OleDbCommand","quiz_id":39862660,"term_lang":"en","def_lang":"en","word_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=RCAmIEUgJiBG&s=Z.z0ODtW","has_word_custom_audio":false,"def_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=V2hlbiBhIERhdGEgRm9ybSBpcyBjcmVhdGVkIHVzaW5nIHRoZSBEYXRhIEZvcm0gV2l6YXJkLCB3aGljaCBvZiB0aGUgZm9sbG93aW5nIGNsYXNzZXMgYXJlIHVzZWQgYnkgZGVmYXVsdD8oQ2hvb3NlIGFsbCBjb3JyZWN0IGFuc3dlcnMpCgpbQV0gT2xlRGJEYXRhV3JpdGVyCltCXSBPbGVEYkRhdGFBZGFwdGVyCltDXSBPbGVEYlN0YXRlbWVudApbRF0gT2xlRGJEYXRhUmVhZGVyCltFXSBPbGVEYkNvbm5lY3Rpb24KW0ZdIE9sZURiQ29tbWFuZA&s=Vz9rTjjP","has_def_custom_audio":false},{"id":1359570158,"photo":"","word":"D","definition":"____property of a connection object is used to get or set the string used to open a database\n\n[A] ConnectionParams\n[B] ConnectionInfo\n[C] StringConnection\n[D] ConnectionString","quiz_id":39862660,"term_lang":"en","def_lang":"en","word_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=RA&s=T4A5wd3C","has_word_custom_audio":false,"def_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=X19fX3Byb3BlcnR5IG9mIGEgY29ubmVjdGlvbiBvYmplY3QgaXMgdXNlZCB0byBnZXQgb3Igc2V0IHRoZSBzdHJpbmcgdXNlZCB0byBvcGVuIGEgZGF0YWJhc2UKCltBXSBDb25uZWN0aW9uUGFyYW1zCltCXSBDb25uZWN0aW9uSW5mbwpbQ10gU3RyaW5nQ29ubmVjdGlvbgpbRF0gQ29ubmVjdGlvblN0cmluZw&s=zdjufuys","has_def_custom_audio":false},{"id":1359570159,"photo":"","word":"C","definition":"_____property is used to get or set the edges of the control are anchored to the edges of its container.\n\n[A] Hang\n[B] Fixed\n[C] Anchor\n[D] Dock","quiz_id":39862660,"term_lang":"en","def_lang":"en","word_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=Qw&s=XPi2fo7F","has_word_custom_audio":false,"def_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=X19fX19wcm9wZXJ0eSBpcyB1c2VkIHRvIGdldCBvciBzZXQgdGhlIGVkZ2VzIG9mIHRoZSBjb250cm9sIGFyZSBhbmNob3JlZCB0byB0aGUgZWRnZXMgb2YgaXRzIGNvbnRhaW5lci4KCltBXSBIYW5nCltCXSBGaXhlZApbQ10gQW5jaG9yCltEXSBEb2Nr&s=ihmK786V","has_def_custom_audio":false},{"id":1359570160,"photo":"","word":"A","definition":"____property is used to get or set the shortcut menu associated with the control.\n\n[A] PopUpMenu\n[B] SubMenu\n[C] ContextMenu\n[D] MainMenu","quiz_id":39862660,"term_lang":"en","def_lang":"en","word_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=QQ&s=V1yTH95T","has_word_custom_audio":false,"def_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=X19fX3Byb3BlcnR5IGlzIHVzZWQgdG8gZ2V0IG9yIHNldCB0aGUgc2hvcnRjdXQgbWVudSBhc3NvY2lhdGVkIHdpdGggdGhlIGNvbnRyb2wuCgpbQV0gUG9wVXBNZW51CltCXSBTdWJNZW51CltDXSBDb250ZXh0TWVudQpbRF0gTWFpbk1lbnU&s=ld-uL-SK","has_def_custom_audio":false},{"id":1359570161,"photo":"","word":"A","definition":"System.Windows.Forms is an important____of the class libraries in .NET framework?\n\n[A] Namespace\n[B] Class","quiz_id":39862660,"term_lang":"en","def_lang":"en","word_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=QQ&s=V1yTH95T","has_word_custom_audio":false,"def_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=U3lzdGVtLldpbmRvd3MuRm9ybXMgaXMgYW4gaW1wb3J0YW50X19fX29mIHRoZSBjbGFzcyBsaWJyYXJpZXMgaW4gLk5FVCBmcmFtZXdvcms.CgpbQV0gTmFtZXNwYWNlCltCXSBDbGFzcw&s=SPdXMEbj","has_def_custom_audio":false},{"id":1359570162,"photo":"","word":"D","definition":"To get values of the columns of the i-th row in a DataTable object named datatable, what of the follwings is correct? \n\n[A] DataColumn array = datatable.Rows[i].ItemArray;\n[B] String[]array = datatable.Rows[i].ItemArray;\n[C] Object[]array = datatable.Rows[i].ItemArray;\n[D] DataRow array = datatable.Rows[i].ItemArray;","quiz_id":39862660,"term_lang":"en","def_lang":"en","word_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=RA&s=T4A5wd3C","has_word_custom_audio":false,"def_audio":false,"has_def_custom_audio":false},{"id":1359570163,"photo":"","word":"D","definition":"What mode is VS.NET allow you to step through each line of code and trace the execution of your application?\n\n[A] Neither Debug Mode nor Release Mode\n[B] Both Debug Mode and Release Mode\n[C] Release Mode\n[D] Debug Mode","quiz_id":39862660,"term_lang":"en","def_lang":"en","word_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=RA&s=T4A5wd3C","has_word_custom_audio":false,"def_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=V2hhdCBtb2RlIGlzIFZTLk5FVCBhbGxvdyB5b3UgdG8gc3RlcCB0aHJvdWdoIGVhY2ggbGluZSBvZiBjb2RlIGFuZCB0cmFjZSB0aGUgZXhlY3V0aW9uIG9mIHlvdXIgYXBwbGljYXRpb24.CgpbQV0gTmVpdGhlciBEZWJ1ZyBNb2RlIG5vciBSZWxlYXNlIE1vZGUKW0JdIEJvdGggRGVidWcgTW9kZSBhbmQgUmVsZWFzZSBNb2RlCltDXSBSZWxlYXNlIE1vZGUKW0RdIERlYnVnIE1vZGU&s=EjS3.2OJ","has_def_custom_audio":false},{"id":1359570164,"photo":"","word":"D & E & F","definition":"Brushes can be created using one of the following classe(Choose all correct answers)\n\n[A] ThinBrush\n[B] ThickBrush\n[C] PlainBrush\n[D] TextureBrush\n[E] SolidBrush\n[F] LinearGradientBrush\n[G] GradientBrush","quiz_id":39862660,"term_lang":"en","def_lang":"en","word_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=RCAmIEUgJiBG&s=Z.z0ODtW","has_word_custom_audio":false,"def_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=QnJ1c2hlcyBjYW4gYmUgY3JlYXRlZCB1c2luZyBvbmUgb2YgdGhlIGZvbGxvd2luZyBjbGFzc2UoQ2hvb3NlIGFsbCBjb3JyZWN0IGFuc3dlcnMpCgpbQV0gVGhpbkJydXNoCltCXSBUaGlja0JydXNoCltDXSBQbGFpbkJydXNoCltEXSBUZXh0dXJlQnJ1c2gKW0VdIFNvbGlkQnJ1c2gKW0ZdIExpbmVhckdyYWRpZW50QnJ1c2gKW0ddIEdyYWRpZW50QnJ1c2g&s=QQQ2ewK4","has_def_custom_audio":false},{"id":1359570165,"photo":"","word":"C","definition":"What mode is VS.NET allow you create a portable exe(EXE) file?\n\n[A] Neither Debug Mode nor Release Mode\n[B] Debug Mode\n[C] Both Debug Mode and Release Mode\n[D] Release Mode","quiz_id":39862660,"term_lang":"en","def_lang":"en","word_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=Qw&s=XPi2fo7F","has_word_custom_audio":false,"def_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=V2hhdCBtb2RlIGlzIFZTLk5FVCBhbGxvdyB5b3UgY3JlYXRlIGEgcG9ydGFibGUgZXhlKEVYRSkgZmlsZT8KCltBXSBOZWl0aGVyIERlYnVnIE1vZGUgbm9yIFJlbGVhc2UgTW9kZQpbQl0gRGVidWcgTW9kZQpbQ10gQm90aCBEZWJ1ZyBNb2RlIGFuZCBSZWxlYXNlIE1vZGUKW0RdIFJlbGVhc2UgTW9kZQ&s=7o15JVGb","has_def_custom_audio":false},{"id":1359570166,"photo":"","word":"A","definition":"What statement in the followings is correct\nI. The instance properties and methods are those, which are common to all the instances of the class.\nII. The shared properties and methods are those, which are specific to a particular instance.\n\n[A] Both of I and II statements are correct\n[B] Both of I and II statements are incorrect\n[C] Only II statement is correct\n[D] Only I statement is correct","quiz_id":39862660,"term_lang":"en","def_lang":"en","word_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=QQ&s=V1yTH95T","has_word_custom_audio":false,"def_audio":false,"has_def_custom_audio":false},{"id":1359570167,"photo":"","word":"A","definition":"ADO.NET provides features for accessing traditional databases like SQL Server as well as databases, which are accessed using ____.(choose all correct answers)\n\n[A] ODBC\n[B] VB.NET\n[C] OLEDB\n[D] XML\n[E] DataSets","quiz_id":39862660,"term_lang":"en","def_lang":"en","word_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=QQ&s=V1yTH95T","has_word_custom_audio":false,"def_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=QURPLk5FVCBwcm92aWRlcyBmZWF0dXJlcyBmb3IgYWNjZXNzaW5nIHRyYWRpdGlvbmFsIGRhdGFiYXNlcyBsaWtlIFNRTCBTZXJ2ZXIgYXMgd2VsbCBhcyBkYXRhYmFzZXMsIHdoaWNoIGFyZSBhY2Nlc3NlZCB1c2luZyBfX19fLihjaG9vc2UgYWxsIGNvcnJlY3QgYW5zd2VycykKCltBXSBPREJDCltCXSBWQi5ORVQKW0NdIE9MRURCCltEXSBYTUwKW0VdIERhdGFTZXRz&s=0Lf9UuKG","has_def_custom_audio":false},{"id":1359570168,"photo":"","word":"A & C & D","definition":"Name the .NET data providers which are available is VS.NET?(Choose all correct answers)\n\n[A] ODBC.NET Framework Data Provider\n[B] SQL.NET Framework Data Provider\n[C] OLEDB.NET Framework Data Provider\n[D] Oracle.NET Framework Data Provider\n[E] Access.NET Framework Data Provider","quiz_id":39862660,"term_lang":"en","def_lang":"en","word_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=QSAmIEMgJiBE&s=h1zlUSi9","has_word_custom_audio":false,"def_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=TmFtZSB0aGUgLk5FVCBkYXRhIHByb3ZpZGVycyB3aGljaCBhcmUgYXZhaWxhYmxlIGlzIFZTLk5FVD8oQ2hvb3NlIGFsbCBjb3JyZWN0IGFuc3dlcnMpCgpbQV0gT0RCQy5ORVQgRnJhbWV3b3JrIERhdGEgUHJvdmlkZXIKW0JdIFNRTC5ORVQgRnJhbWV3b3JrIERhdGEgUHJvdmlkZXIKW0NdIE9MRURCLk5FVCBGcmFtZXdvcmsgRGF0YSBQcm92aWRlcgpbRF0gT3JhY2xlLk5FVCBGcmFtZXdvcmsgRGF0YSBQcm92aWRlcgpbRV0gQWNjZXNzLk5FVCBGcmFtZXdvcmsgRGF0YSBQcm92aWRlcg&s=2P7cLakF","has_def_custom_audio":false},{"id":1359570169,"photo":"","word":"D","definition":"The____ event of the PrintDocument class is triggered immediately before each PrintPage event ocurs.\n\n[A] StartPrint\n[B] BeginPrint\n[C] PrintPage\n[D] QueryPageSettings","quiz_id":39862660,"term_lang":"en","def_lang":"en","word_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=RA&s=T4A5wd3C","has_word_custom_audio":false,"def_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=VGhlX19fXyBldmVudCBvZiB0aGUgUHJpbnREb2N1bWVudCBjbGFzcyBpcyB0cmlnZ2VyZWQgaW1tZWRpYXRlbHkgYmVmb3JlIGVhY2ggUHJpbnRQYWdlIGV2ZW50IG9jdXJzLgoKW0FdIFN0YXJ0UHJpbnQKW0JdIEJlZ2luUHJpbnQKW0NdIFByaW50UGFnZQpbRF0gUXVlcnlQYWdlU2V0dGluZ3M&s=7LkeTuSI","has_def_custom_audio":false},{"id":1359570170,"photo":"","word":"D","definition":"Which namespace does the class ListView belong to?\n\n[A] System.Windows.Lists\n[B] System.Windows.Drawing\n[C] System.Windows.Paint\n[D] System.Windows.Forms","quiz_id":39862660,"term_lang":"en","def_lang":"en","word_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=RA&s=T4A5wd3C","has_word_custom_audio":false,"def_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=V2hpY2ggbmFtZXNwYWNlIGRvZXMgdGhlIGNsYXNzIExpc3RWaWV3IGJlbG9uZyB0bz8KCltBXSBTeXN0ZW0uV2luZG93cy5MaXN0cwpbQl0gU3lzdGVtLldpbmRvd3MuRHJhd2luZwpbQ10gU3lzdGVtLldpbmRvd3MuUGFpbnQKW0RdIFN5c3RlbS5XaW5kb3dzLkZvcm1z&s=-zXX5nIN","has_def_custom_audio":false},{"id":1359570171,"photo":"","word":"E","definition":"The____property of a DataGrid control, allow filling various kinds of data in a DataGrid including data from a DataSet, DataViewManager, Arrays, Lists etc.\n\n[A] DataRecords\n[B] FillSchema\n[C] Fill\n[D] FillData\n[E] DataSource","quiz_id":39862660,"term_lang":"en","def_lang":"en","word_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=RQ&s=GfzF1u.g","has_word_custom_audio":false,"def_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=VGhlX19fX3Byb3BlcnR5IG9mIGEgRGF0YUdyaWQgY29udHJvbCwgYWxsb3cgZmlsbGluZyB2YXJpb3VzIGtpbmRzIG9mIGRhdGEgaW4gYSBEYXRhR3JpZCBpbmNsdWRpbmcgZGF0YSBmcm9tIGEgRGF0YVNldCwgRGF0YVZpZXdNYW5hZ2VyLCBBcnJheXMsIExpc3RzIGV0Yy4KCltBXSBEYXRhUmVjb3JkcwpbQl0gRmlsbFNjaGVtYQpbQ10gRmlsbApbRF0gRmlsbERhdGEKW0VdIERhdGFTb3VyY2U&s=ditXC2T8","has_def_custom_audio":false},{"id":1359570172,"photo":"","word":"D","definition":"The Pen class belongs to the ____namespace and cannot be inherited\n\n[A] System.Painting\n[B] System.GraphicsObjects\n[C] System.Graphics\n[D] System.Drawing","quiz_id":39862660,"term_lang":"en","def_lang":"en","word_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=RA&s=T4A5wd3C","has_word_custom_audio":false,"def_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=VGhlIFBlbiBjbGFzcyBiZWxvbmdzIHRvIHRoZSBfX19fbmFtZXNwYWNlIGFuZCBjYW5ub3QgYmUgaW5oZXJpdGVkCgpbQV0gU3lzdGVtLlBhaW50aW5nCltCXSBTeXN0ZW0uR3JhcGhpY3NPYmplY3RzCltDXSBTeXN0ZW0uR3JhcGhpY3MKW0RdIFN5c3RlbS5EcmF3aW5n&s=OUeypan7","has_def_custom_audio":false},{"id":1359570173,"photo":"","word":"C","definition":"Which class represents shortcut menus that can be displayed when the user clicks the right mouse button over a control or area of the form?\n\n[A] ToolMenu\n[B] MainMenu\n[C] ContextMenu\n[D] FileMenu","quiz_id":39862660,"term_lang":"en","def_lang":"en","word_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=Qw&s=XPi2fo7F","has_word_custom_audio":false,"def_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=V2hpY2ggY2xhc3MgcmVwcmVzZW50cyBzaG9ydGN1dCBtZW51cyB0aGF0IGNhbiBiZSBkaXNwbGF5ZWQgd2hlbiB0aGUgdXNlciBjbGlja3MgdGhlIHJpZ2h0IG1vdXNlIGJ1dHRvbiBvdmVyIGEgY29udHJvbCBvciBhcmVhIG9mIHRoZSBmb3JtPwoKW0FdIFRvb2xNZW51CltCXSBNYWluTWVudQpbQ10gQ29udGV4dE1lbnUKW0RdIEZpbGVNZW51&s=SkUttNMH","has_def_custom_audio":false},{"id":1359570174,"photo":"","word":"A","definition":"The value of the HelpButton property is ignored if the maximize of minimize boxes are shown.\n\n[A] False\n[B] True","quiz_id":39862660,"term_lang":"en","def_lang":"en","word_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=QQ&s=V1yTH95T","has_word_custom_audio":false,"def_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=VGhlIHZhbHVlIG9mIHRoZSBIZWxwQnV0dG9uIHByb3BlcnR5IGlzIGlnbm9yZWQgaWYgdGhlIG1heGltaXplIG9mIG1pbmltaXplIGJveGVzIGFyZSBzaG93bi4KCltBXSBGYWxzZQpbQl0gVHJ1ZQ&s=US3OtysR","has_def_custom_audio":false},{"id":1359570175,"photo":"","word":"C & D","definition":"List the key elements of COM (choose all correct answers)\n\n[A] A set of theorems which must be proven for checking the correctness of the object model\n[B] A set of graphical symbol for modeling the objects\n[C] A set of services for creating and exposing the classes\n[D] A set of specifications defining the programming protocol","quiz_id":39862660,"term_lang":"en","def_lang":"en","word_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=QyAmIEQ&s=awNbQJ-N","has_word_custom_audio":false,"def_audio":false,"has_def_custom_audio":false},{"id":1359570176,"photo":"","word":"C & E","definition":"____ are the Print support controls provided by WinForms.(Choose all correct answers)\n\n[A] PrintPreview\n[B] PrintFile\n[C] PrintPreviewControl\n[D] PrintDirectory\n[E] PrintDocument","quiz_id":39862660,"term_lang":"en","def_lang":"en","word_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=QyAmIEU&s=B7jDVJx6","has_word_custom_audio":false,"def_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=X19fXyBhcmUgdGhlIFByaW50IHN1cHBvcnQgY29udHJvbHMgcHJvdmlkZWQgYnkgV2luRm9ybXMuKENob29zZSBhbGwgY29ycmVjdCBhbnN3ZXJzKQoKW0FdIFByaW50UHJldmlldwpbQl0gUHJpbnRGaWxlCltDXSBQcmludFByZXZpZXdDb250cm9sCltEXSBQcmludERpcmVjdG9yeQpbRV0gUHJpbnREb2N1bWVudA&s=Go6zH-mo","has_def_custom_audio":false},{"id":1359570177,"photo":"","word":"...","definition":"What of the followings are data validation mode in WinForms?(Choose all correct answers)\n[A] Form-Level Validation\n[B] There is no Data validation mode in Winforms\n[C] Control-Level Validation\n[D] Field-Level Validation","quiz_id":39862660,"term_lang":"en","def_lang":"en","word_audio":false,"has_word_custom_audio":false,"def_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=V2hhdCBvZiB0aGUgZm9sbG93aW5ncyBhcmUgZGF0YSB2YWxpZGF0aW9uIG1vZGUgaW4gV2luRm9ybXM.KENob29zZSBhbGwgY29ycmVjdCBhbnN3ZXJzKQpbQV0gRm9ybS1MZXZlbCBWYWxpZGF0aW9uCltCXSBUaGVyZSBpcyBubyBEYXRhIHZhbGlkYXRpb24gbW9kZSBpbiBXaW5mb3JtcwpbQ10gQ29udHJvbC1MZXZlbCBWYWxpZGF0aW9uCltEXSBGaWVsZC1MZXZlbCBWYWxpZGF0aW9u&s=xc9xqDv-","has_def_custom_audio":false},{"id":1359570178,"photo":"","word":"A & C & D","definition":"What of the followings are data validation mode in WinForms?(Choose all correct answers)\n\n[A] Form-Level Validation\n[B] There is no Data validation mode in Winforms\n[C] Control-Level Validation\n[D] Field-Level Validation","quiz_id":39862660,"term_lang":"en","def_lang":"en","word_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=QSAmIEMgJiBE&s=h1zlUSi9","has_word_custom_audio":false,"def_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=V2hhdCBvZiB0aGUgZm9sbG93aW5ncyBhcmUgZGF0YSB2YWxpZGF0aW9uIG1vZGUgaW4gV2luRm9ybXM.KENob29zZSBhbGwgY29ycmVjdCBhbnN3ZXJzKQoKW0FdIEZvcm0tTGV2ZWwgVmFsaWRhdGlvbgpbQl0gVGhlcmUgaXMgbm8gRGF0YSB2YWxpZGF0aW9uIG1vZGUgaW4gV2luZm9ybXMKW0NdIENvbnRyb2wtTGV2ZWwgVmFsaWRhdGlvbgpbRF0gRmllbGQtTGV2ZWwgVmFsaWRhdGlvbg&s=bOqvT-C4","has_def_custom_audio":false},{"id":1359570179,"photo":"","word":"A","definition":"What of the folllowings is correct if we want to set the Achild form as a child form of the parent form named TheParent?\n\n[A] AChild.MdiParent = TheParent;\n[B] AChild.TheParent = true;\n[C] Achild.MdiChild = AChild;\n[D] TheParent.MdiChild = AChild; \n[E] TheParent.AChild = true;","quiz_id":39862660,"term_lang":"en","def_lang":"en","word_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=QQ&s=V1yTH95T","has_word_custom_audio":false,"def_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=V2hhdCBvZiB0aGUgZm9sbGxvd2luZ3MgaXMgY29ycmVjdCBpZiB3ZSB3YW50IHRvIHNldCB0aGUgQWNoaWxkIGZvcm0gYXMgYSBjaGlsZCBmb3JtIG9mIHRoZSBwYXJlbnQgZm9ybSBuYW1lZCBUaGVQYXJlbnQ.CgpbQV0gQUNoaWxkLk1kaVBhcmVudCA9IFRoZVBhcmVudDsKW0JdIEFDaGlsZC5UaGVQYXJlbnQgPSB0cnVlOwpbQ10gQWNoaWxkLk1kaUNoaWxkID0gQUNoaWxkOwpbRF0gVGhlUGFyZW50Lk1kaUNoaWxkID0gQUNoaWxkOyAKW0VdIFRoZVBhcmVudC5BQ2hpbGQgPSB0cnVlOw&s=l5KHVmds","has_def_custom_audio":false},{"id":1359570180,"photo":"","word":"C","definition":"The ____control groups a set of controls within a non-labeled and scrollable frame\n\n[A] PictureBox\n[B] CheckedBox\n[C] Panel\n[D] Frame","quiz_id":39862660,"term_lang":"en","def_lang":"en","word_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=Qw&s=XPi2fo7F","has_word_custom_audio":false,"def_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=VGhlIF9fX19jb250cm9sIGdyb3VwcyBhIHNldCBvZiBjb250cm9scyB3aXRoaW4gYSBub24tbGFiZWxlZCBhbmQgc2Nyb2xsYWJsZSBmcmFtZQoKW0FdIFBpY3R1cmVCb3gKW0JdIENoZWNrZWRCb3gKW0NdIFBhbmVsCltEXSBGcmFtZQ&s=bDlkAuR4","has_def_custom_audio":false},{"id":1359570181,"photo":"","word":"F","definition":"Arrange the sequence in which the key events are triggered \n\n[A] KeyPress, KeyUp, KeyDown\n[B] KeyUp, KeyPress, KeyDown\n[C] KeyDown, keyPress, KeyUp\n[D] KeyPress, keyDown, KeyUp\n[E] KeyUp, KeyDown, KeyPress\n[F] KeyDown, KeyUp, KeyPress","quiz_id":39862660,"term_lang":"en","def_lang":"en","word_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=Rg&s=75pPVrU7","has_word_custom_audio":false,"def_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=QXJyYW5nZSB0aGUgc2VxdWVuY2UgaW4gd2hpY2ggdGhlIGtleSBldmVudHMgYXJlIHRyaWdnZXJlZCAKCltBXSBLZXlQcmVzcywgS2V5VXAsIEtleURvd24KW0JdIEtleVVwLCBLZXlQcmVzcywgS2V5RG93bgpbQ10gS2V5RG93biwga2V5UHJlc3MsIEtleVVwCltEXSBLZXlQcmVzcywga2V5RG93biwgS2V5VXAKW0VdIEtleVVwLCBLZXlEb3duLCBLZXlQcmVzcwpbRl0gS2V5RG93biwgS2V5VXAsIEtleVByZXNz&s=LTAEPmNu","has_def_custom_audio":false},{"id":1359570182,"photo":"","word":"A","definition":"The types of list box supported in Winforms are(Choose all correct answers) \n\n[A] ListBox\n[B] CheckedListBox\n[C] ComboBox\n[D] DropDownbox","quiz_id":39862660,"term_lang":"en","def_lang":"en","word_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=QQ&s=V1yTH95T","has_word_custom_audio":false,"def_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=VGhlIHR5cGVzIG9mIGxpc3QgYm94IHN1cHBvcnRlZCBpbiBXaW5mb3JtcyBhcmUoQ2hvb3NlIGFsbCBjb3JyZWN0IGFuc3dlcnMpIAoKW0FdIExpc3RCb3gKW0JdIENoZWNrZWRMaXN0Qm94CltDXSBDb21ib0JveApbRF0gRHJvcERvd25ib3g&s=0SCKkR91","has_def_custom_audio":false},{"id":1359570183,"photo":"","word":"C","definition":"What are thee steps involved involved in calling one from another form?(choose all answers)\n\n[A] Create an instance of the calling form\n[B] Create an instance of the form to be called\n[C] Invoke Show","quiz_id":39862660,"term_lang":"en","def_lang":"en","word_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=Qw&s=XPi2fo7F","has_word_custom_audio":false,"def_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=V2hhdCBhcmUgdGhlZSBzdGVwcyBpbnZvbHZlZCBpbnZvbHZlZCBpbiBjYWxsaW5nIG9uZSBmcm9tIGFub3RoZXIgZm9ybT8oY2hvb3NlIGFsbCBhbnN3ZXJzKQoKW0FdIENyZWF0ZSBhbiBpbnN0YW5jZSBvZiB0aGUgY2FsbGluZyBmb3JtCltCXSBDcmVhdGUgYW4gaW5zdGFuY2Ugb2YgdGhlIGZvcm0gdG8gYmUgY2FsbGVkCltDXSBJbnZva2UgU2hvdw&s=DgS9-PKt","has_def_custom_audio":false},{"id":1359570184,"photo":"","word":"A & C & D","definition":"Which of the following objects can we use to read data from a Micorosoft SQL Server 2000 database? (choose all correct answers)\n\n[A] SQLDataAdapter\n[B] DataSet\n[C] OleDbDataAdapter\n[D] ADORecordSet\n[E] XmlTextReader","quiz_id":39862660,"term_lang":"en","def_lang":"en","word_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=QSAmIEMgJiBE&s=h1zlUSi9","has_word_custom_audio":false,"def_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=V2hpY2ggb2YgdGhlIGZvbGxvd2luZyBvYmplY3RzIGNhbiB3ZSB1c2UgdG8gcmVhZCBkYXRhIGZyb20gYSBNaWNvcm9zb2Z0IFNRTCBTZXJ2ZXIgMjAwMCBkYXRhYmFzZT8gKGNob29zZSBhbGwgY29ycmVjdCBhbnN3ZXJzKQoKW0FdIFNRTERhdGFBZGFwdGVyCltCXSBEYXRhU2V0CltDXSBPbGVEYkRhdGFBZGFwdGVyCltEXSBBRE9SZWNvcmRTZXQKW0VdIFhtbFRleHRSZWFkZXI&s=W.S2RLLd","has_def_custom_audio":false},{"id":1359570185,"photo":"","word":"C","definition":"What is component is used to fetch the values from the data source to DataSet and also update the data source with data in the DataSet?\n\n[A] DataWriter\n[B] DataReader\n[C] DataAdapter\n[D] DataCommand","quiz_id":39862660,"term_lang":"en","def_lang":"en","word_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=Qw&s=XPi2fo7F","has_word_custom_audio":false,"def_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=V2hhdCBpcyBjb21wb25lbnQgaXMgdXNlZCB0byBmZXRjaCB0aGUgdmFsdWVzIGZyb20gdGhlIGRhdGEgc291cmNlIHRvIERhdGFTZXQgYW5kIGFsc28gdXBkYXRlIHRoZSBkYXRhIHNvdXJjZSB3aXRoIGRhdGEgaW4gdGhlIERhdGFTZXQ.CgpbQV0gRGF0YVdyaXRlcgpbQl0gRGF0YVJlYWRlcgpbQ10gRGF0YUFkYXB0ZXIKW0RdIERhdGFDb21tYW5k&s=ICHZw3yM","has_def_custom_audio":false},{"id":1359570186,"photo":"","word":"C","definition":"The ____property of the Form control is used to determine whether there are any MDI child forms open in your MDI application.\n\n[A] ActiveMdiChildren\n[B] ActiveMdiChild\n[C] IsMdiChild\n[D] IsMdiChildren","quiz_id":39862660,"term_lang":"en","def_lang":"en","word_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=Qw&s=XPi2fo7F","has_word_custom_audio":false,"def_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=VGhlIF9fX19wcm9wZXJ0eSBvZiB0aGUgRm9ybSBjb250cm9sIGlzIHVzZWQgdG8gZGV0ZXJtaW5lIHdoZXRoZXIgdGhlcmUgYXJlIGFueSBNREkgY2hpbGQgZm9ybXMgb3BlbiBpbiB5b3VyIE1ESSBhcHBsaWNhdGlvbi4KCltBXSBBY3RpdmVNZGlDaGlsZHJlbgpbQl0gQWN0aXZlTWRpQ2hpbGQKW0NdIElzTWRpQ2hpbGQKW0RdIElzTWRpQ2hpbGRyZW4&s=6zd5Svgu","has_def_custom_audio":false},{"id":1359570187,"photo":"","word":"C","definition":"____are the collection of reusable classes or types\n\n[A] Namespaces\n[B] Collections\n[C] Class libraries","quiz_id":39862660,"term_lang":"en","def_lang":"en","word_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=Qw&s=XPi2fo7F","has_word_custom_audio":false,"def_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=X19fX2FyZSB0aGUgY29sbGVjdGlvbiBvZiByZXVzYWJsZSBjbGFzc2VzIG9yIHR5cGVzCgpbQV0gTmFtZXNwYWNlcwpbQl0gQ29sbGVjdGlvbnMKW0NdIENsYXNzIGxpYnJhcmllcw&s=GABSV2q-","has_def_custom_audio":false},{"id":1359570188,"photo":"","word":"D","definition":"____control combines the features of the TextBox and the ListBox controls\n\n[A] ToolBar\n[B] StatusBar\n[C] Label\n[D] ComboBox","quiz_id":39862660,"term_lang":"en","def_lang":"en","word_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=RA&s=T4A5wd3C","has_word_custom_audio":false,"def_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=X19fX2NvbnRyb2wgY29tYmluZXMgdGhlIGZlYXR1cmVzIG9mIHRoZSBUZXh0Qm94IGFuZCB0aGUgTGlzdEJveCBjb250cm9scwoKW0FdIFRvb2xCYXIKW0JdIFN0YXR1c0JhcgpbQ10gTGFiZWwKW0RdIENvbWJvQm94&s=CvM05CoM","has_def_custom_audio":false},{"id":1359570189,"photo":"","word":"D","definition":"A custom control should you use to verify an authorized aplication user called as _____\n\n[A] Composite Custom Control\n[B] Standard Control\n[C] Single Control\n[D] Complex Control","quiz_id":39862660,"term_lang":"en","def_lang":"en","word_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=RA&s=T4A5wd3C","has_word_custom_audio":false,"def_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=QSBjdXN0b20gY29udHJvbCBzaG91bGQgeW91IHVzZSB0byB2ZXJpZnkgYW4gYXV0aG9yaXplZCBhcGxpY2F0aW9uIHVzZXIgY2FsbGVkIGFzIF9fX19fCgpbQV0gQ29tcG9zaXRlIEN1c3RvbSBDb250cm9sCltCXSBTdGFuZGFyZCBDb250cm9sCltDXSBTaW5nbGUgQ29udHJvbApbRF0gQ29tcGxleCBDb250cm9s&s=idlNEMDA","has_def_custom_audio":false},{"id":1359570190,"photo":"","word":"A & C","definition":"Which of the following statements with respect to ADO.Net are True? (Choose all correct answers)\n\n[A] System built on ADO.NET are intrinsically highly scaleable\n[B] ADO.NET objects are all strongly typed.\n[C] When we use the DataSet object, ADO.NET is based on disconnected data access.\n[D] in ADO.NET, the RecordSet is bound to the data source","quiz_id":39862660,"term_lang":"en","def_lang":"en","word_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=QSAmIEM&s=.DUBHcru","has_word_custom_audio":false,"def_audio":false,"has_def_custom_audio":false},{"id":1359570191,"photo":"","word":"A","definition":"What control support us to display the list items in different types as text only, text with small icons, text with large icons and report views?\n\n[A] ListView\n[B] ListBox\n[C] CheckedListBox\n[D] ComboBox","quiz_id":39862660,"term_lang":"en","def_lang":"en","word_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=QQ&s=V1yTH95T","has_word_custom_audio":false,"def_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=V2hhdCBjb250cm9sIHN1cHBvcnQgdXMgdG8gZGlzcGxheSB0aGUgbGlzdCBpdGVtcyBpbiBkaWZmZXJlbnQgdHlwZXMgYXMgdGV4dCBvbmx5LCB0ZXh0IHdpdGggc21hbGwgaWNvbnMsIHRleHQgd2l0aCBsYXJnZSBpY29ucyBhbmQgcmVwb3J0IHZpZXdzPwoKW0FdIExpc3RWaWV3CltCXSBMaXN0Qm94CltDXSBDaGVja2VkTGlzdEJveApbRF0gQ29tYm9Cb3g&s=S0lF63Er","has_def_custom_audio":false},{"id":1359570192,"photo":"","word":"D","definition":"The____ control is used to display text when the mouse points to a particular control\n\n[A] Toolbar\n[B] StatusBar\n[C] Menu\n[D] ToolTip","quiz_id":39862660,"term_lang":"en","def_lang":"en","word_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=RA&s=T4A5wd3C","has_word_custom_audio":false,"def_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=VGhlX19fXyBjb250cm9sIGlzIHVzZWQgdG8gZGlzcGxheSB0ZXh0IHdoZW4gdGhlIG1vdXNlIHBvaW50cyB0byBhIHBhcnRpY3VsYXIgY29udHJvbAoKW0FdIFRvb2xiYXIKW0JdIFN0YXR1c0JhcgpbQ10gTWVudQpbRF0gVG9vbFRpcA&s=CuD.pIpd","has_def_custom_audio":false},{"id":1359570193,"photo":"","word":"A","definition":"which class is the base class for all the controls that can be used in Windows Forms?\n\n[A] Control\n[B] Controls\n[C] Forms\n[D] Objects","quiz_id":39862660,"term_lang":"en","def_lang":"en","word_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=QQ&s=V1yTH95T","has_word_custom_audio":false,"def_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=d2hpY2ggY2xhc3MgaXMgdGhlIGJhc2UgY2xhc3MgZm9yIGFsbCB0aGUgY29udHJvbHMgdGhhdCBjYW4gYmUgdXNlZCBpbiBXaW5kb3dzIEZvcm1zPwoKW0FdIENvbnRyb2wKW0JdIENvbnRyb2xzCltDXSBGb3JtcwpbRF0gT2JqZWN0cw&s=tf6TORPX","has_def_custom_audio":false},{"id":1359570194,"photo":"","word":"D","definition":"GDI + resides in _____ assembly. \n\n[A] System.Painting\n[B] System\n[C] System.Graphics\n[D] System.Drawing","quiz_id":39862660,"term_lang":"en","def_lang":"en","word_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=RA&s=T4A5wd3C","has_word_custom_audio":false,"def_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=R0RJICsgcmVzaWRlcyBpbiBfX19fXyBhc3NlbWJseS4gCgpbQV0gU3lzdGVtLlBhaW50aW5nCltCXSBTeXN0ZW0KW0NdIFN5c3RlbS5HcmFwaGljcwpbRF0gU3lzdGVtLkRyYXdpbmc&s=OiduSg9s","has_def_custom_audio":false},{"id":1359570195,"photo":"","word":"D","definition":"The ____ property of the LinkLabel control is used to specity the text, which has to be displayed as a link.\n\n[A] HyperLink\n[B] URLName\n[C] LinkName\n[D] LinkArea","quiz_id":39862660,"term_lang":"en","def_lang":"en","word_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=RA&s=T4A5wd3C","has_word_custom_audio":false,"def_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=VGhlIF9fX18gcHJvcGVydHkgb2YgdGhlIExpbmtMYWJlbCBjb250cm9sIGlzIHVzZWQgdG8gc3BlY2l0eSB0aGUgdGV4dCwgd2hpY2ggaGFzIHRvIGJlIGRpc3BsYXllZCBhcyBhIGxpbmsuCgpbQV0gSHlwZXJMaW5rCltCXSBVUkxOYW1lCltDXSBMaW5rTmFtZQpbRF0gTGlua0FyZWE&s=JZBqx1TA","has_def_custom_audio":false},{"id":1359570196,"photo":"","word":"C","definition":"What of the following are correct for creating a connection object to database named MyDB? (Choose all correct answers) \n\n[A] SqlConnection con = new SqlConnection(\"server=myserver; \nIntegrated Security = SSPI; database=MyDB\");\n[B] SqlConnection con = new SqlConnection(\"server=myserver\"\nIntergrated Security=SSPI; Data Source=MyDB);\n[C] SqlConnection con = new SqlConnection(\"Data Source=myserver;\nIntegrated Sercurity=SSPI; Initial Catalog=MyDB\");","quiz_id":39862660,"term_lang":"en","def_lang":"en","word_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=Qw&s=XPi2fo7F","has_word_custom_audio":false,"def_audio":false,"has_def_custom_audio":false},{"id":1359570197,"photo":"","word":"D","definition":"The view types supported in Winforms are (choose all correct answers)\n\n[A] Text with large icons\n[B] Text only\n[C] Text with small icons\n[D] Report view","quiz_id":39862660,"term_lang":"en","def_lang":"en","word_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=RA&s=T4A5wd3C","has_word_custom_audio":false,"def_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=VGhlIHZpZXcgdHlwZXMgc3VwcG9ydGVkIGluIFdpbmZvcm1zIGFyZSAoY2hvb3NlIGFsbCBjb3JyZWN0IGFuc3dlcnMpCgpbQV0gVGV4dCB3aXRoIGxhcmdlIGljb25zCltCXSBUZXh0IG9ubHkKW0NdIFRleHQgd2l0aCBzbWFsbCBpY29ucwpbRF0gUmVwb3J0IHZpZXc&s=i4yhjWCi","has_def_custom_audio":false},{"id":1359570198,"photo":"","word":"A","definition":"If maximize and minimize buttons are displayed then the HelpButton property is ignored.\n\n[A] False\n[B] True","quiz_id":39862660,"term_lang":"en","def_lang":"en","word_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=QQ&s=V1yTH95T","has_word_custom_audio":false,"def_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=SWYgbWF4aW1pemUgYW5kIG1pbmltaXplIGJ1dHRvbnMgYXJlIGRpc3BsYXllZCB0aGVuIHRoZSBIZWxwQnV0dG9uIHByb3BlcnR5IGlzIGlnbm9yZWQuCgpbQV0gRmFsc2UKW0JdIFRydWU&s=X96hKhKV","has_def_custom_audio":false},{"id":1359570199,"photo":"","word":"C","definition":"The ____ event of the Form control is used to perform tasks such as allocating resources used by the form\n\n[A] Allocate\n[B] Activate\n[C] Load\n[D] Activated","quiz_id":39862660,"term_lang":"en","def_lang":"en","word_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=Qw&s=XPi2fo7F","has_word_custom_audio":false,"def_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=VGhlIF9fX18gZXZlbnQgb2YgdGhlIEZvcm0gY29udHJvbCBpcyB1c2VkIHRvIHBlcmZvcm0gdGFza3Mgc3VjaCBhcyBhbGxvY2F0aW5nIHJlc291cmNlcyB1c2VkIGJ5IHRoZSBmb3JtCgpbQV0gQWxsb2NhdGUKW0JdIEFjdGl2YXRlCltDXSBMb2FkCltEXSBBY3RpdmF0ZWQ&s=1KibVdM.","has_def_custom_audio":false},{"id":1359570200,"photo":"","word":"D","definition":"To get values of the colums of the i-th row in a DataTable object named datatable, what of the followings is correct?\n\n[A] Object [] array = datatable.Rows[i].ItemArray;\n[B] DataColumn array = datatable. Rows[i].ItemArray;\n[C] String[] array = datatable. Rows[i].ItemArray;\n[D] DataRow array = datatable. Rows[i].ItemArray;","quiz_id":39862660,"term_lang":"en","def_lang":"en","word_audio":"http:\/\/quizlet.com\/tts\/en.mp3?v=14&b=RA&s=T4A5wd3C","has_word_custom_audio":false,"def_audio":false,"has_def_custom_audio":false}]);
+	QLoad('SetPageObject');
+});
+</script>
+
+	
+
+	<footer class="global footer no-ad">
+	<div class="container">
+
+		<div class="links">
+			<div class="fill">
+
+				<hr>
+
+				<ul class="inside using-quizlet">
+					<li><span class="label">Using Quizlet</span></li>
+
+					
+					<li><a href="http://quizlet.com/help">Help Center</a></li>
+
+					<li><a href="http://itunes.apple.com/us/app/quizlet/id546473125">iPhone/iPad</a></li>
+					<li><a href="https://play.google.com/store/apps/details?id=com.quizlet.quizletandroid">Android</a></li>
+
+					<li><a href="http://quizlet.com/students">Students</a></li>
+					<li><a href="http://quizlet.com/teachers">Teachers</a></li>
+
+											<li><a href="https://quizlet.com/upgrade?source=footer">Upgrades</a></li>
+									</ul>
+
+				<ul class="inside about">
+					<li><span class="label">About Quizlet</span></li>
+
+					<li><a href="http://quizlet.com/about">Company</a></li>
+					<li><a href="http://quizlet.com/jobs">Jobs</a></li>
+					<li><a href="http://quizlet.com/privacy">Privacy</a></li>
+					<li><a href="http://quizlet.com/tos">Terms</a></li>
+					<li><a href="http://quizlet.com/press">Press</a></li>
+					<li><a href="http://quizlet.com/feedback">Contact</a></li>
+				</ul>
+
+				<p class="copyright">Study Everywhere! © 2014 Quizlet LLC. <span class="word-wrap">Follow <a href="https://twitter.com/quizlet">@quizlet</a> on Twitter.</span></p>
+			</div>
+		</div>
+
+					<div class="ad-wrap fill"><div id="dfp-NewFooterLI-17Plus" style="width:728px;height:90px" class="ad noprint "><script type="text/javascript">if(DFPADS)googletag.cmd.push(function(){googletag.display("dfp-NewFooterLI-17Plus");});</script><span class="patch one"></span><span class="patch two"></span><span class="patch three"></span><span class="patch four"></span><div id="google_ads_iframe_/6396803/NewFooterLI-17Plus_0__container__" style="border: 0pt none;"><iframe id="google_ads_iframe_/6396803/NewFooterLI-17Plus_0" name="google_ads_iframe_/6396803/NewFooterLI-17Plus_0" width="728" height="90" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" src="javascript:"<html><body style='background:transparent'></body></html>"" style="border: 0px; vertical-align: bottom;"></iframe></div></div></div>
+		
+	</div>
+</footer>
+<script>if(typeof performance !== "undefined" && 'mark' in performance){performance.mark("mark_footer_start"); }</script>
+			
+	<script>QPAGE="Sets\"show".replace(/"/g, '/');QWait('dom',function(){_qoptions={qacct:"p-5brKQLtleyIQU"};_comscore=[{c1:"2",c2:"8641686"}];_gaq.push(['_trackPageview',QPAGE]);$LAB.script(['http://stats.g.doubleclick.net/dc.js','http://edge.quantserve.com/quant.js','http://b.scorecardresearch.com/beacon.js',]);});</script><noscript>&lt;img src="http://b.scorecardresearch.com/p?c1=2&amp;amp;c2=8641686&amp;amp;cv=2.0&amp;amp;cj=1" alt="" /&gt;</noscript><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"beacon-6.newrelic.com","licenseKey":"a92c37725f","applicationID":"124534","transactionName":"YVcEY0EAXUJYVkUMDlgdJUJAFVxcFmZUERIZQQ5YRA==","queueTime":0,"applicationTime":295,"ttGuid":"","agentToken":"","userAttributes":"TRATRFYTXVBUUBNfQ31aB1lbKUZIXFtCCAhaV0QbEQBUVBsPAFxNFFMFVFwUXUVmQUgVBBQIRHFBBFZ9VlJWAAV\/XEQbERRaVRsPE0hXBgJfBgdVBwUIDAZQVQ8GUgYAQx8TSlBSCg9SQTlEWg9QVGZTWBcSQm0VUlYPEQsLBwJTVQICShVQDVxEXVNdBBNTbQJWRwBQVFdBVBdDDBAufHRDHxNKUEU6DVdLCUJHQwkTVVxCEUMaEBJSQQxsXktRVBdDDBAJRVoGWl9YWRNJQ0JXFFpsAlxEV0ETX1YGTw==","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-411.min.js"}</script>
+	
+
+</div>
+
+<div class="mobile-nav">
+	<a class="return-to-site" id="deactivate-nav" href="http://quizlet.com/39862660/quiz-2-c-flash-cards/#"></a>
+
+	<div class="scrollable-nav">
+		<a class="create-set" href="http://quizlet.com/create-set">
+			<span class="glyph icon create-set-icon "></span>			<span class="label">Create Set</span>
+		</a>
+					<div class="side-nav">
+		
+	<h2><a href="http://quizlet.com/latest">Welcome!</a></h2>
+		
+<section>
+	<ul>
+				<li>
+			<a href="http://quizlet.com/latest" class="" data-id="latest-tab">
+				<span class="glyph icon clock-icon "></span>				<span class="label">Latest Activity</span>
+			</a>
+		</li>
+		
+		<li>
+			<a href="http://quizlet.com/KhanhHuyensmile" class="" data-id="profile-tab">
+				<span class="glyph icon cards-icon "></span>									<span class="label">Your Sets &amp; Classes</span>
+							</a>
+		</li>
+
+		<li>
+			<a href="https://quizlet.com/settings" class="" data-id="settings-tab">
+				<span class="glyph icon settings-icon "></span>				<span class="label">Settings</span>
+			</a>
+		</li>
+	</ul>
+</section>
+
+
+	<section class="classes section">
+		<h3><a href="http://quizlet.com/KhanhHuyensmile/classes">Your Classes</a></h3>
+
+		
+						
+		<ul>
+							
+				<li class="active">
+					<a href="http://quizlet.com/class/633481/" class="" data-id="class-633481">
+						<span class="glyph icon class-icon "></span>						<span class="label">Business English 4</span>
+											</a>
+				</li>
+			
+			
+			<li class="new">
+				<a class="" href="http://quizlet.com/add-class" data-id="new-class">
+					<span class="glyph icon plus-icon "></span>					<span class="label">Join or create a class</span>
+				</a>
+			</li>
+		</ul>
+	</section>
+
+
+
+	<section class="folders section">
+		<h3><a href="http://quizlet.com/KhanhHuyensmile/folders">Your Folders</a></h3>
+
+				
+		<ul>
+											<li class="">
+					<a href="http://quizlet.com/KhanhHuyensmile/folders/japanese" class="" data-id="folder-6557116">
+						<span class="glyph icon folder-icon "></span>												<span class="label">Japanese</span>
+					</a>
+				</li>
+			
+			
+			<li class="new">
+				<a class="" href="http://quizlet.com/new-folder" data-id="new-folder">
+					<span class="glyph icon plus-icon "></span>					<span class="label">New folder</span>
+				</a>
+			</li>
+		</ul>
+	</section>
+
+
+
+
+
+	<section class="behind-the-scenes">
+		<h3><a href="http://quizlet.com/product">Quizlet News</a></h3>
+					<a href="http://quizlet.com/inside-quizlet/new-study-mode-buttons" class="story">
+
+				
+					<span class="by">Posted yesterday</span>
+																<img src="./Quiz 2 C# flashcards   Quizlet_files/modes1.jpg" class="image-header">
+					
+					<span class="post-title">New Study Mode Buttons</span>
+					<p class="post-preview">On Friday, we launched a redesign of the study mode buttons to make them more prominent and easier to find. 
+
+
+
+The titles easier to read and they…</p>
+
+				
+			</a>
+		
+	</section>
+
+<ul class="footer">
+
+	<li class="mobile-only"><a href="http://quizlet.com/product">Latest Updates</a></li>
+	<li class="mobile-only"><a href="http://quizlet.com/feedback">Send Feedback</a></li>
+
+		<li><a href="http://quizlet.com/help">Help Center</a></li>
+	<li><a href="http://quizlet.com/privacy">Privacy Policy</a></li>
+	<li><a href="https://twitter.com/quizlet">Twitter: @quizlet</a></li>
+	<li><a href="https://play.google.com/store/apps/details?id=com.quizlet.quizletandroid">Android</a></li>
+	<li><a href="https://itunes.apple.com/us/app/quizlet/id546473125?mt=8">iPhone/iOS</a></li>
+
+
+			<li class="mobile-only touch-only"><a href="https://quizlet.com/upgrade?source=mobile_nav">Upgrade</a></li>
+		<br>
+	<li class="mobile-only touch-only"><a href="https://quizlet.com/logout">Log Out</a></li>
+</ul>
+	</div>
+			</div>
+</div>
+
+
+<script type="text/javascript">QWait("dom",function(){var a=document.body,b=document.getElementById("activate-nav"),c=document.getElementById("activate-search"),d=document.getElementById("deactivate-search"),e=document.getElementById("deactivate-nav");null!==b&&(b.onclick=function(){a.className=a.className.replace(" navActivated","")+" navActivated";return!1});null!==e&&(e.onclick=function(){a.className=a.className.replace(" navActivated","");return!1});null!==c&&(c.onclick=function(){a.className=a.className.replace(" searchActivated",
+"")+" searchActivated";document.getElementById("header-search").focus();return!1});null!==d&&(d.onclick=function(){a.className=a.className.replace(" searchActivated","");return!1})});
+</script>
+
+
+<script src="./Quiz 2 C# flashcards   Quizlet_files/nr-411.min.js"></script><meta id="fake_position_meta" name="fake_geolocation_chrome_extension" content="{&quot;isEnabled&quot;:true,&quot;lat&quot;:-40.900557,&quot;lng&quot;:174.88597100000004,&quot;accuracy&quot;:100}"><script type="text/javascript" src="./Quiz 2 C# flashcards   Quizlet_files/a92c37725f"></script><iframe id="google_osd_static_frame_3425794520881" name="google_osd_static_frame" style="display: none; width: 0px; height: 0px;"></iframe></body></html>

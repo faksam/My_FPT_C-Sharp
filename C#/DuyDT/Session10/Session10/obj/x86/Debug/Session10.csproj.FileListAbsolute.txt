@@ -1,0 +1,18 @@
+C:\Users\DuyDT\Desktop\C#\Session10\Session10\bin\Debug\Session10.exe
+C:\Users\DuyDT\Desktop\C#\Session10\Session10\bin\Debug\Session10.pdb
+C:\Users\DuyDT\Desktop\C#\Session10\Session10\obj\x86\Debug\Session10.Form1.resources
+C:\Users\DuyDT\Desktop\C#\Session10\Session10\obj\x86\Debug\Session10.Properties.Resources.resources
+C:\Users\DuyDT\Desktop\C#\Session10\Session10\obj\x86\Debug\Session10.csproj.GenerateResource.Cache
+C:\Users\DuyDT\Desktop\C#\Session10\Session10\obj\x86\Debug\Session10.exe
+C:\Users\DuyDT\Desktop\C#\Session10\Session10\obj\x86\Debug\Session10.pdb
+C:\Users\DuyDT\Desktop\C#\Session10\Session10\obj\x86\Debug\Session10.Form3.resources
+C:\Users\DuyDT\Desktop\C#\Session10\Session10\obj\x86\Debug\Session10.Form4.resources
+F:\AAA\Summer 2014\C#\DuyDT\Session10\Session10\obj\x86\Debug\Session10.exe
+F:\AAA\Summer 2014\C#\DuyDT\Session10\Session10\obj\x86\Debug\Session10.pdb
+F:\AAA\Summer 2014\C#\DuyDT\Session10\Session10\bin\Debug\Session10.exe
+F:\AAA\Summer 2014\C#\DuyDT\Session10\Session10\bin\Debug\Session10.pdb
+F:\AAA\Summer 2014\C#\DuyDT\Session10\Session10\obj\x86\Debug\Session10.Form1.resources
+F:\AAA\Summer 2014\C#\DuyDT\Session10\Session10\obj\x86\Debug\Session10.Form3.resources
+F:\AAA\Summer 2014\C#\DuyDT\Session10\Session10\obj\x86\Debug\Session10.Form4.resources
+F:\AAA\Summer 2014\C#\DuyDT\Session10\Session10\obj\x86\Debug\Session10.Properties.Resources.resources
+F:\AAA\Summer 2014\C#\DuyDT\Session10\Session10\obj\x86\Debug\Session10.csproj.GenerateResource.Cache

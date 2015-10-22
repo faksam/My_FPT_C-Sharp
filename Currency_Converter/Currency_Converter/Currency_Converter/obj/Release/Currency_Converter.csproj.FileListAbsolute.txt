@@ -1,0 +1,8 @@
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\Currency_Converter\Currency_Converter\Currency_Converter\bin\Release\Currency_Converter.exe
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\Currency_Converter\Currency_Converter\Currency_Converter\bin\Release\Currency_Converter.pdb
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\Currency_Converter\Currency_Converter\Currency_Converter\obj\Release\Currency_Converter.csprojResolveAssemblyReference.cache
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\Currency_Converter\Currency_Converter\Currency_Converter\obj\Release\Currency_Converter.Form1.resources
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\Currency_Converter\Currency_Converter\Currency_Converter\obj\Release\Currency_Converter.Properties.Resources.resources
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\Currency_Converter\Currency_Converter\Currency_Converter\obj\Release\Currency_Converter.csproj.GenerateResource.Cache
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\Currency_Converter\Currency_Converter\Currency_Converter\obj\Release\Currency_Converter.exe
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\Currency_Converter\Currency_Converter\Currency_Converter\obj\Release\Currency_Converter.pdb

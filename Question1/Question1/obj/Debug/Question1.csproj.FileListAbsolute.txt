@@ -1,0 +1,8 @@
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\Question1\Question1\bin\Debug\Question1.exe
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\Question1\Question1\bin\Debug\Question1.pdb
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\Question1\Question1\obj\Debug\Question1.csprojResolveAssemblyReference.cache
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\Question1\Question1\obj\Debug\Question1.Form1.resources
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\Question1\Question1\obj\Debug\Question1.Properties.Resources.resources
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\Question1\Question1\obj\Debug\Question1.csproj.GenerateResource.Cache
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\Question1\Question1\obj\Debug\Question1.exe
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\Question1\Question1\obj\Debug\Question1.pdb

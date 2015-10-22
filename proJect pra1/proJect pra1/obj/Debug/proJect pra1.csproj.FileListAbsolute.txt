@@ -1,0 +1,8 @@
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\proJect pra1\proJect pra1\bin\Debug\proJect pra1.exe
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\proJect pra1\proJect pra1\bin\Debug\proJect pra1.pdb
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\proJect pra1\proJect pra1\obj\Debug\proJect pra1.csprojResolveAssemblyReference.cache
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\proJect pra1\proJect pra1\obj\Debug\proJect_pra1.Form1.resources
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\proJect pra1\proJect pra1\obj\Debug\proJect_pra1.Properties.Resources.resources
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\proJect pra1\proJect pra1\obj\Debug\proJect pra1.csproj.GenerateResource.Cache
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\proJect pra1\proJect pra1\obj\Debug\proJect pra1.exe
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\proJect pra1\proJect pra1\obj\Debug\proJect pra1.pdb

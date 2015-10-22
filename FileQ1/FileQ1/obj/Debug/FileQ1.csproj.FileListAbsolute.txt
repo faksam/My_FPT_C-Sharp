@@ -1,0 +1,8 @@
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\FileQ1\FileQ1\bin\Debug\FileQ1.exe
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\FileQ1\FileQ1\bin\Debug\FileQ1.pdb
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\FileQ1\FileQ1\obj\Debug\FileQ1.csprojResolveAssemblyReference.cache
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\FileQ1\FileQ1\obj\Debug\FileQ1.Form1.resources
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\FileQ1\FileQ1\obj\Debug\FileQ1.Properties.Resources.resources
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\FileQ1\FileQ1\obj\Debug\FileQ1.csproj.GenerateResource.Cache
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\FileQ1\FileQ1\obj\Debug\FileQ1.exe
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\FileQ1\FileQ1\obj\Debug\FileQ1.pdb

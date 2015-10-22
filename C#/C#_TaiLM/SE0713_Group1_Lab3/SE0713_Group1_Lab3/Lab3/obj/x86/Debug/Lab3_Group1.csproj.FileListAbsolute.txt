@@ -1,0 +1,65 @@
+D:\Dropbox\Data\C# .NET\Project\Lab3\Lab3\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Dropbox\Data\C# .NET\Project\Lab3\Lab3\obj\x86\Debug\Lab3_Group1.Properties.Resources.resources
+D:\Dropbox\Data\C# .NET\Project\Lab3\Lab3\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Dropbox\Data\C# .NET\Project\Lab3\Lab3\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Dropbox\Data\C# .NET\Project\Lab3\Lab3\bin\Debug\Lab3.exe
+D:\Dropbox\Data\C# .NET\Project\Lab3\Lab3\bin\Debug\Lab3.pdb
+D:\Dropbox\Data\C# .NET\Project\Lab3\Lab3\obj\x86\Debug\Lab3.exe
+D:\Dropbox\Data\C# .NET\Project\Lab3\Lab3\obj\x86\Debug\Lab3.pdb
+D:\Dropbox\Data\C# .NET\Project\Lab3\Lab3\obj\x86\Debug\Lab3_Group1.GUI.BookGUI.resources
+D:\Dropbox\Data\C# .NET\Project\Lab3\Lab3\obj\x86\Debug\Lab3_Group1.GUI.BorrowerGUI.resources
+D:\Dropbox\Data\C# .NET\Project\Lab3\Lab3\obj\x86\Debug\Lab3_Group1.GUI.BorrowGUI.resources
+D:\Dropbox\Data\C# .NET\Project\Lab3\Lab3\obj\x86\Debug\Lab3_Group1.GUI.ReserveGUI.resources
+D:\Dropbox\Data\C# .NET\Project\Lab3\Lab3\obj\x86\Debug\Lab3_Group1.GUI.ReturnGUI.resources
+D:\Dropbox\Data\C# .NET\Project\Lab3\Lab3\obj\x86\Debug\Lab3_Group1.GUI.MainWindow.resources
+C:\Users\MinhTaiLe\Desktop\Lab3\Lab3\obj\x86\Debug\Lab3.exe
+C:\Users\MinhTaiLe\Desktop\Lab3\Lab3\obj\x86\Debug\Lab3.pdb
+C:\Users\MinhTaiLe\Desktop\Lab3\Lab3\obj\x86\Debug\Lab3_Group1.GUI.BookGUI.resources
+C:\Users\MinhTaiLe\Desktop\Lab3\Lab3\obj\x86\Debug\Lab3_Group1.GUI.BorrowerGUI.resources
+C:\Users\MinhTaiLe\Desktop\Lab3\Lab3\obj\x86\Debug\Lab3_Group1.GUI.BorrowGUI.resources
+C:\Users\MinhTaiLe\Desktop\Lab3\Lab3\obj\x86\Debug\Lab3_Group1.GUI.MainWindow.resources
+C:\Users\MinhTaiLe\Desktop\Lab3\Lab3\obj\x86\Debug\Lab3_Group1.GUI.ReserveGUI.resources
+C:\Users\MinhTaiLe\Desktop\Lab3\Lab3\obj\x86\Debug\Lab3_Group1.GUI.ReturnGUI.resources
+C:\Users\MinhTaiLe\Desktop\Lab3\Lab3\obj\x86\Debug\Lab3_Group1.Properties.Resources.resources
+C:\Users\MinhTaiLe\Desktop\Lab3\Lab3\obj\x86\Debug\Lab3_Group1.csproj.GenerateResource.Cache
+C:\Users\MinhTaiLe\Desktop\Lab3\Lab3\bin\Debug\Lab3.exe
+C:\Users\MinhTaiLe\Desktop\Lab3\Lab3\bin\Debug\Lab3.pdb
+D:\Dropbox\Data\C# .NET\Project\SE0713_Group1_Lab3\Lab3\obj\x86\Debug\Lab3.exe
+D:\Dropbox\Data\C# .NET\Project\SE0713_Group1_Lab3\Lab3\obj\x86\Debug\Lab3.pdb
+D:\Dropbox\Data\C# .NET\Project\SE0713_Group1_Lab3\Lab3\bin\Debug\Lab3.exe
+D:\Dropbox\Data\C# .NET\Project\SE0713_Group1_Lab3\Lab3\bin\Debug\Lab3.pdb
+D:\Dropbox\Data\C# .NET\Project\SE0713_Group1_Lab3\Lab3\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Dropbox\Data\C# .NET\Project\SE0713_Group1_Lab3\Lab3\obj\x86\Debug\Lab3_Group1.GUI.BookGUI.resources
+D:\Dropbox\Data\C# .NET\Project\SE0713_Group1_Lab3\Lab3\obj\x86\Debug\Lab3_Group1.GUI.BorrowerGUI.resources
+D:\Dropbox\Data\C# .NET\Project\SE0713_Group1_Lab3\Lab3\obj\x86\Debug\Lab3_Group1.GUI.BorrowGUI.resources
+D:\Dropbox\Data\C# .NET\Project\SE0713_Group1_Lab3\Lab3\obj\x86\Debug\Lab3_Group1.GUI.MainWindow.resources
+D:\Dropbox\Data\C# .NET\Project\SE0713_Group1_Lab3\Lab3\obj\x86\Debug\Lab3_Group1.GUI.ReserveGUI.resources
+D:\Dropbox\Data\C# .NET\Project\SE0713_Group1_Lab3\Lab3\obj\x86\Debug\Lab3_Group1.GUI.ReturnGUI.resources
+D:\Dropbox\Data\C# .NET\Project\SE0713_Group1_Lab3\Lab3\obj\x86\Debug\Lab3_Group1.Properties.Resources.resources
+D:\Dropbox\Data\C# .NET\Project\SE0713_Group1_Lab3\Lab3\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Dropbox\Data\C# .NET\Project\SE0713_Group1_Lab3\Lab3\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\HuongNhat\Desktop\SE0713_Group1_Lab3\Lab3\obj\x86\Debug\Lab3.exe
+C:\Users\HuongNhat\Desktop\SE0713_Group1_Lab3\Lab3\obj\x86\Debug\Lab3.pdb
+C:\Users\HuongNhat\Desktop\SE0713_Group1_Lab3\Lab3\bin\Debug\Lab3.exe
+C:\Users\HuongNhat\Desktop\SE0713_Group1_Lab3\Lab3\bin\Debug\Lab3.pdb
+C:\Users\HuongNhat\Desktop\SE0713_Group1_Lab3\Lab3\obj\x86\Debug\Lab3_Group1.GUI.BookGUI.resources
+C:\Users\HuongNhat\Desktop\SE0713_Group1_Lab3\Lab3\obj\x86\Debug\Lab3_Group1.GUI.BorrowerGUI.resources
+C:\Users\HuongNhat\Desktop\SE0713_Group1_Lab3\Lab3\obj\x86\Debug\Lab3_Group1.GUI.BorrowGUI.resources
+C:\Users\HuongNhat\Desktop\SE0713_Group1_Lab3\Lab3\obj\x86\Debug\Lab3_Group1.GUI.MainWindow.resources
+C:\Users\HuongNhat\Desktop\SE0713_Group1_Lab3\Lab3\obj\x86\Debug\Lab3_Group1.GUI.ReserveGUI.resources
+C:\Users\HuongNhat\Desktop\SE0713_Group1_Lab3\Lab3\obj\x86\Debug\Lab3_Group1.GUI.ReturnGUI.resources
+C:\Users\HuongNhat\Desktop\SE0713_Group1_Lab3\Lab3\obj\x86\Debug\Lab3_Group1.Properties.Resources.resources
+C:\Users\HuongNhat\Desktop\SE0713_Group1_Lab3\Lab3\obj\x86\Debug\Lab3_Group1.csproj.GenerateResource.Cache
+F:\AAA\Summer 2014\C#\C#_TaiLM\SE0713_Group1_Lab3\SE0713_Group1_Lab3\Lab3\obj\x86\Debug\Lab3.exe
+F:\AAA\Summer 2014\C#\C#_TaiLM\SE0713_Group1_Lab3\SE0713_Group1_Lab3\Lab3\obj\x86\Debug\Lab3.pdb
+F:\AAA\Summer 2014\C#\C#_TaiLM\SE0713_Group1_Lab3\SE0713_Group1_Lab3\Lab3\bin\Debug\Lab3.exe
+F:\AAA\Summer 2014\C#\C#_TaiLM\SE0713_Group1_Lab3\SE0713_Group1_Lab3\Lab3\bin\Debug\Lab3.pdb
+F:\AAA\Summer 2014\C#\C#_TaiLM\SE0713_Group1_Lab3\SE0713_Group1_Lab3\Lab3\obj\x86\Debug\Lab3_Group1.csprojResolveAssemblyReference.cache
+F:\AAA\Summer 2014\C#\C#_TaiLM\SE0713_Group1_Lab3\SE0713_Group1_Lab3\Lab3\obj\x86\Debug\Lab3_Group1.GUI.BookGUI.resources
+F:\AAA\Summer 2014\C#\C#_TaiLM\SE0713_Group1_Lab3\SE0713_Group1_Lab3\Lab3\obj\x86\Debug\Lab3_Group1.GUI.BorrowerGUI.resources
+F:\AAA\Summer 2014\C#\C#_TaiLM\SE0713_Group1_Lab3\SE0713_Group1_Lab3\Lab3\obj\x86\Debug\Lab3_Group1.GUI.BorrowGUI.resources
+F:\AAA\Summer 2014\C#\C#_TaiLM\SE0713_Group1_Lab3\SE0713_Group1_Lab3\Lab3\obj\x86\Debug\Lab3_Group1.GUI.MainWindow.resources
+F:\AAA\Summer 2014\C#\C#_TaiLM\SE0713_Group1_Lab3\SE0713_Group1_Lab3\Lab3\obj\x86\Debug\Lab3_Group1.GUI.ReserveGUI.resources
+F:\AAA\Summer 2014\C#\C#_TaiLM\SE0713_Group1_Lab3\SE0713_Group1_Lab3\Lab3\obj\x86\Debug\Lab3_Group1.GUI.ReturnGUI.resources
+F:\AAA\Summer 2014\C#\C#_TaiLM\SE0713_Group1_Lab3\SE0713_Group1_Lab3\Lab3\obj\x86\Debug\Lab3_Group1.Properties.Resources.resources
+F:\AAA\Summer 2014\C#\C#_TaiLM\SE0713_Group1_Lab3\SE0713_Group1_Lab3\Lab3\obj\x86\Debug\Lab3_Group1.csproj.GenerateResource.Cache

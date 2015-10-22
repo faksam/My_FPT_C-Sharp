@@ -1,0 +1,14 @@
+C:\Users\Mr Ibrahim akoji\Documents\Visual Studio 2013\Projects\MainProject\MainProject\bin\Debug\MainProject.exe
+C:\Users\Mr Ibrahim akoji\Documents\Visual Studio 2013\Projects\MainProject\MainProject\bin\Debug\MainProject.pdb
+C:\Users\Mr Ibrahim akoji\Documents\Visual Studio 2013\Projects\MainProject\MainProject\obj\Debug\MainProject.csprojResolveAssemblyReference.cache
+C:\Users\Mr Ibrahim akoji\Documents\Visual Studio 2013\Projects\MainProject\MainProject\obj\Debug\MainProject.Form1.resources
+C:\Users\Mr Ibrahim akoji\Documents\Visual Studio 2013\Projects\MainProject\MainProject\obj\Debug\MainProject.Properties.Resources.resources
+C:\Users\Mr Ibrahim akoji\Documents\Visual Studio 2013\Projects\MainProject\MainProject\obj\Debug\MainProject.csproj.GenerateResource.Cache
+C:\Users\Mr Ibrahim akoji\Documents\Visual Studio 2013\Projects\MainProject\MainProject\obj\Debug\MainProject.exe
+C:\Users\Mr Ibrahim akoji\Documents\Visual Studio 2013\Projects\MainProject\MainProject\obj\Debug\MainProject.pdb
+C:\Users\Mr Ibrahim akoji\Documents\Visual Studio 2013\Projects\MainProject\MainProject\obj\Debug\MainProject.AddClass.resources
+C:\Users\Mr Ibrahim akoji\Documents\Visual Studio 2013\Projects\MainProject\MainProject\obj\Debug\MainProject.AddSemester.resources
+C:\Users\Mr Ibrahim akoji\Documents\Visual Studio 2013\Projects\MainProject\MainProject\obj\Debug\MainProject.AddStudent.resources
+C:\Users\Mr Ibrahim akoji\Documents\Visual Studio 2013\Projects\MainProject\MainProject\obj\Debug\MainProject.AddStudentClass.resources
+C:\Users\Mr Ibrahim akoji\Documents\Visual Studio 2013\Projects\MainProject\MainProject\obj\Debug\MainProject.UpDateStudentStatus.resources
+C:\Users\Mr Ibrahim akoji\Documents\Visual Studio 2013\Projects\MainProject\MainProject\obj\Debug\MainProject.FilterStudent.resources

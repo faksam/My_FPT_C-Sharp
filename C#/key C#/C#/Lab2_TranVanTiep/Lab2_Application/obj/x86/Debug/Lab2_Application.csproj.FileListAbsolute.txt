@@ -1,0 +1,42 @@
+C:\Users\SDK\Desktop\Lab2_Application\Lab2_Application\bin\Debug\Lab2_Application.exe
+C:\Users\SDK\Desktop\Lab2_Application\Lab2_Application\bin\Debug\Lab2_Application.pdb
+C:\Users\SDK\Desktop\Lab2_Application\Lab2_Application\bin\Debug\Lab2_ClassLibrary.dll
+C:\Users\SDK\Desktop\Lab2_Application\Lab2_Application\bin\Debug\Lab2_ClassLibrary.pdb
+C:\Users\SDK\Desktop\Lab2_Application\Lab2_Application\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\SDK\Desktop\Lab2_Application\Lab2_Application\obj\x86\Debug\Lab2_Application.exe
+C:\Users\SDK\Desktop\Lab2_Application\Lab2_Application\obj\x86\Debug\Lab2_Application.pdb
+D:\C#\Lab2_TranVanTiep\Lab2_Application\bin\Debug\Lab2_Application.exe
+D:\C#\Lab2_TranVanTiep\Lab2_Application\bin\Debug\Lab2_Application.pdb
+D:\C#\Lab2_TranVanTiep\Lab2_Application\bin\Debug\Lab2_ClassLibrary.dll
+D:\C#\Lab2_TranVanTiep\Lab2_Application\bin\Debug\Lab2_ClassLibrary.pdb
+D:\C#\Lab2_TranVanTiep\Lab2_Application\obj\x86\Debug\Lab2_Application.csprojResolveAssemblyReference.cache
+D:\C#\Lab2_TranVanTiep\Lab2_Application\obj\x86\Debug\Lab2_Application.exe
+D:\C#\Lab2_TranVanTiep\Lab2_Application\obj\x86\Debug\Lab2_Application.pdb
+G:\Lab2_TranVanTiep\Lab2_Application\obj\x86\Debug\Lab2_Application.exe
+G:\Lab2_TranVanTiep\Lab2_Application\obj\x86\Debug\Lab2_Application.pdb
+G:\Lab2_TranVanTiep\Lab2_Application\bin\Debug\Lab2_Application.exe
+G:\Lab2_TranVanTiep\Lab2_Application\bin\Debug\Lab2_Application.pdb
+G:\Lab2_TranVanTiep\Lab2_Application\bin\Debug\Lab2_ClassLibrary.dll
+G:\Lab2_TranVanTiep\Lab2_Application\bin\Debug\Lab2_ClassLibrary.pdb
+G:\Lab2_TranVanTiep\Lab2_Application\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\FPT\Semester 4\C#\Ex\Lab2_TranVanTiep\Lab2_Application\obj\x86\Debug\Lab2_Application.exe
+D:\FPT\Semester 4\C#\Ex\Lab2_TranVanTiep\Lab2_Application\obj\x86\Debug\Lab2_Application.pdb
+D:\FPT\Semester 4\C#\Ex\Lab2_TranVanTiep\Lab2_Application\bin\Debug\Lab2_Application.exe
+D:\FPT\Semester 4\C#\Ex\Lab2_TranVanTiep\Lab2_Application\bin\Debug\Lab2_Application.pdb
+D:\FPT\Semester 4\C#\Ex\Lab2_TranVanTiep\Lab2_Application\bin\Debug\Lab2_ClassLibrary.dll
+D:\FPT\Semester 4\C#\Ex\Lab2_TranVanTiep\Lab2_Application\bin\Debug\Lab2_ClassLibrary.pdb
+D:\FPT\Semester 4\C#\Ex\Lab2_TranVanTiep\Lab2_Application\obj\x86\Debug\Lab2_Application.csprojResolveAssemblyReference.cache
+D:\Learning\C#\Lab2_TranVanTiep\Lab2_Application\bin\Debug\Lab2_Application.exe
+D:\Learning\C#\Lab2_TranVanTiep\Lab2_Application\bin\Debug\Lab2_Application.pdb
+D:\Learning\C#\Lab2_TranVanTiep\Lab2_Application\bin\Debug\Lab2_ClassLibrary.dll
+D:\Learning\C#\Lab2_TranVanTiep\Lab2_Application\bin\Debug\Lab2_ClassLibrary.pdb
+D:\Learning\C#\Lab2_TranVanTiep\Lab2_Application\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Learning\C#\Lab2_TranVanTiep\Lab2_Application\obj\x86\Debug\Lab2_Application.exe
+D:\Learning\C#\Lab2_TranVanTiep\Lab2_Application\obj\x86\Debug\Lab2_Application.pdb
+F:\AAA\Summer 2014\C#\key C#\C#\Lab2_TranVanTiep\Lab2_Application\obj\x86\Debug\Lab2_Application.exe
+F:\AAA\Summer 2014\C#\key C#\C#\Lab2_TranVanTiep\Lab2_Application\obj\x86\Debug\Lab2_Application.pdb
+F:\AAA\Summer 2014\C#\key C#\C#\Lab2_TranVanTiep\Lab2_Application\bin\Debug\Lab2_Application.exe
+F:\AAA\Summer 2014\C#\key C#\C#\Lab2_TranVanTiep\Lab2_Application\bin\Debug\Lab2_Application.pdb
+F:\AAA\Summer 2014\C#\key C#\C#\Lab2_TranVanTiep\Lab2_Application\bin\Debug\Lab2_ClassLibrary.dll
+F:\AAA\Summer 2014\C#\key C#\C#\Lab2_TranVanTiep\Lab2_Application\bin\Debug\Lab2_ClassLibrary.pdb
+F:\AAA\Summer 2014\C#\key C#\C#\Lab2_TranVanTiep\Lab2_Application\obj\x86\Debug\Lab2_Application.csprojResolveAssemblyReference.cache

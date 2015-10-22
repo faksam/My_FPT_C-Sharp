@@ -1,0 +1,15 @@
+c:\users\baopham\documents\visual studio 2010\Projects\Question2\Question2\obj\Debug\ResolveAssemblyReference.cache
+c:\users\baopham\documents\visual studio 2010\Projects\Question2\Question2\bin\Question2.dll
+c:\users\baopham\documents\visual studio 2010\Projects\Question2\Question2\bin\Question2.pdb
+c:\users\baopham\documents\visual studio 2010\Projects\Question2\Question2\obj\Debug\Question2.dll
+c:\users\baopham\documents\visual studio 2010\Projects\Question2\Question2\obj\Debug\Question2.pdb
+C:\Users\BaoPham\Desktop\SE02663_BaoPD_CNET_SE0715\Question2\Question2\bin\Question2.dll
+C:\Users\BaoPham\Desktop\SE02663_BaoPD_CNET_SE0715\Question2\Question2\bin\Question2.pdb
+C:\Users\BaoPham\Desktop\SE02663_BaoPD_CNET_SE0715\Question2\Question2\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\BaoPham\Desktop\SE02663_BaoPD_CNET_SE0715\Question2\Question2\obj\Debug\Question2.dll
+C:\Users\BaoPham\Desktop\SE02663_BaoPD_CNET_SE0715\Question2\Question2\obj\Debug\Question2.pdb
+E:\Learning\Study\C#\SE02663_BaoPD_CNET_PE_SE0715\SE02663_BaoPD_CNET_PE_SE0715\Question2\Question2\bin\Question2.dll
+E:\Learning\Study\C#\SE02663_BaoPD_CNET_PE_SE0715\SE02663_BaoPD_CNET_PE_SE0715\Question2\Question2\bin\Question2.pdb
+E:\Learning\Study\C#\SE02663_BaoPD_CNET_PE_SE0715\SE02663_BaoPD_CNET_PE_SE0715\Question2\Question2\obj\Debug\Question2.csprojResolveAssemblyReference.cache
+E:\Learning\Study\C#\SE02663_BaoPD_CNET_PE_SE0715\SE02663_BaoPD_CNET_PE_SE0715\Question2\Question2\obj\Debug\Question2.dll
+E:\Learning\Study\C#\SE02663_BaoPD_CNET_PE_SE0715\SE02663_BaoPD_CNET_PE_SE0715\Question2\Question2\obj\Debug\Question2.pdb

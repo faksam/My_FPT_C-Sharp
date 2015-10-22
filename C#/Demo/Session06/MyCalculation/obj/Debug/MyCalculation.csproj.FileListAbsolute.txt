@@ -1,0 +1,5 @@
+F:\AAA\Summer 2014\C#\Session06\MyCalculation\bin\Debug\MyCalculation.dll
+F:\AAA\Summer 2014\C#\Session06\MyCalculation\bin\Debug\MyCalculation.pdb
+F:\AAA\Summer 2014\C#\Session06\MyCalculation\obj\Debug\MyCalculation.csprojResolveAssemblyReference.cache
+F:\AAA\Summer 2014\C#\Session06\MyCalculation\obj\Debug\MyCalculation.dll
+F:\AAA\Summer 2014\C#\Session06\MyCalculation\obj\Debug\MyCalculation.pdb

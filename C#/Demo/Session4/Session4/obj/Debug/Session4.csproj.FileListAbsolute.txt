@@ -1,0 +1,12 @@
+F:\AAA\Summer 2014\C#\Session4\Session4\bin\Debug\Session4.exe.config
+F:\AAA\Summer 2014\C#\Session4\Session4\bin\Debug\Session4.exe
+F:\AAA\Summer 2014\C#\Session4\Session4\bin\Debug\Session4.pdb
+F:\AAA\Summer 2014\C#\Session4\Session4\obj\Debug\Session4.csprojResolveAssemblyReference.cache
+F:\AAA\Summer 2014\C#\Session4\Session4\obj\Debug\Session4.exe
+F:\AAA\Summer 2014\C#\Session4\Session4\obj\Debug\Session4.pdb
+C:\Users\Mr Ibrahim akoji\Desktop\C#\Demo\Session4\Session4\bin\Debug\Session4.exe.config
+C:\Users\Mr Ibrahim akoji\Desktop\C#\Demo\Session4\Session4\obj\Debug\Session4.exe
+C:\Users\Mr Ibrahim akoji\Desktop\C#\Demo\Session4\Session4\obj\Debug\Session4.pdb
+C:\Users\Mr Ibrahim akoji\Desktop\C#\Demo\Session4\Session4\bin\Debug\Session4.exe
+C:\Users\Mr Ibrahim akoji\Desktop\C#\Demo\Session4\Session4\bin\Debug\Session4.pdb
+C:\Users\Mr Ibrahim akoji\Desktop\C#\Demo\Session4\Session4\obj\Debug\Session4.csprojResolveAssemblyReference.cache

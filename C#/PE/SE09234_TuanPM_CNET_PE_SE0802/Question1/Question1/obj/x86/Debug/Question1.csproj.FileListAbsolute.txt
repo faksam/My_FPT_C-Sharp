@@ -1,0 +1,24 @@
+C:\Users\Chinh\Desktop\SE02585_ChinhVC_CNET_SE0712\Question1\Question1\bin\Debug\Question1.exe
+C:\Users\Chinh\Desktop\SE02585_ChinhVC_CNET_SE0712\Question1\Question1\bin\Debug\Question1.pdb
+C:\Users\Chinh\Desktop\SE02585_ChinhVC_CNET_SE0712\Question1\Question1\obj\x86\Debug\Question1.Form1.resources
+C:\Users\Chinh\Desktop\SE02585_ChinhVC_CNET_SE0712\Question1\Question1\obj\x86\Debug\Question1.Properties.Resources.resources
+C:\Users\Chinh\Desktop\SE02585_ChinhVC_CNET_SE0712\Question1\Question1\obj\x86\Debug\Question1.csproj.GenerateResource.Cache
+C:\Users\Chinh\Desktop\SE02585_ChinhVC_CNET_SE0712\Question1\Question1\obj\x86\Debug\Question1.exe
+C:\Users\Chinh\Desktop\SE02585_ChinhVC_CNET_SE0712\Question1\Question1\obj\x86\Debug\Question1.pdb
+C:\Users\Chinh\Desktop\SE02585_ChinhVC_CNET_SE0712\Question1\Question1\obj\x86\Debug\Question1.csprojResolveAssemblyReference.cache
+C:\Users\Tuan\Desktop\CN4\4.C#\PE Mau\SE02585_ChinhVC_CNET_SE0712\Question1\Question1\obj\x86\Debug\Question1.exe
+C:\Users\Tuan\Desktop\CN4\4.C#\PE Mau\SE02585_ChinhVC_CNET_SE0712\Question1\Question1\obj\x86\Debug\Question1.pdb
+C:\Users\Tuan\Desktop\SE02585_ChinhVC_CNET_SE0712\Question1\Question1\obj\x86\Debug\Question1.exe
+C:\Users\Tuan\Desktop\SE02585_ChinhVC_CNET_SE0712\Question1\Question1\obj\x86\Debug\Question1.pdb
+F:\AAA\Summer 2014\C#\PE\C#\Question1\Question1\obj\x86\Debug\Question1.exe
+F:\AAA\Summer 2014\C#\PE\C#\Question1\Question1\obj\x86\Debug\Question1.pdb
+F:\AAA\Summer 2014\C#\PE\SE09234_TuanPM_CNET_PE_SE0802\Question1\Question1\obj\x86\Debug\Question1.exe
+F:\AAA\Summer 2014\C#\PE\SE09234_TuanPM_CNET_PE_SE0802\Question1\Question1\obj\x86\Debug\Question1.pdb
+C:\Users\Mr Ibrahim akoji\Desktop\C#\PE\SE09234_TuanPM_CNET_PE_SE0802\Question1\Question1\obj\x86\Debug\Question1.exe
+C:\Users\Mr Ibrahim akoji\Desktop\C#\PE\SE09234_TuanPM_CNET_PE_SE0802\Question1\Question1\obj\x86\Debug\Question1.pdb
+C:\Users\Mr Ibrahim akoji\Desktop\C#\PE\SE09234_TuanPM_CNET_PE_SE0802\Question1\Question1\bin\Debug\Question1.exe
+C:\Users\Mr Ibrahim akoji\Desktop\C#\PE\SE09234_TuanPM_CNET_PE_SE0802\Question1\Question1\bin\Debug\Question1.pdb
+C:\Users\Mr Ibrahim akoji\Desktop\C#\PE\SE09234_TuanPM_CNET_PE_SE0802\Question1\Question1\obj\x86\Debug\Question1.csprojResolveAssemblyReference.cache
+C:\Users\Mr Ibrahim akoji\Desktop\C#\PE\SE09234_TuanPM_CNET_PE_SE0802\Question1\Question1\obj\x86\Debug\Question1.Form1.resources
+C:\Users\Mr Ibrahim akoji\Desktop\C#\PE\SE09234_TuanPM_CNET_PE_SE0802\Question1\Question1\obj\x86\Debug\Question1.Properties.Resources.resources
+C:\Users\Mr Ibrahim akoji\Desktop\C#\PE\SE09234_TuanPM_CNET_PE_SE0802\Question1\Question1\obj\x86\Debug\Question1.csproj.GenerateResource.Cache

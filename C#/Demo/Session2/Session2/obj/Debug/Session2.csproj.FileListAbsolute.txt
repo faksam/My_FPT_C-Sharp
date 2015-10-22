@@ -1,0 +1,10 @@
+F:\AAA\Summer 2014\C#\Session2\Session2\bin\Debug\Session2.exe.config
+F:\AAA\Summer 2014\C#\Session2\Session2\bin\Debug\Session2.exe
+F:\AAA\Summer 2014\C#\Session2\Session2\bin\Debug\Session2.pdb
+F:\AAA\Summer 2014\C#\Session2\Session2\obj\Debug\Session2.csprojResolveAssemblyReference.cache
+F:\AAA\Summer 2014\C#\Session2\Session2\obj\Debug\Session2.exe
+F:\AAA\Summer 2014\C#\Session2\Session2\obj\Debug\Session2.pdb
+C:\Users\Mr Ibrahim akoji\Desktop\C#\Demo\Session2\Session2\bin\Debug\Session2.exe.config
+C:\Users\Mr Ibrahim akoji\Desktop\C#\Demo\Session2\Session2\obj\Debug\Session2.exe
+C:\Users\Mr Ibrahim akoji\Desktop\C#\Demo\Session2\Session2\obj\Debug\Session2.pdb
+C:\Users\Mr Ibrahim akoji\Desktop\C#\Demo\Session2\Session2\obj\Debug\Session2.csprojResolveAssemblyReference.cache

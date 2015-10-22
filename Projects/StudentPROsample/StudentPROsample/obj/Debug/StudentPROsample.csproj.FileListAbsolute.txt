@@ -1,0 +1,8 @@
+c:\users\mr ibrahim akoji\documents\visual studio 2013\Projects\StudentPROsample\StudentPROsample\bin\Debug\StudentPROsample.exe
+c:\users\mr ibrahim akoji\documents\visual studio 2013\Projects\StudentPROsample\StudentPROsample\bin\Debug\StudentPROsample.pdb
+c:\users\mr ibrahim akoji\documents\visual studio 2013\Projects\StudentPROsample\StudentPROsample\obj\Debug\StudentPROsample.csprojResolveAssemblyReference.cache
+c:\users\mr ibrahim akoji\documents\visual studio 2013\Projects\StudentPROsample\StudentPROsample\obj\Debug\StudentPROsample.Form1.resources
+c:\users\mr ibrahim akoji\documents\visual studio 2013\Projects\StudentPROsample\StudentPROsample\obj\Debug\StudentPROsample.Properties.Resources.resources
+c:\users\mr ibrahim akoji\documents\visual studio 2013\Projects\StudentPROsample\StudentPROsample\obj\Debug\StudentPROsample.csproj.GenerateResource.Cache
+c:\users\mr ibrahim akoji\documents\visual studio 2013\Projects\StudentPROsample\StudentPROsample\obj\Debug\StudentPROsample.exe
+c:\users\mr ibrahim akoji\documents\visual studio 2013\Projects\StudentPROsample\StudentPROsample\obj\Debug\StudentPROsample.pdb

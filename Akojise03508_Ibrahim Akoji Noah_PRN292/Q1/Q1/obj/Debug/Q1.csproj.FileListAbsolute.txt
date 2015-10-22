@@ -1,0 +1,12 @@
+C:\Users\Mr Ibrahim akoji\Desktop\Akojise03508_Ibrahim Akoji Noah_PRN292\Q1\Q1\bin\Debug\Q1.exe
+C:\Users\Mr Ibrahim akoji\Desktop\Akojise03508_Ibrahim Akoji Noah_PRN292\Q1\Q1\bin\Debug\Q1.pdb
+C:\Users\Mr Ibrahim akoji\Desktop\Akojise03508_Ibrahim Akoji Noah_PRN292\Q1\Q1\obj\Debug\Q1.csprojResolveAssemblyReference.cache
+C:\Users\Mr Ibrahim akoji\Desktop\Akojise03508_Ibrahim Akoji Noah_PRN292\Q1\Q1\obj\Debug\Q1.Form1.resources
+C:\Users\Mr Ibrahim akoji\Desktop\Akojise03508_Ibrahim Akoji Noah_PRN292\Q1\Q1\obj\Debug\Q1.Properties.Resources.resources
+C:\Users\Mr Ibrahim akoji\Desktop\Akojise03508_Ibrahim Akoji Noah_PRN292\Q1\Q1\obj\Debug\Q1.csproj.GenerateResource.Cache
+C:\Users\Mr Ibrahim akoji\Desktop\Akojise03508_Ibrahim Akoji Noah_PRN292\Q1\Q1\obj\Debug\Q1.exe
+C:\Users\Mr Ibrahim akoji\Desktop\Akojise03508_Ibrahim Akoji Noah_PRN292\Q1\Q1\obj\Debug\Q1.pdb
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\Akojise03508_Ibrahim Akoji Noah_PRN292\Q1\Q1\obj\Debug\Q1.exe
+C:\Users\Mr Ibrahim akoji\Desktop\C.NET\Akojise03508_Ibrahim Akoji Noah_PRN292\Q1\Q1\obj\Debug\Q1.pdb
+C:\Users\Mr Ibrahim akoji\Desktop\5 Semester\C.NET\Akojise03508_Ibrahim Akoji Noah_PRN292\Q1\Q1\obj\Debug\Q1.exe
+C:\Users\Mr Ibrahim akoji\Desktop\5 Semester\C.NET\Akojise03508_Ibrahim Akoji Noah_PRN292\Q1\Q1\obj\Debug\Q1.pdb
